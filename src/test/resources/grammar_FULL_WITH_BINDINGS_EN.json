@@ -6,9 +6,541 @@
     "bindingType" : "COUNTRY",
     "returnType" : "GOVERNMENTTYPE",
     "frameType" : "NPP",
+    "sentences" : [ "Give me the form of government of Abbasid Caliphate?", "Tell me the form of government of Abbasid Caliphate?", "What is the form of government of Abbasid Caliphate?", "What was the form of government of Abbasid Caliphate?", "Which Government Type is the form of government of Abbasid Caliphate?", "Which Government Type was the form of government of Abbasid Caliphate?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Abbasid_Caliphate> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sentenceToSparqlParameterMapping" : {
+      "$x" : "subjOfProp"
+    },
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "$x",
+      "bindingList" : null
+    },
+    "combination" : false
+  }, {
+    "id" : "1",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "COUNTRY",
+    "returnType" : "GOVERNMENTTYPE",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the form of government of Almohad Caliphate?", "Tell me the form of government of Almohad Caliphate?", "What is the form of government of Almohad Caliphate?", "What was the form of government of Almohad Caliphate?", "Which Government Type is the form of government of Almohad Caliphate?", "Which Government Type was the form of government of Almohad Caliphate?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Almohad_Caliphate> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sentenceToSparqlParameterMapping" : {
+      "$x" : "subjOfProp"
+    },
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "$x",
+      "bindingList" : null
+    },
+    "combination" : false
+  }, {
+    "id" : "1",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "COUNTRY",
+    "returnType" : "GOVERNMENTTYPE",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the form of government of Cape Colony?", "Tell me the form of government of Cape Colony?", "What is the form of government of Cape Colony?", "What was the form of government of Cape Colony?", "Which Government Type is the form of government of Cape Colony?", "Which Government Type was the form of government of Cape Colony?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Cape_Colony> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sentenceToSparqlParameterMapping" : {
+      "$x" : "subjOfProp"
+    },
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "$x",
+      "bindingList" : null
+    },
+    "combination" : false
+  }, {
+    "id" : "1",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "COUNTRY",
+    "returnType" : "GOVERNMENTTYPE",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the form of government of Dacia?", "Tell me the form of government of Dacia?", "What is the form of government of Dacia?", "What was the form of government of Dacia?", "Which Government Type is the form of government of Dacia?", "Which Government Type was the form of government of Dacia?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Dacia> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sentenceToSparqlParameterMapping" : {
+      "$x" : "subjOfProp"
+    },
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "$x",
+      "bindingList" : null
+    },
+    "combination" : false
+  }, {
+    "id" : "1",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "COUNTRY",
+    "returnType" : "GOVERNMENTTYPE",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the form of government of Democratic Republic of Afghanistan?", "Tell me the form of government of Democratic Republic of Afghanistan?", "What is the form of government of Democratic Republic of Afghanistan?", "What was the form of government of Democratic Republic of Afghanistan?", "Which Government Type is the form of government of Democratic Republic of Afghanistan?", "Which Government Type was the form of government of Democratic Republic of Afghanistan?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Democratic_Republic_of_Afghanistan> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sentenceToSparqlParameterMapping" : {
+      "$x" : "subjOfProp"
+    },
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "$x",
+      "bindingList" : null
+    },
+    "combination" : false
+  }, {
+    "id" : "1",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "COUNTRY",
+    "returnType" : "GOVERNMENTTYPE",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the form of government of Fatimid Caliphate?", "Tell me the form of government of Fatimid Caliphate?", "What is the form of government of Fatimid Caliphate?", "What was the form of government of Fatimid Caliphate?", "Which Government Type is the form of government of Fatimid Caliphate?", "Which Government Type was the form of government of Fatimid Caliphate?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Fatimid_Caliphate> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sentenceToSparqlParameterMapping" : {
+      "$x" : "subjOfProp"
+    },
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "$x",
+      "bindingList" : null
+    },
+    "combination" : false
+  }, {
+    "id" : "1",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "COUNTRY",
+    "returnType" : "GOVERNMENTTYPE",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the form of government of History of Portugal (1415–1578)?", "Tell me the form of government of History of Portugal (1415–1578)?", "What is the form of government of History of Portugal (1415–1578)?", "What was the form of government of History of Portugal (1415–1578)?", "Which Government Type is the form of government of History of Portugal (1415–1578)?", "Which Government Type was the form of government of History of Portugal (1415–1578)?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/History_of_Portugal_(1415–1578)> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sentenceToSparqlParameterMapping" : {
+      "$x" : "subjOfProp"
+    },
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "$x",
+      "bindingList" : null
+    },
+    "combination" : false
+  }, {
+    "id" : "1",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "COUNTRY",
+    "returnType" : "GOVERNMENTTYPE",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the form of government of Macedonia (ancient kingdom)?", "Tell me the form of government of Macedonia (ancient kingdom)?", "What is the form of government of Macedonia (ancient kingdom)?", "What was the form of government of Macedonia (ancient kingdom)?", "Which Government Type is the form of government of Macedonia (ancient kingdom)?", "Which Government Type was the form of government of Macedonia (ancient kingdom)?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Macedonia_(ancient_kingdom)> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sentenceToSparqlParameterMapping" : {
+      "$x" : "subjOfProp"
+    },
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "$x",
+      "bindingList" : null
+    },
+    "combination" : false
+  }, {
+    "id" : "1",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "COUNTRY",
+    "returnType" : "GOVERNMENTTYPE",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the form of government of Moldavia?", "Tell me the form of government of Moldavia?", "What is the form of government of Moldavia?", "What was the form of government of Moldavia?", "Which Government Type is the form of government of Moldavia?", "Which Government Type was the form of government of Moldavia?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Moldavia> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sentenceToSparqlParameterMapping" : {
+      "$x" : "subjOfProp"
+    },
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "$x",
+      "bindingList" : null
+    },
+    "combination" : false
+  }, {
+    "id" : "1",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "COUNTRY",
+    "returnType" : "GOVERNMENTTYPE",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the form of government of Sindh?", "Tell me the form of government of Sindh?", "What is the form of government of Sindh?", "What was the form of government of Sindh?", "Which Government Type is the form of government of Sindh?", "Which Government Type was the form of government of Sindh?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Sindh> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sentenceToSparqlParameterMapping" : {
+      "$x" : "subjOfProp"
+    },
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "$x",
+      "bindingList" : null
+    },
+    "combination" : false
+  }, {
+    "id" : "1",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "COUNTRY",
+    "returnType" : "GOVERNMENTTYPE",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the form of government of Syldavia?", "Tell me the form of government of Syldavia?", "What is the form of government of Syldavia?", "What was the form of government of Syldavia?", "Which Government Type is the form of government of Syldavia?", "Which Government Type was the form of government of Syldavia?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Syldavia> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sentenceToSparqlParameterMapping" : {
+      "$x" : "subjOfProp"
+    },
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "$x",
+      "bindingList" : null
+    },
+    "combination" : false
+  }, {
+    "id" : "1",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "COUNTRY",
+    "returnType" : "GOVERNMENTTYPE",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the form of government of Umayyad Caliphate?", "Tell me the form of government of Umayyad Caliphate?", "What is the form of government of Umayyad Caliphate?", "What was the form of government of Umayyad Caliphate?", "Which Government Type is the form of government of Umayyad Caliphate?", "Which Government Type was the form of government of Umayyad Caliphate?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Umayyad_Caliphate> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sentenceToSparqlParameterMapping" : {
+      "$x" : "subjOfProp"
+    },
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "$x",
+      "bindingList" : null
+    },
+    "combination" : false
+  }, {
+    "id" : "1",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "COUNTRY",
+    "returnType" : "GOVERNMENTTYPE",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the form of government of United Kingdom of the Netherlands?", "Tell me the form of government of United Kingdom of the Netherlands?", "What is the form of government of United Kingdom of the Netherlands?", "What was the form of government of United Kingdom of the Netherlands?", "Which Government Type is the form of government of United Kingdom of the Netherlands?", "Which Government Type was the form of government of United Kingdom of the Netherlands?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/United_Kingdom_of_the_Netherlands> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sentenceToSparqlParameterMapping" : {
+      "$x" : "subjOfProp"
+    },
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "$x",
+      "bindingList" : null
+    },
+    "combination" : false
+  }, {
+    "id" : "1",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "COUNTRY",
+    "returnType" : "GOVERNMENTTYPE",
+    "frameType" : "NPP",
     "sentences" : [ "Give me the form of government of Zhou dynasty?", "Tell me the form of government of Zhou dynasty?", "What is the form of government of Zhou dynasty?", "What was the form of government of Zhou dynasty?", "Which Government Type is the form of government of Zhou dynasty?", "Which Government Type was the form of government of Zhou dynasty?" ],
     "queryType" : "SELECT",
     "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Zhou_dynasty> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sentenceToSparqlParameterMapping" : {
+      "$x" : "subjOfProp"
+    },
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "$x",
+      "bindingList" : null
+    },
+    "combination" : false
+  }, {
+    "id" : "1",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "COUNTRY",
+    "returnType" : "GOVERNMENTTYPE",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the form of government of Beidou, Changhua?", "Tell me the form of government of Beidou, Changhua?", "What is the form of government of Beidou, Changhua?", "What was the form of government of Beidou, Changhua?", "Which Government Type is the form of government of Beidou, Changhua?", "Which Government Type was the form of government of Beidou, Changhua?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Beidou,_Changhua> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sentenceToSparqlParameterMapping" : {
+      "$x" : "subjOfProp"
+    },
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "$x",
+      "bindingList" : null
+    },
+    "combination" : false
+  }, {
+    "id" : "1",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "COUNTRY",
+    "returnType" : "GOVERNMENTTYPE",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the form of government of Dutch East Indies?", "Tell me the form of government of Dutch East Indies?", "What is the form of government of Dutch East Indies?", "What was the form of government of Dutch East Indies?", "Which Government Type is the form of government of Dutch East Indies?", "Which Government Type was the form of government of Dutch East Indies?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Dutch_East_Indies> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sentenceToSparqlParameterMapping" : {
+      "$x" : "subjOfProp"
+    },
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "$x",
+      "bindingList" : null
+    },
+    "combination" : false
+  }, {
+    "id" : "1",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "COUNTRY",
+    "returnType" : "GOVERNMENTTYPE",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the form of government of Half Moon Lake, Alberta?", "Tell me the form of government of Half Moon Lake, Alberta?", "What is the form of government of Half Moon Lake, Alberta?", "What was the form of government of Half Moon Lake, Alberta?", "Which Government Type is the form of government of Half Moon Lake, Alberta?", "Which Government Type was the form of government of Half Moon Lake, Alberta?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Half_Moon_Lake,_Alberta> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sentenceToSparqlParameterMapping" : {
+      "$x" : "subjOfProp"
+    },
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "$x",
+      "bindingList" : null
+    },
+    "combination" : false
+  }, {
+    "id" : "1",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "COUNTRY",
+    "returnType" : "GOVERNMENTTYPE",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the form of government of Loon Lake, Alberta?", "Tell me the form of government of Loon Lake, Alberta?", "What is the form of government of Loon Lake, Alberta?", "What was the form of government of Loon Lake, Alberta?", "Which Government Type is the form of government of Loon Lake, Alberta?", "Which Government Type was the form of government of Loon Lake, Alberta?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Loon_Lake,_Alberta> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sentenceToSparqlParameterMapping" : {
+      "$x" : "subjOfProp"
+    },
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "$x",
+      "bindingList" : null
+    },
+    "combination" : false
+  }, {
+    "id" : "1",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "COUNTRY",
+    "returnType" : "GOVERNMENTTYPE",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the form of government of Padma, Hazaribagh (community development block)?", "Tell me the form of government of Padma, Hazaribagh (community development block)?", "What is the form of government of Padma, Hazaribagh (community development block)?", "What was the form of government of Padma, Hazaribagh (community development block)?", "Which Government Type is the form of government of Padma, Hazaribagh (community development block)?", "Which Government Type was the form of government of Padma, Hazaribagh (community development block)?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Padma,_Hazaribagh_(community_development_block)> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sentenceToSparqlParameterMapping" : {
+      "$x" : "subjOfProp"
+    },
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "$x",
+      "bindingList" : null
+    },
+    "combination" : false
+  }, {
+    "id" : "1",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "COUNTRY",
+    "returnType" : "GOVERNMENTTYPE",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the form of government of Rajahnate of Cebu?", "Tell me the form of government of Rajahnate of Cebu?", "What is the form of government of Rajahnate of Cebu?", "What was the form of government of Rajahnate of Cebu?", "Which Government Type is the form of government of Rajahnate of Cebu?", "Which Government Type was the form of government of Rajahnate of Cebu?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Rajahnate_of_Cebu> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sentenceToSparqlParameterMapping" : {
+      "$x" : "subjOfProp"
+    },
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "$x",
+      "bindingList" : null
+    },
+    "combination" : false
+  }, {
+    "id" : "1",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "COUNTRY",
+    "returnType" : "GOVERNMENTTYPE",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the form of government of Republic of Zamboanga?", "Tell me the form of government of Republic of Zamboanga?", "What is the form of government of Republic of Zamboanga?", "What was the form of government of Republic of Zamboanga?", "Which Government Type is the form of government of Republic of Zamboanga?", "Which Government Type was the form of government of Republic of Zamboanga?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Republic_of_Zamboanga> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sentenceToSparqlParameterMapping" : {
+      "$x" : "subjOfProp"
+    },
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "$x",
+      "bindingList" : null
+    },
+    "combination" : false
+  }, {
+    "id" : "1",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "COUNTRY",
+    "returnType" : "GOVERNMENTTYPE",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the form of government of Zamboanga City?", "Tell me the form of government of Zamboanga City?", "What is the form of government of Zamboanga City?", "What was the form of government of Zamboanga City?", "Which Government Type is the form of government of Zamboanga City?", "Which Government Type was the form of government of Zamboanga City?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Zamboanga_City> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sentenceToSparqlParameterMapping" : {
+      "$x" : "subjOfProp"
+    },
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "$x",
+      "bindingList" : null
+    },
+    "combination" : false
+  }, {
+    "id" : "1",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "COUNTRY",
+    "returnType" : "GOVERNMENTTYPE",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the form of government of Akala, Bhulath?", "Tell me the form of government of Akala, Bhulath?", "What is the form of government of Akala, Bhulath?", "What was the form of government of Akala, Bhulath?", "Which Government Type is the form of government of Akala, Bhulath?", "Which Government Type was the form of government of Akala, Bhulath?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Akala,_Bhulath> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sentenceToSparqlParameterMapping" : {
+      "$x" : "subjOfProp"
+    },
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "$x",
+      "bindingList" : null
+    },
+    "combination" : false
+  }, {
+    "id" : "1",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "COUNTRY",
+    "returnType" : "GOVERNMENTTYPE",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the form of government of Arauco, Chile?", "Tell me the form of government of Arauco, Chile?", "What is the form of government of Arauco, Chile?", "What was the form of government of Arauco, Chile?", "Which Government Type is the form of government of Arauco, Chile?", "Which Government Type was the form of government of Arauco, Chile?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Arauco,_Chile> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sentenceToSparqlParameterMapping" : {
+      "$x" : "subjOfProp"
+    },
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "$x",
+      "bindingList" : null
+    },
+    "combination" : false
+  }, {
+    "id" : "1",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "COUNTRY",
+    "returnType" : "GOVERNMENTTYPE",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the form of government of Bilaspur, Gautam Buddh Nagar?", "Tell me the form of government of Bilaspur, Gautam Buddh Nagar?", "What is the form of government of Bilaspur, Gautam Buddh Nagar?", "What was the form of government of Bilaspur, Gautam Buddh Nagar?", "Which Government Type is the form of government of Bilaspur, Gautam Buddh Nagar?", "Which Government Type was the form of government of Bilaspur, Gautam Buddh Nagar?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Bilaspur,_Gautam_Buddh_Nagar> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sentenceToSparqlParameterMapping" : {
+      "$x" : "subjOfProp"
+    },
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "$x",
+      "bindingList" : null
+    },
+    "combination" : false
+  }, {
+    "id" : "1",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "COUNTRY",
+    "returnType" : "GOVERNMENTTYPE",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the form of government of Carpenter Township, Jasper County, Indiana?", "Tell me the form of government of Carpenter Township, Jasper County, Indiana?", "What is the form of government of Carpenter Township, Jasper County, Indiana?", "What was the form of government of Carpenter Township, Jasper County, Indiana?", "Which Government Type is the form of government of Carpenter Township, Jasper County, Indiana?", "Which Government Type was the form of government of Carpenter Township, Jasper County, Indiana?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Carpenter_Township,_Jasper_County,_Indiana> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sentenceToSparqlParameterMapping" : {
+      "$x" : "subjOfProp"
+    },
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "$x",
+      "bindingList" : null
+    },
+    "combination" : false
+  }, {
+    "id" : "1",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "COUNTRY",
+    "returnType" : "GOVERNMENTTYPE",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the form of government of Casablanca, Chile?", "Tell me the form of government of Casablanca, Chile?", "What is the form of government of Casablanca, Chile?", "What was the form of government of Casablanca, Chile?", "Which Government Type is the form of government of Casablanca, Chile?", "Which Government Type was the form of government of Casablanca, Chile?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Casablanca,_Chile> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sentenceToSparqlParameterMapping" : {
+      "$x" : "subjOfProp"
+    },
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "$x",
+      "bindingList" : null
+    },
+    "combination" : false
+  }, {
+    "id" : "1",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "COUNTRY",
+    "returnType" : "GOVERNMENTTYPE",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the form of government of Copenhagen Municipality?", "Tell me the form of government of Copenhagen Municipality?", "What is the form of government of Copenhagen Municipality?", "What was the form of government of Copenhagen Municipality?", "Which Government Type is the form of government of Copenhagen Municipality?", "Which Government Type was the form of government of Copenhagen Municipality?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Copenhagen_Municipality> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sentenceToSparqlParameterMapping" : {
+      "$x" : "subjOfProp"
+    },
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "$x",
+      "bindingList" : null
+    },
+    "combination" : false
+  }, {
+    "id" : "1",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "COUNTRY",
+    "returnType" : "GOVERNMENTTYPE",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the form of government of County of Blankenburg?", "Tell me the form of government of County of Blankenburg?", "What is the form of government of County of Blankenburg?", "What was the form of government of County of Blankenburg?", "Which Government Type is the form of government of County of Blankenburg?", "Which Government Type was the form of government of County of Blankenburg?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/County_of_Blankenburg> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
     "sentenceToSparqlParameterMapping" : {
       "$x" : "subjOfProp"
     },
@@ -44,6 +576,234 @@
     "bindingType" : "COUNTRY",
     "returnType" : "GOVERNMENTTYPE",
     "frameType" : "NPP",
+    "sentences" : [ "Give me the form of government of Crown of Aragon?", "Tell me the form of government of Crown of Aragon?", "What is the form of government of Crown of Aragon?", "What was the form of government of Crown of Aragon?", "Which Government Type is the form of government of Crown of Aragon?", "Which Government Type was the form of government of Crown of Aragon?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Crown_of_Aragon> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sentenceToSparqlParameterMapping" : {
+      "$x" : "subjOfProp"
+    },
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "$x",
+      "bindingList" : null
+    },
+    "combination" : false
+  }, {
+    "id" : "1",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "COUNTRY",
+    "returnType" : "GOVERNMENTTYPE",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the form of government of Delhi Sultanate?", "Tell me the form of government of Delhi Sultanate?", "What is the form of government of Delhi Sultanate?", "What was the form of government of Delhi Sultanate?", "Which Government Type is the form of government of Delhi Sultanate?", "Which Government Type was the form of government of Delhi Sultanate?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Delhi_Sultanate> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sentenceToSparqlParameterMapping" : {
+      "$x" : "subjOfProp"
+    },
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "$x",
+      "bindingList" : null
+    },
+    "combination" : false
+  }, {
+    "id" : "1",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "COUNTRY",
+    "returnType" : "GOVERNMENTTYPE",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the form of government of Dominion of Ceylon?", "Tell me the form of government of Dominion of Ceylon?", "What is the form of government of Dominion of Ceylon?", "What was the form of government of Dominion of Ceylon?", "Which Government Type is the form of government of Dominion of Ceylon?", "Which Government Type was the form of government of Dominion of Ceylon?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Dominion_of_Ceylon> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sentenceToSparqlParameterMapping" : {
+      "$x" : "subjOfProp"
+    },
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "$x",
+      "bindingList" : null
+    },
+    "combination" : false
+  }, {
+    "id" : "1",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "COUNTRY",
+    "returnType" : "GOVERNMENTTYPE",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the form of government of Eel Township, Cass County, Indiana?", "Tell me the form of government of Eel Township, Cass County, Indiana?", "What is the form of government of Eel Township, Cass County, Indiana?", "What was the form of government of Eel Township, Cass County, Indiana?", "Which Government Type is the form of government of Eel Township, Cass County, Indiana?", "Which Government Type was the form of government of Eel Township, Cass County, Indiana?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Eel_Township,_Cass_County,_Indiana> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sentenceToSparqlParameterMapping" : {
+      "$x" : "subjOfProp"
+    },
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "$x",
+      "bindingList" : null
+    },
+    "combination" : false
+  }, {
+    "id" : "1",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "COUNTRY",
+    "returnType" : "GOVERNMENTTYPE",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the form of government of Faraday, Ontario?", "Tell me the form of government of Faraday, Ontario?", "What is the form of government of Faraday, Ontario?", "What was the form of government of Faraday, Ontario?", "Which Government Type is the form of government of Faraday, Ontario?", "Which Government Type was the form of government of Faraday, Ontario?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Faraday,_Ontario> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sentenceToSparqlParameterMapping" : {
+      "$x" : "subjOfProp"
+    },
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "$x",
+      "bindingList" : null
+    },
+    "combination" : false
+  }, {
+    "id" : "1",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "COUNTRY",
+    "returnType" : "GOVERNMENTTYPE",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the form of government of Gauthier, Ontario?", "Tell me the form of government of Gauthier, Ontario?", "What is the form of government of Gauthier, Ontario?", "What was the form of government of Gauthier, Ontario?", "Which Government Type is the form of government of Gauthier, Ontario?", "Which Government Type was the form of government of Gauthier, Ontario?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Gauthier,_Ontario> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sentenceToSparqlParameterMapping" : {
+      "$x" : "subjOfProp"
+    },
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "$x",
+      "bindingList" : null
+    },
+    "combination" : false
+  }, {
+    "id" : "1",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "COUNTRY",
+    "returnType" : "GOVERNMENTTYPE",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the form of government of Gavan, Karnataka?", "Tell me the form of government of Gavan, Karnataka?", "What is the form of government of Gavan, Karnataka?", "What was the form of government of Gavan, Karnataka?", "Which Government Type is the form of government of Gavan, Karnataka?", "Which Government Type was the form of government of Gavan, Karnataka?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Gavan,_Karnataka> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sentenceToSparqlParameterMapping" : {
+      "$x" : "subjOfProp"
+    },
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "$x",
+      "bindingList" : null
+    },
+    "combination" : false
+  }, {
+    "id" : "1",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "COUNTRY",
+    "returnType" : "GOVERNMENTTYPE",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the form of government of Goole Fields?", "Tell me the form of government of Goole Fields?", "What is the form of government of Goole Fields?", "What was the form of government of Goole Fields?", "Which Government Type is the form of government of Goole Fields?", "Which Government Type was the form of government of Goole Fields?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Goole_Fields> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sentenceToSparqlParameterMapping" : {
+      "$x" : "subjOfProp"
+    },
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "$x",
+      "bindingList" : null
+    },
+    "combination" : false
+  }, {
+    "id" : "1",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "COUNTRY",
+    "returnType" : "GOVERNMENTTYPE",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the form of government of Kazakh Soviet Socialist Republic?", "Tell me the form of government of Kazakh Soviet Socialist Republic?", "What is the form of government of Kazakh Soviet Socialist Republic?", "What was the form of government of Kazakh Soviet Socialist Republic?", "Which Government Type is the form of government of Kazakh Soviet Socialist Republic?", "Which Government Type was the form of government of Kazakh Soviet Socialist Republic?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Kazakh_Soviet_Socialist_Republic> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sentenceToSparqlParameterMapping" : {
+      "$x" : "subjOfProp"
+    },
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "$x",
+      "bindingList" : null
+    },
+    "combination" : false
+  }, {
+    "id" : "1",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "COUNTRY",
+    "returnType" : "GOVERNMENTTYPE",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the form of government of Kirghiz Soviet Socialist Republic?", "Tell me the form of government of Kirghiz Soviet Socialist Republic?", "What is the form of government of Kirghiz Soviet Socialist Republic?", "What was the form of government of Kirghiz Soviet Socialist Republic?", "Which Government Type is the form of government of Kirghiz Soviet Socialist Republic?", "Which Government Type was the form of government of Kirghiz Soviet Socialist Republic?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Kirghiz_Soviet_Socialist_Republic> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sentenceToSparqlParameterMapping" : {
+      "$x" : "subjOfProp"
+    },
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "$x",
+      "bindingList" : null
+    },
+    "combination" : false
+  }, {
+    "id" : "1",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "COUNTRY",
+    "returnType" : "GOVERNMENTTYPE",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the form of government of Krishnanagar, Karnataka?", "Tell me the form of government of Krishnanagar, Karnataka?", "What is the form of government of Krishnanagar, Karnataka?", "What was the form of government of Krishnanagar, Karnataka?", "Which Government Type is the form of government of Krishnanagar, Karnataka?", "Which Government Type was the form of government of Krishnanagar, Karnataka?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Krishnanagar,_Karnataka> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sentenceToSparqlParameterMapping" : {
+      "$x" : "subjOfProp"
+    },
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "$x",
+      "bindingList" : null
+    },
+    "combination" : false
+  }, {
+    "id" : "1",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "COUNTRY",
+    "returnType" : "GOVERNMENTTYPE",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the form of government of Millcreek Township, Fountain County, Indiana?", "Tell me the form of government of Millcreek Township, Fountain County, Indiana?", "What is the form of government of Millcreek Township, Fountain County, Indiana?", "What was the form of government of Millcreek Township, Fountain County, Indiana?", "Which Government Type is the form of government of Millcreek Township, Fountain County, Indiana?", "Which Government Type was the form of government of Millcreek Township, Fountain County, Indiana?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Millcreek_Township,_Fountain_County,_Indiana> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sentenceToSparqlParameterMapping" : {
+      "$x" : "subjOfProp"
+    },
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "$x",
+      "bindingList" : null
+    },
+    "combination" : false
+  }, {
+    "id" : "1",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "COUNTRY",
+    "returnType" : "GOVERNMENTTYPE",
+    "frameType" : "NPP",
     "sentences" : [ "Give me the form of government of Mutawakkilite Kingdom of Yemen?", "Tell me the form of government of Mutawakkilite Kingdom of Yemen?", "What is the form of government of Mutawakkilite Kingdom of Yemen?", "What was the form of government of Mutawakkilite Kingdom of Yemen?", "Which Government Type is the form of government of Mutawakkilite Kingdom of Yemen?", "Which Government Type was the form of government of Mutawakkilite Kingdom of Yemen?" ],
     "queryType" : "SELECT",
     "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Mutawakkilite_Kingdom_of_Yemen> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
@@ -63,9 +823,294 @@
     "bindingType" : "COUNTRY",
     "returnType" : "GOVERNMENTTYPE",
     "frameType" : "NPP",
+    "sentences" : [ "Give me the form of government of Nevins Township, Vigo County, Indiana?", "Tell me the form of government of Nevins Township, Vigo County, Indiana?", "What is the form of government of Nevins Township, Vigo County, Indiana?", "What was the form of government of Nevins Township, Vigo County, Indiana?", "Which Government Type is the form of government of Nevins Township, Vigo County, Indiana?", "Which Government Type was the form of government of Nevins Township, Vigo County, Indiana?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Nevins_Township,_Vigo_County,_Indiana> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sentenceToSparqlParameterMapping" : {
+      "$x" : "subjOfProp"
+    },
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "$x",
+      "bindingList" : null
+    },
+    "combination" : false
+  }, {
+    "id" : "1",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "COUNTRY",
+    "returnType" : "GOVERNMENTTYPE",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the form of government of Paine, Chile?", "Tell me the form of government of Paine, Chile?", "What is the form of government of Paine, Chile?", "What was the form of government of Paine, Chile?", "Which Government Type is the form of government of Paine, Chile?", "Which Government Type was the form of government of Paine, Chile?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Paine,_Chile> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sentenceToSparqlParameterMapping" : {
+      "$x" : "subjOfProp"
+    },
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "$x",
+      "bindingList" : null
+    },
+    "combination" : false
+  }, {
+    "id" : "1",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "COUNTRY",
+    "returnType" : "GOVERNMENTTYPE",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the form of government of Pepperell, Massachusetts?", "Tell me the form of government of Pepperell, Massachusetts?", "What is the form of government of Pepperell, Massachusetts?", "What was the form of government of Pepperell, Massachusetts?", "Which Government Type is the form of government of Pepperell, Massachusetts?", "Which Government Type was the form of government of Pepperell, Massachusetts?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Pepperell,_Massachusetts> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sentenceToSparqlParameterMapping" : {
+      "$x" : "subjOfProp"
+    },
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "$x",
+      "bindingList" : null
+    },
+    "combination" : false
+  }, {
+    "id" : "1",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "COUNTRY",
+    "returnType" : "GOVERNMENTTYPE",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the form of government of Piripiri, Piauí?", "Tell me the form of government of Piripiri, Piauí?", "What is the form of government of Piripiri, Piauí?", "What was the form of government of Piripiri, Piauí?", "Which Government Type is the form of government of Piripiri, Piauí?", "Which Government Type was the form of government of Piripiri, Piauí?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Piripiri,_Piauí> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sentenceToSparqlParameterMapping" : {
+      "$x" : "subjOfProp"
+    },
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "$x",
+      "bindingList" : null
+    },
+    "combination" : false
+  }, {
+    "id" : "1",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "COUNTRY",
+    "returnType" : "GOVERNMENTTYPE",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the form of government of Pleasant Township, Allen County, Indiana?", "Tell me the form of government of Pleasant Township, Allen County, Indiana?", "What is the form of government of Pleasant Township, Allen County, Indiana?", "What was the form of government of Pleasant Township, Allen County, Indiana?", "Which Government Type is the form of government of Pleasant Township, Allen County, Indiana?", "Which Government Type was the form of government of Pleasant Township, Allen County, Indiana?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Pleasant_Township,_Allen_County,_Indiana> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sentenceToSparqlParameterMapping" : {
+      "$x" : "subjOfProp"
+    },
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "$x",
+      "bindingList" : null
+    },
+    "combination" : false
+  }, {
+    "id" : "1",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "COUNTRY",
+    "returnType" : "GOVERNMENTTYPE",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the form of government of Pleasant Township, Grant County, Indiana?", "Tell me the form of government of Pleasant Township, Grant County, Indiana?", "What is the form of government of Pleasant Township, Grant County, Indiana?", "What was the form of government of Pleasant Township, Grant County, Indiana?", "Which Government Type is the form of government of Pleasant Township, Grant County, Indiana?", "Which Government Type was the form of government of Pleasant Township, Grant County, Indiana?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Pleasant_Township,_Grant_County,_Indiana> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sentenceToSparqlParameterMapping" : {
+      "$x" : "subjOfProp"
+    },
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "$x",
+      "bindingList" : null
+    },
+    "combination" : false
+  }, {
+    "id" : "1",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "COUNTRY",
+    "returnType" : "GOVERNMENTTYPE",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the form of government of Pleasant Township, Johnson County, Indiana?", "Tell me the form of government of Pleasant Township, Johnson County, Indiana?", "What is the form of government of Pleasant Township, Johnson County, Indiana?", "What was the form of government of Pleasant Township, Johnson County, Indiana?", "Which Government Type is the form of government of Pleasant Township, Johnson County, Indiana?", "Which Government Type was the form of government of Pleasant Township, Johnson County, Indiana?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Pleasant_Township,_Johnson_County,_Indiana> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sentenceToSparqlParameterMapping" : {
+      "$x" : "subjOfProp"
+    },
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "$x",
+      "bindingList" : null
+    },
+    "combination" : false
+  }, {
+    "id" : "1",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "COUNTRY",
+    "returnType" : "GOVERNMENTTYPE",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the form of government of Pleasant Township, LaPorte County, Indiana?", "Tell me the form of government of Pleasant Township, LaPorte County, Indiana?", "What is the form of government of Pleasant Township, LaPorte County, Indiana?", "What was the form of government of Pleasant Township, LaPorte County, Indiana?", "Which Government Type is the form of government of Pleasant Township, LaPorte County, Indiana?", "Which Government Type was the form of government of Pleasant Township, LaPorte County, Indiana?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Pleasant_Township,_LaPorte_County,_Indiana> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sentenceToSparqlParameterMapping" : {
+      "$x" : "subjOfProp"
+    },
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "$x",
+      "bindingList" : null
+    },
+    "combination" : false
+  }, {
+    "id" : "1",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "COUNTRY",
+    "returnType" : "GOVERNMENTTYPE",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the form of government of Pleasant Township, Porter County, Indiana?", "Tell me the form of government of Pleasant Township, Porter County, Indiana?", "What is the form of government of Pleasant Township, Porter County, Indiana?", "What was the form of government of Pleasant Township, Porter County, Indiana?", "Which Government Type is the form of government of Pleasant Township, Porter County, Indiana?", "Which Government Type was the form of government of Pleasant Township, Porter County, Indiana?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Pleasant_Township,_Porter_County,_Indiana> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sentenceToSparqlParameterMapping" : {
+      "$x" : "subjOfProp"
+    },
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "$x",
+      "bindingList" : null
+    },
+    "combination" : false
+  }, {
+    "id" : "1",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "COUNTRY",
+    "returnType" : "GOVERNMENTTYPE",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the form of government of Pleasant Township, Steuben County, Indiana?", "Tell me the form of government of Pleasant Township, Steuben County, Indiana?", "What is the form of government of Pleasant Township, Steuben County, Indiana?", "What was the form of government of Pleasant Township, Steuben County, Indiana?", "Which Government Type is the form of government of Pleasant Township, Steuben County, Indiana?", "Which Government Type was the form of government of Pleasant Township, Steuben County, Indiana?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Pleasant_Township,_Steuben_County,_Indiana> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sentenceToSparqlParameterMapping" : {
+      "$x" : "subjOfProp"
+    },
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "$x",
+      "bindingList" : null
+    },
+    "combination" : false
+  }, {
+    "id" : "1",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "COUNTRY",
+    "returnType" : "GOVERNMENTTYPE",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the form of government of Pleasant Township, Switzerland County, Indiana?", "Tell me the form of government of Pleasant Township, Switzerland County, Indiana?", "What is the form of government of Pleasant Township, Switzerland County, Indiana?", "What was the form of government of Pleasant Township, Switzerland County, Indiana?", "Which Government Type is the form of government of Pleasant Township, Switzerland County, Indiana?", "Which Government Type was the form of government of Pleasant Township, Switzerland County, Indiana?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Pleasant_Township,_Switzerland_County,_Indiana> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sentenceToSparqlParameterMapping" : {
+      "$x" : "subjOfProp"
+    },
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "$x",
+      "bindingList" : null
+    },
+    "combination" : false
+  }, {
+    "id" : "1",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "COUNTRY",
+    "returnType" : "GOVERNMENTTYPE",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the form of government of Pleasant Township, Wabash County, Indiana?", "Tell me the form of government of Pleasant Township, Wabash County, Indiana?", "What is the form of government of Pleasant Township, Wabash County, Indiana?", "What was the form of government of Pleasant Township, Wabash County, Indiana?", "Which Government Type is the form of government of Pleasant Township, Wabash County, Indiana?", "Which Government Type was the form of government of Pleasant Township, Wabash County, Indiana?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Pleasant_Township,_Wabash_County,_Indiana> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sentenceToSparqlParameterMapping" : {
+      "$x" : "subjOfProp"
+    },
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "$x",
+      "bindingList" : null
+    },
+    "combination" : false
+  }, {
+    "id" : "1",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "COUNTRY",
+    "returnType" : "GOVERNMENTTYPE",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the form of government of Rajdhani, Kotli?", "Tell me the form of government of Rajdhani, Kotli?", "What is the form of government of Rajdhani, Kotli?", "What was the form of government of Rajdhani, Kotli?", "Which Government Type is the form of government of Rajdhani, Kotli?", "Which Government Type was the form of government of Rajdhani, Kotli?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Rajdhani,_Kotli> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sentenceToSparqlParameterMapping" : {
+      "$x" : "subjOfProp"
+    },
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "$x",
+      "bindingList" : null
+    },
+    "combination" : false
+  }, {
+    "id" : "1",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "COUNTRY",
+    "returnType" : "GOVERNMENTTYPE",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the form of government of Reuss-Lobenstein?", "Tell me the form of government of Reuss-Lobenstein?", "What is the form of government of Reuss-Lobenstein?", "What was the form of government of Reuss-Lobenstein?", "Which Government Type is the form of government of Reuss-Lobenstein?", "Which Government Type was the form of government of Reuss-Lobenstein?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Reuss-Lobenstein> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sentenceToSparqlParameterMapping" : {
+      "$x" : "subjOfProp"
+    },
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "$x",
+      "bindingList" : null
+    },
+    "combination" : false
+  }, {
+    "id" : "1",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "COUNTRY",
+    "returnType" : "GOVERNMENTTYPE",
+    "frameType" : "NPP",
     "sentences" : [ "Give me the form of government of Stolberg-Wernigerode?", "Tell me the form of government of Stolberg-Wernigerode?", "What is the form of government of Stolberg-Wernigerode?", "What was the form of government of Stolberg-Wernigerode?", "Which Government Type is the form of government of Stolberg-Wernigerode?", "Which Government Type was the form of government of Stolberg-Wernigerode?" ],
     "queryType" : "SELECT",
     "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Stolberg-Wernigerode> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sentenceToSparqlParameterMapping" : {
+      "$x" : "subjOfProp"
+    },
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "$x",
+      "bindingList" : null
+    },
+    "combination" : false
+  }, {
+    "id" : "1",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "COUNTRY",
+    "returnType" : "GOVERNMENTTYPE",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the form of government of Subprefecture of Ermelino Matarazzo?", "Tell me the form of government of Subprefecture of Ermelino Matarazzo?", "What is the form of government of Subprefecture of Ermelino Matarazzo?", "What was the form of government of Subprefecture of Ermelino Matarazzo?", "Which Government Type is the form of government of Subprefecture of Ermelino Matarazzo?", "Which Government Type was the form of government of Subprefecture of Ermelino Matarazzo?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Subprefecture_of_Ermelino_Matarazzo> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
     "sentenceToSparqlParameterMapping" : {
       "$x" : "subjOfProp"
     },
@@ -120,9 +1165,9 @@
     "bindingType" : "COUNTRY",
     "returnType" : "GOVERNMENTTYPE",
     "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Bagbaguin, Bulacan?", "Tell me the form of government of Bagbaguin, Bulacan?", "What is the form of government of Bagbaguin, Bulacan?", "What was the form of government of Bagbaguin, Bulacan?", "Which Government Type is the form of government of Bagbaguin, Bulacan?", "Which Government Type was the form of government of Bagbaguin, Bulacan?" ],
+    "sentences" : [ "Give me the form of government of Tari Mangal?", "Tell me the form of government of Tari Mangal?", "What is the form of government of Tari Mangal?", "What was the form of government of Tari Mangal?", "Which Government Type is the form of government of Tari Mangal?", "Which Government Type was the form of government of Tari Mangal?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Bagbaguin,_Bulacan> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Tari_Mangal> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
     "sentenceToSparqlParameterMapping" : {
       "$x" : "subjOfProp"
     },
@@ -139,9 +1184,9 @@
     "bindingType" : "COUNTRY",
     "returnType" : "GOVERNMENTTYPE",
     "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Bridgeport, Connecticut?", "Tell me the form of government of Bridgeport, Connecticut?", "What is the form of government of Bridgeport, Connecticut?", "What was the form of government of Bridgeport, Connecticut?", "Which Government Type is the form of government of Bridgeport, Connecticut?", "Which Government Type was the form of government of Bridgeport, Connecticut?" ],
+    "sentences" : [ "Give me the form of government of Thibault, New Brunswick?", "Tell me the form of government of Thibault, New Brunswick?", "What is the form of government of Thibault, New Brunswick?", "What was the form of government of Thibault, New Brunswick?", "Which Government Type is the form of government of Thibault, New Brunswick?", "Which Government Type was the form of government of Thibault, New Brunswick?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Bridgeport,_Connecticut> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Thibault,_New_Brunswick> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
     "sentenceToSparqlParameterMapping" : {
       "$x" : "subjOfProp"
     },
@@ -158,9 +1203,9 @@
     "bindingType" : "COUNTRY",
     "returnType" : "GOVERNMENTTYPE",
     "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Caypombo, Bulacan?", "Tell me the form of government of Caypombo, Bulacan?", "What is the form of government of Caypombo, Bulacan?", "What was the form of government of Caypombo, Bulacan?", "Which Government Type is the form of government of Caypombo, Bulacan?", "Which Government Type was the form of government of Caypombo, Bulacan?" ],
+    "sentences" : [ "Give me the form of government of Tibet (1912–51)?", "Tell me the form of government of Tibet (1912–51)?", "What is the form of government of Tibet (1912–51)?", "What was the form of government of Tibet (1912–51)?", "Which Government Type is the form of government of Tibet (1912–51)?", "Which Government Type was the form of government of Tibet (1912–51)?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Caypombo,_Bulacan> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Tibet_(1912–51)> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
     "sentenceToSparqlParameterMapping" : {
       "$x" : "subjOfProp"
     },
@@ -177,9 +1222,9 @@
     "bindingType" : "COUNTRY",
     "returnType" : "GOVERNMENTTYPE",
     "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Grand Rapids, Michigan?", "Tell me the form of government of Grand Rapids, Michigan?", "What is the form of government of Grand Rapids, Michigan?", "What was the form of government of Grand Rapids, Michigan?", "Which Government Type is the form of government of Grand Rapids, Michigan?", "Which Government Type was the form of government of Grand Rapids, Michigan?" ],
+    "sentences" : [ "Give me the form of government of Tibetan Empire?", "Tell me the form of government of Tibetan Empire?", "What is the form of government of Tibetan Empire?", "What was the form of government of Tibetan Empire?", "Which Government Type is the form of government of Tibetan Empire?", "Which Government Type was the form of government of Tibetan Empire?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Grand_Rapids,_Michigan> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Tibetan_Empire> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
     "sentenceToSparqlParameterMapping" : {
       "$x" : "subjOfProp"
     },
@@ -196,9 +1241,9 @@
     "bindingType" : "COUNTRY",
     "returnType" : "GOVERNMENTTYPE",
     "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Guyong, Bulacan?", "Tell me the form of government of Guyong, Bulacan?", "What is the form of government of Guyong, Bulacan?", "What was the form of government of Guyong, Bulacan?", "Which Government Type is the form of government of Guyong, Bulacan?", "Which Government Type was the form of government of Guyong, Bulacan?" ],
+    "sentences" : [ "Give me the form of government of Tonghua?", "Tell me the form of government of Tonghua?", "What is the form of government of Tonghua?", "What was the form of government of Tonghua?", "Which Government Type is the form of government of Tonghua?", "Which Government Type was the form of government of Tonghua?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Guyong,_Bulacan> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Tonghua> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
     "sentenceToSparqlParameterMapping" : {
       "$x" : "subjOfProp"
     },
@@ -215,9 +1260,9 @@
     "bindingType" : "COUNTRY",
     "returnType" : "GOVERNMENTTYPE",
     "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Huejúcar?", "Tell me the form of government of Huejúcar?", "What is the form of government of Huejúcar?", "What was the form of government of Huejúcar?", "Which Government Type is the form of government of Huejúcar?", "Which Government Type was the form of government of Huejúcar?" ],
+    "sentences" : [ "Give me the form of government of Vichy France?", "Tell me the form of government of Vichy France?", "What is the form of government of Vichy France?", "What was the form of government of Vichy France?", "Which Government Type is the form of government of Vichy France?", "Which Government Type was the form of government of Vichy France?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Huejúcar> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Vichy_France> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
     "sentenceToSparqlParameterMapping" : {
       "$x" : "subjOfProp"
     },
@@ -234,9 +1279,9 @@
     "bindingType" : "COUNTRY",
     "returnType" : "GOVERNMENTTYPE",
     "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Kheri Jalab?", "Tell me the form of government of Kheri Jalab?", "What is the form of government of Kheri Jalab?", "What was the form of government of Kheri Jalab?", "Which Government Type is the form of government of Kheri Jalab?", "Which Government Type was the form of government of Kheri Jalab?" ],
+    "sentences" : [ "Give me the form of government of Vila Nova dos Martírios?", "Tell me the form of government of Vila Nova dos Martírios?", "What is the form of government of Vila Nova dos Martírios?", "What was the form of government of Vila Nova dos Martírios?", "Which Government Type is the form of government of Vila Nova dos Martírios?", "Which Government Type was the form of government of Vila Nova dos Martírios?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Kheri_Jalab> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Vila_Nova_dos_Martírios> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
     "sentenceToSparqlParameterMapping" : {
       "$x" : "subjOfProp"
     },
@@ -253,9 +1298,9 @@
     "bindingType" : "COUNTRY",
     "returnType" : "GOVERNMENTTYPE",
     "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Kwikwetlem First Nation?", "Tell me the form of government of Kwikwetlem First Nation?", "What is the form of government of Kwikwetlem First Nation?", "What was the form of government of Kwikwetlem First Nation?", "Which Government Type is the form of government of Kwikwetlem First Nation?", "Which Government Type was the form of government of Kwikwetlem First Nation?" ],
+    "sentences" : [ "Give me the form of government of Waltz Township, Wabash County, Indiana?", "Tell me the form of government of Waltz Township, Wabash County, Indiana?", "What is the form of government of Waltz Township, Wabash County, Indiana?", "What was the form of government of Waltz Township, Wabash County, Indiana?", "Which Government Type is the form of government of Waltz Township, Wabash County, Indiana?", "Which Government Type was the form of government of Waltz Township, Wabash County, Indiana?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Kwikwetlem_First_Nation> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Waltz_Township,_Wabash_County,_Indiana> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
     "sentenceToSparqlParameterMapping" : {
       "$x" : "subjOfProp"
     },
@@ -272,9 +1317,9 @@
     "bindingType" : "COUNTRY",
     "returnType" : "GOVERNMENTTYPE",
     "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Lalakhan, Bulacan?", "Tell me the form of government of Lalakhan, Bulacan?", "What is the form of government of Lalakhan, Bulacan?", "What was the form of government of Lalakhan, Bulacan?", "Which Government Type is the form of government of Lalakhan, Bulacan?", "Which Government Type was the form of government of Lalakhan, Bulacan?" ],
+    "sentences" : [ "Give me the form of government of Westborough, Massachusetts?", "Tell me the form of government of Westborough, Massachusetts?", "What is the form of government of Westborough, Massachusetts?", "What was the form of government of Westborough, Massachusetts?", "Which Government Type is the form of government of Westborough, Massachusetts?", "Which Government Type was the form of government of Westborough, Massachusetts?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Lalakhan,_Bulacan> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Westborough,_Massachusetts> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
     "sentenceToSparqlParameterMapping" : {
       "$x" : "subjOfProp"
     },
@@ -291,9 +1336,9 @@
     "bindingType" : "COUNTRY",
     "returnType" : "GOVERNMENTTYPE",
     "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Look 1st, Malolos?", "Tell me the form of government of Look 1st, Malolos?", "What is the form of government of Look 1st, Malolos?", "What was the form of government of Look 1st, Malolos?", "Which Government Type is the form of government of Look 1st, Malolos?", "Which Government Type was the form of government of Look 1st, Malolos?" ],
+    "sentences" : [ "Give me the form of government of Yungay, Chile?", "Tell me the form of government of Yungay, Chile?", "What is the form of government of Yungay, Chile?", "What was the form of government of Yungay, Chile?", "Which Government Type is the form of government of Yungay, Chile?", "Which Government Type was the form of government of Yungay, Chile?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Look_1st,_Malolos> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Yungay,_Chile> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
     "sentenceToSparqlParameterMapping" : {
       "$x" : "subjOfProp"
     },
@@ -310,9 +1355,9 @@
     "bindingType" : "COUNTRY",
     "returnType" : "GOVERNMENTTYPE",
     "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Tungkong Mangga?", "Tell me the form of government of Tungkong Mangga?", "What is the form of government of Tungkong Mangga?", "What was the form of government of Tungkong Mangga?", "Which Government Type is the form of government of Tungkong Mangga?", "Which Government Type was the form of government of Tungkong Mangga?" ],
+    "sentences" : [ "Give me the form of government of Zug, Western Sahara?", "Tell me the form of government of Zug, Western Sahara?", "What is the form of government of Zug, Western Sahara?", "What was the form of government of Zug, Western Sahara?", "Which Government Type is the form of government of Zug, Western Sahara?", "Which Government Type was the form of government of Zug, Western Sahara?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Tungkong_Mangga> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Zug,_Western_Sahara> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
     "sentenceToSparqlParameterMapping" : {
       "$x" : "subjOfProp"
     },
@@ -329,9 +1374,9 @@
     "bindingType" : "COUNTRY",
     "returnType" : "GOVERNMENTTYPE",
     "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Åland Islands?", "Tell me the form of government of Åland Islands?", "What is the form of government of Åland Islands?", "What was the form of government of Åland Islands?", "Which Government Type is the form of government of Åland Islands?", "Which Government Type was the form of government of Åland Islands?" ],
+    "sentences" : [ "Give me the form of government of Mahishadal (community development block)?", "Tell me the form of government of Mahishadal (community development block)?", "What is the form of government of Mahishadal (community development block)?", "What was the form of government of Mahishadal (community development block)?", "Which Government Type is the form of government of Mahishadal (community development block)?", "Which Government Type was the form of government of Mahishadal (community development block)?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Åland_Islands> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Mahishadal_(community_development_block)> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
     "sentenceToSparqlParameterMapping" : {
       "$x" : "subjOfProp"
     },
@@ -348,9 +1393,9 @@
     "bindingType" : "COUNTRY",
     "returnType" : "GOVERNMENTTYPE",
     "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Altman, Colorado?", "Tell me the form of government of Altman, Colorado?", "What is the form of government of Altman, Colorado?", "What was the form of government of Altman, Colorado?", "Which Government Type is the form of government of Altman, Colorado?", "Which Government Type was the form of government of Altman, Colorado?" ],
+    "sentences" : [ "Give me the form of government of Patharchapuri?", "Tell me the form of government of Patharchapuri?", "What is the form of government of Patharchapuri?", "What was the form of government of Patharchapuri?", "Which Government Type is the form of government of Patharchapuri?", "Which Government Type was the form of government of Patharchapuri?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Altman,_Colorado> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Patharchapuri> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
     "sentenceToSparqlParameterMapping" : {
       "$x" : "subjOfProp"
     },
@@ -367,9 +1412,9 @@
     "bindingType" : "COUNTRY",
     "returnType" : "GOVERNMENTTYPE",
     "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Chanda Nagar?", "Tell me the form of government of Chanda Nagar?", "What is the form of government of Chanda Nagar?", "What was the form of government of Chanda Nagar?", "Which Government Type is the form of government of Chanda Nagar?", "Which Government Type was the form of government of Chanda Nagar?" ],
+    "sentences" : [ "Give me the form of government of Sutahata (community development block)?", "Tell me the form of government of Sutahata (community development block)?", "What is the form of government of Sutahata (community development block)?", "What was the form of government of Sutahata (community development block)?", "Which Government Type is the form of government of Sutahata (community development block)?", "Which Government Type was the form of government of Sutahata (community development block)?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Chanda_Nagar> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Sutahata_(community_development_block)> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
     "sentenceToSparqlParameterMapping" : {
       "$x" : "subjOfProp"
     },
@@ -386,9 +1431,9 @@
     "bindingType" : "COUNTRY",
     "returnType" : "GOVERNMENTTYPE",
     "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Ciudad Nezahualcóyotl?", "Tell me the form of government of Ciudad Nezahualcóyotl?", "What is the form of government of Ciudad Nezahualcóyotl?", "What was the form of government of Ciudad Nezahualcóyotl?", "Which Government Type is the form of government of Ciudad Nezahualcóyotl?", "Which Government Type was the form of government of Ciudad Nezahualcóyotl?" ],
+    "sentences" : [ "Give me the form of government of Tengnoupal?", "Tell me the form of government of Tengnoupal?", "What is the form of government of Tengnoupal?", "What was the form of government of Tengnoupal?", "Which Government Type is the form of government of Tengnoupal?", "Which Government Type was the form of government of Tengnoupal?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Ciudad_Nezahualcóyotl> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Tengnoupal> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
     "sentenceToSparqlParameterMapping" : {
       "$x" : "subjOfProp"
     },
@@ -405,9 +1450,9 @@
     "bindingType" : "COUNTRY",
     "returnType" : "GOVERNMENTTYPE",
     "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Eskdaleside cum Ugglebarnby?", "Tell me the form of government of Eskdaleside cum Ugglebarnby?", "What is the form of government of Eskdaleside cum Ugglebarnby?", "What was the form of government of Eskdaleside cum Ugglebarnby?", "Which Government Type is the form of government of Eskdaleside cum Ugglebarnby?", "Which Government Type was the form of government of Eskdaleside cum Ugglebarnby?" ],
+    "sentences" : [ "Give me the form of government of A. Devarahalli?", "Tell me the form of government of A. Devarahalli?", "What is the form of government of A. Devarahalli?", "What was the form of government of A. Devarahalli?", "Which Government Type is the form of government of A. Devarahalli?", "Which Government Type was the form of government of A. Devarahalli?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Eskdaleside_cum_Ugglebarnby> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/A._Devarahalli> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
     "sentenceToSparqlParameterMapping" : {
       "$x" : "subjOfProp"
     },
@@ -424,9 +1469,9 @@
     "bindingType" : "COUNTRY",
     "returnType" : "GOVERNMENTTYPE",
     "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Miyapur?", "Tell me the form of government of Miyapur?", "What is the form of government of Miyapur?", "What was the form of government of Miyapur?", "Which Government Type is the form of government of Miyapur?", "Which Government Type was the form of government of Miyapur?" ],
+    "sentences" : [ "Give me the form of government of A. Timmasagar?", "Tell me the form of government of A. Timmasagar?", "What is the form of government of A. Timmasagar?", "What was the form of government of A. Timmasagar?", "Which Government Type is the form of government of A. Timmasagar?", "Which Government Type was the form of government of A. Timmasagar?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Miyapur> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/A._Timmasagar> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
     "sentenceToSparqlParameterMapping" : {
       "$x" : "subjOfProp"
     },
@@ -443,9 +1488,9 @@
     "bindingType" : "COUNTRY",
     "returnType" : "GOVERNMENTTYPE",
     "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Suffield-cum-Everley?", "Tell me the form of government of Suffield-cum-Everley?", "What is the form of government of Suffield-cum-Everley?", "What was the form of government of Suffield-cum-Everley?", "Which Government Type is the form of government of Suffield-cum-Everley?", "Which Government Type was the form of government of Suffield-cum-Everley?" ],
+    "sentences" : [ "Give me the form of government of Abanali?", "Tell me the form of government of Abanali?", "What is the form of government of Abanali?", "What was the form of government of Abanali?", "Which Government Type is the form of government of Abanali?", "Which Government Type was the form of government of Abanali?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Suffield-cum-Everley> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Abanali> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
     "sentenceToSparqlParameterMapping" : {
       "$x" : "subjOfProp"
     },
@@ -462,9 +1507,9 @@
     "bindingType" : "COUNTRY",
     "returnType" : "GOVERNMENTTYPE",
     "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Thornbrough?", "Tell me the form of government of Thornbrough?", "What is the form of government of Thornbrough?", "What was the form of government of Thornbrough?", "Which Government Type is the form of government of Thornbrough?", "Which Government Type was the form of government of Thornbrough?" ],
+    "sentences" : [ "Give me the form of government of Abbalathi?", "Tell me the form of government of Abbalathi?", "What is the form of government of Abbalathi?", "What was the form of government of Abbalathi?", "Which Government Type is the form of government of Abbalathi?", "Which Government Type was the form of government of Abbalathi?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Thornbrough> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Abbalathi> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
     "sentenceToSparqlParameterMapping" : {
       "$x" : "subjOfProp"
     },
@@ -481,9 +1526,9 @@
     "bindingType" : "COUNTRY",
     "returnType" : "GOVERNMENTTYPE",
     "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Singkamas, Makati?", "Tell me the form of government of Singkamas, Makati?", "What is the form of government of Singkamas, Makati?", "What was the form of government of Singkamas, Makati?", "Which Government Type is the form of government of Singkamas, Makati?", "Which Government Type was the form of government of Singkamas, Makati?" ],
+    "sentences" : [ "Give me the form of government of Abbihal, Muddebihal?", "Tell me the form of government of Abbihal, Muddebihal?", "What is the form of government of Abbihal, Muddebihal?", "What was the form of government of Abbihal, Muddebihal?", "Which Government Type is the form of government of Abbihal, Muddebihal?", "Which Government Type was the form of government of Abbihal, Muddebihal?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Singkamas,_Makati> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Abbihal,_Muddebihal> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
     "sentenceToSparqlParameterMapping" : {
       "$x" : "subjOfProp"
     },
@@ -500,9 +1545,9 @@
     "bindingType" : "COUNTRY",
     "returnType" : "GOVERNMENTTYPE",
     "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Ciudad López Mateos?", "Tell me the form of government of Ciudad López Mateos?", "What is the form of government of Ciudad López Mateos?", "What was the form of government of Ciudad López Mateos?", "Which Government Type is the form of government of Ciudad López Mateos?", "Which Government Type was the form of government of Ciudad López Mateos?" ],
+    "sentences" : [ "Give me the form of government of Abbur?", "Tell me the form of government of Abbur?", "What is the form of government of Abbur?", "What was the form of government of Abbur?", "Which Government Type is the form of government of Abbur?", "Which Government Type was the form of government of Abbur?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Ciudad_López_Mateos> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Abbur> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
     "sentenceToSparqlParameterMapping" : {
       "$x" : "subjOfProp"
     },
@@ -519,9 +1564,9 @@
     "bindingType" : "COUNTRY",
     "returnType" : "GOVERNMENTTYPE",
     "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Gadarwara?", "Tell me the form of government of Gadarwara?", "What is the form of government of Gadarwara?", "What was the form of government of Gadarwara?", "Which Government Type is the form of government of Gadarwara?", "Which Government Type was the form of government of Gadarwara?" ],
+    "sentences" : [ "Give me the form of government of Abburu, Hunsur taluk?", "Tell me the form of government of Abburu, Hunsur taluk?", "What is the form of government of Abburu, Hunsur taluk?", "What was the form of government of Abburu, Hunsur taluk?", "Which Government Type is the form of government of Abburu, Hunsur taluk?", "Which Government Type was the form of government of Abburu, Hunsur taluk?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Gadarwara> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Abburu,_Hunsur_taluk> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
     "sentenceToSparqlParameterMapping" : {
       "$x" : "subjOfProp"
     },
@@ -538,9 +1583,9 @@
     "bindingType" : "COUNTRY",
     "returnType" : "GOVERNMENTTYPE",
     "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Ixtapaluca?", "Tell me the form of government of Ixtapaluca?", "What is the form of government of Ixtapaluca?", "What was the form of government of Ixtapaluca?", "Which Government Type is the form of government of Ixtapaluca?", "Which Government Type was the form of government of Ixtapaluca?" ],
+    "sentences" : [ "Give me the form of government of Achamatti?", "Tell me the form of government of Achamatti?", "What is the form of government of Achamatti?", "What was the form of government of Achamatti?", "Which Government Type is the form of government of Achamatti?", "Which Government Type was the form of government of Achamatti?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Ixtapaluca> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Achamatti> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
     "sentenceToSparqlParameterMapping" : {
       "$x" : "subjOfProp"
     },
@@ -557,9 +1602,9 @@
     "bindingType" : "COUNTRY",
     "returnType" : "GOVERNMENTTYPE",
     "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Jalostotitlán?", "Tell me the form of government of Jalostotitlán?", "What is the form of government of Jalostotitlán?", "What was the form of government of Jalostotitlán?", "Which Government Type is the form of government of Jalostotitlán?", "Which Government Type was the form of government of Jalostotitlán?" ],
+    "sentences" : [ "Give me the form of government of Achola?", "Tell me the form of government of Achola?", "What is the form of government of Achola?", "What was the form of government of Achola?", "Which Government Type is the form of government of Achola?", "Which Government Type was the form of government of Achola?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Jalostotitlán> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Achola> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
     "sentenceToSparqlParameterMapping" : {
       "$x" : "subjOfProp"
     },
@@ -576,9 +1621,9 @@
     "bindingType" : "COUNTRY",
     "returnType" : "GOVERNMENTTYPE",
     "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Kallissery?", "Tell me the form of government of Kallissery?", "What is the form of government of Kallissery?", "What was the form of government of Kallissery?", "Which Government Type is the form of government of Kallissery?", "Which Government Type was the form of government of Kallissery?" ],
+    "sentences" : [ "Give me the form of government of Adalatti?", "Tell me the form of government of Adalatti?", "What is the form of government of Adalatti?", "What was the form of government of Adalatti?", "Which Government Type is the form of government of Adalatti?", "Which Government Type was the form of government of Adalatti?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Kallissery> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Adalatti> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
     "sentenceToSparqlParameterMapping" : {
       "$x" : "subjOfProp"
     },
@@ -595,9 +1640,9 @@
     "bindingType" : "COUNTRY",
     "returnType" : "GOVERNMENTTYPE",
     "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Safavid dynasty?", "Tell me the form of government of Safavid dynasty?", "What is the form of government of Safavid dynasty?", "What was the form of government of Safavid dynasty?", "Which Government Type is the form of government of Safavid dynasty?", "Which Government Type was the form of government of Safavid dynasty?" ],
+    "sentences" : [ "Give me the form of government of Adargunchi?", "Tell me the form of government of Adargunchi?", "What is the form of government of Adargunchi?", "What was the form of government of Adargunchi?", "Which Government Type is the form of government of Adargunchi?", "Which Government Type was the form of government of Adargunchi?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Safavid_dynasty> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Adargunchi> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
     "sentenceToSparqlParameterMapping" : {
       "$x" : "subjOfProp"
     },
@@ -614,9 +1659,9 @@
     "bindingType" : "COUNTRY",
     "returnType" : "GOVERNMENTTYPE",
     "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Valle de Chalco?", "Tell me the form of government of Valle de Chalco?", "What is the form of government of Valle de Chalco?", "What was the form of government of Valle de Chalco?", "Which Government Type is the form of government of Valle de Chalco?", "Which Government Type was the form of government of Valle de Chalco?" ],
+    "sentences" : [ "Give me the form of government of Adibatti?", "Tell me the form of government of Adibatti?", "What is the form of government of Adibatti?", "What was the form of government of Adibatti?", "Which Government Type is the form of government of Adibatti?", "Which Government Type was the form of government of Adibatti?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Valle_de_Chalco> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Adibatti> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
     "sentenceToSparqlParameterMapping" : {
       "$x" : "subjOfProp"
     },
@@ -633,9 +1678,9 @@
     "bindingType" : "COUNTRY",
     "returnType" : "GOVERNMENTTYPE",
     "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Tanganyika?", "Tell me the form of government of Tanganyika?", "What is the form of government of Tanganyika?", "What was the form of government of Tanganyika?", "Which Government Type is the form of government of Tanganyika?", "Which Government Type was the form of government of Tanganyika?" ],
+    "sentences" : [ "Give me the form of government of Adnur?", "Tell me the form of government of Adnur?", "What is the form of government of Adnur?", "What was the form of government of Adnur?", "Which Government Type is the form of government of Adnur?", "Which Government Type was the form of government of Adnur?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Tanganyika> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Adnur> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
     "sentenceToSparqlParameterMapping" : {
       "$x" : "subjOfProp"
     },
@@ -652,9 +1697,9 @@
     "bindingType" : "COUNTRY",
     "returnType" : "GOVERNMENTTYPE",
     "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Provisional Government of Hawaii?", "Tell me the form of government of Provisional Government of Hawaii?", "What is the form of government of Provisional Government of Hawaii?", "What was the form of government of Provisional Government of Hawaii?", "Which Government Type is the form of government of Provisional Government of Hawaii?", "Which Government Type was the form of government of Provisional Government of Hawaii?" ],
+    "sentences" : [ "Give me the form of government of Adwadgi?", "Tell me the form of government of Adwadgi?", "What is the form of government of Adwadgi?", "What was the form of government of Adwadgi?", "Which Government Type is the form of government of Adwadgi?", "Which Government Type was the form of government of Adwadgi?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Provisional_Government_of_Hawaii> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Adwadgi> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
     "sentenceToSparqlParameterMapping" : {
       "$x" : "subjOfProp"
     },
@@ -671,9 +1716,9 @@
     "bindingType" : "COUNTRY",
     "returnType" : "GOVERNMENTTYPE",
     "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Clapham cum Newby?", "Tell me the form of government of Clapham cum Newby?", "What is the form of government of Clapham cum Newby?", "What was the form of government of Clapham cum Newby?", "Which Government Type is the form of government of Clapham cum Newby?", "Which Government Type was the form of government of Clapham cum Newby?" ],
+    "sentences" : [ "Give me the form of government of Agadi, Dharwad?", "Tell me the form of government of Agadi, Dharwad?", "What is the form of government of Agadi, Dharwad?", "What was the form of government of Agadi, Dharwad?", "Which Government Type is the form of government of Agadi, Dharwad?", "Which Government Type was the form of government of Agadi, Dharwad?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Clapham_cum_Newby> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Agadi,_Dharwad> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
     "sentenceToSparqlParameterMapping" : {
       "$x" : "subjOfProp"
     },
@@ -690,9 +1735,9 @@
     "bindingType" : "COUNTRY",
     "returnType" : "GOVERNMENTTYPE",
     "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Exelby, Leeming and Newton?", "Tell me the form of government of Exelby, Leeming and Newton?", "What is the form of government of Exelby, Leeming and Newton?", "What was the form of government of Exelby, Leeming and Newton?", "Which Government Type is the form of government of Exelby, Leeming and Newton?", "Which Government Type was the form of government of Exelby, Leeming and Newton?" ],
+    "sentences" : [ "Give me the form of government of Agasage?", "Tell me the form of government of Agasage?", "What is the form of government of Agasage?", "What was the form of government of Agasage?", "Which Government Type is the form of government of Agasage?", "Which Government Type was the form of government of Agasage?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Exelby,_Leeming_and_Newton> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Agasage> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
     "sentenceToSparqlParameterMapping" : {
       "$x" : "subjOfProp"
     },
@@ -709,9 +1754,9 @@
     "bindingType" : "COUNTRY",
     "returnType" : "GOVERNMENTTYPE",
     "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Hazlewood with Storiths?", "Tell me the form of government of Hazlewood with Storiths?", "What is the form of government of Hazlewood with Storiths?", "What was the form of government of Hazlewood with Storiths?", "Which Government Type is the form of government of Hazlewood with Storiths?", "Which Government Type was the form of government of Hazlewood with Storiths?" ],
+    "sentences" : [ "Give me the form of government of Agasanahalli (Dharwad)?", "Tell me the form of government of Agasanahalli (Dharwad)?", "What is the form of government of Agasanahalli (Dharwad)?", "What was the form of government of Agasanahalli (Dharwad)?", "Which Government Type is the form of government of Agasanahalli (Dharwad)?", "Which Government Type was the form of government of Agasanahalli (Dharwad)?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Hazlewood_with_Storiths> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Agasanahalli_(Dharwad)> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
     "sentenceToSparqlParameterMapping" : {
       "$x" : "subjOfProp"
     },
@@ -728,9 +1773,9 @@
     "bindingType" : "COUNTRY",
     "returnType" : "GOVERNMENTTYPE",
     "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Kettlewell with Starbotton?", "Tell me the form of government of Kettlewell with Starbotton?", "What is the form of government of Kettlewell with Starbotton?", "What was the form of government of Kettlewell with Starbotton?", "Which Government Type is the form of government of Kettlewell with Starbotton?", "Which Government Type was the form of government of Kettlewell with Starbotton?" ],
+    "sentences" : [ "Give me the form of government of Agastihal?", "Tell me the form of government of Agastihal?", "What is the form of government of Agastihal?", "What was the form of government of Agastihal?", "Which Government Type is the form of government of Agastihal?", "Which Government Type was the form of government of Agastihal?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Kettlewell_with_Starbotton> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Agastihal> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
     "sentenceToSparqlParameterMapping" : {
       "$x" : "subjOfProp"
     },
@@ -747,9 +1792,9 @@
     "bindingType" : "COUNTRY",
     "returnType" : "GOVERNMENTTYPE",
     "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Kirkby Fleetham with Fencote?", "Tell me the form of government of Kirkby Fleetham with Fencote?", "What is the form of government of Kirkby Fleetham with Fencote?", "What was the form of government of Kirkby Fleetham with Fencote?", "Which Government Type is the form of government of Kirkby Fleetham with Fencote?", "Which Government Type was the form of government of Kirkby Fleetham with Fencote?" ],
+    "sentences" : [ "Give me the form of government of Agnihal?", "Tell me the form of government of Agnihal?", "What is the form of government of Agnihal?", "What was the form of government of Agnihal?", "Which Government Type is the form of government of Agnihal?", "Which Government Type was the form of government of Agnihal?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Kirkby_Fleetham_with_Fencote> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Agnihal> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
     "sentenceToSparqlParameterMapping" : {
       "$x" : "subjOfProp"
     },
@@ -766,9 +1811,9 @@
     "bindingType" : "COUNTRY",
     "returnType" : "GOVERNMENTTYPE",
     "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Kirklington cum Upsland?", "Tell me the form of government of Kirklington cum Upsland?", "What is the form of government of Kirklington cum Upsland?", "What was the form of government of Kirklington cum Upsland?", "Which Government Type is the form of government of Kirklington cum Upsland?", "Which Government Type was the form of government of Kirklington cum Upsland?" ],
+    "sentences" : [ "Give me the form of government of Agthirth?", "Tell me the form of government of Agthirth?", "What is the form of government of Agthirth?", "What was the form of government of Agthirth?", "Which Government Type is the form of government of Agthirth?", "Which Government Type was the form of government of Agthirth?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Kirklington_cum_Upsland> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Agthirth> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
     "sentenceToSparqlParameterMapping" : {
       "$x" : "subjOfProp"
     },
@@ -785,9 +1830,9 @@
     "bindingType" : "COUNTRY",
     "returnType" : "GOVERNMENTTYPE",
     "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Malham Moor?", "Tell me the form of government of Malham Moor?", "What is the form of government of Malham Moor?", "What was the form of government of Malham Moor?", "Which Government Type is the form of government of Malham Moor?", "Which Government Type was the form of government of Malham Moor?" ],
+    "sentences" : [ "Give me the form of government of Aheri, Karnataka?", "Tell me the form of government of Aheri, Karnataka?", "What is the form of government of Aheri, Karnataka?", "What was the form of government of Aheri, Karnataka?", "Which Government Type is the form of government of Aheri, Karnataka?", "Which Government Type was the form of government of Aheri, Karnataka?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Malham_Moor> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Aheri,_Karnataka> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
     "sentenceToSparqlParameterMapping" : {
       "$x" : "subjOfProp"
     },
@@ -804,9 +1849,9 @@
     "bindingType" : "COUNTRY",
     "returnType" : "GOVERNMENTTYPE",
     "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Rand Grange?", "Tell me the form of government of Rand Grange?", "What is the form of government of Rand Grange?", "What was the form of government of Rand Grange?", "Which Government Type is the form of government of Rand Grange?", "Which Government Type was the form of government of Rand Grange?" ],
+    "sentences" : [ "Give me the form of government of Ahetti?", "Tell me the form of government of Ahetti?", "What is the form of government of Ahetti?", "What was the form of government of Ahetti?", "Which Government Type is the form of government of Ahetti?", "Which Government Type was the form of government of Ahetti?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Rand_Grange> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Ahetti> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
     "sentenceToSparqlParameterMapping" : {
       "$x" : "subjOfProp"
     },
@@ -823,9 +1868,9 @@
     "bindingType" : "COUNTRY",
     "returnType" : "GOVERNMENTTYPE",
     "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Scosthrop?", "Tell me the form of government of Scosthrop?", "What is the form of government of Scosthrop?", "What was the form of government of Scosthrop?", "Which Government Type is the form of government of Scosthrop?", "Which Government Type was the form of government of Scosthrop?" ],
+    "sentences" : [ "Give me the form of government of Ainapur, Shorapur?", "Tell me the form of government of Ainapur, Shorapur?", "What is the form of government of Ainapur, Shorapur?", "What was the form of government of Ainapur, Shorapur?", "Which Government Type is the form of government of Ainapur, Shorapur?", "Which Government Type was the form of government of Ainapur, Shorapur?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Scosthrop> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Ainapur,_Shorapur> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
     "sentenceToSparqlParameterMapping" : {
       "$x" : "subjOfProp"
     },
@@ -842,1054 +1887,9 @@
     "bindingType" : "COUNTRY",
     "returnType" : "GOVERNMENTTYPE",
     "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Sowerby-under-Cotcliffe?", "Tell me the form of government of Sowerby-under-Cotcliffe?", "What is the form of government of Sowerby-under-Cotcliffe?", "What was the form of government of Sowerby-under-Cotcliffe?", "Which Government Type is the form of government of Sowerby-under-Cotcliffe?", "Which Government Type was the form of government of Sowerby-under-Cotcliffe?" ],
+    "sentences" : [ "Give me the form of government of Ajur?", "Tell me the form of government of Ajur?", "What is the form of government of Ajur?", "What was the form of government of Ajur?", "Which Government Type is the form of government of Ajur?", "Which Government Type was the form of government of Ajur?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Sowerby-under-Cotcliffe> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "COUNTRY",
-    "returnType" : "GOVERNMENTTYPE",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Swainby with Allerthorpe?", "Tell me the form of government of Swainby with Allerthorpe?", "What is the form of government of Swainby with Allerthorpe?", "What was the form of government of Swainby with Allerthorpe?", "Which Government Type is the form of government of Swainby with Allerthorpe?", "Which Government Type was the form of government of Swainby with Allerthorpe?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Swainby_with_Allerthorpe> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "COUNTRY",
-    "returnType" : "GOVERNMENTTYPE",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Tecámac?", "Tell me the form of government of Tecámac?", "What is the form of government of Tecámac?", "What was the form of government of Tecámac?", "Which Government Type is the form of government of Tecámac?", "Which Government Type was the form of government of Tecámac?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Tecámac> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "COUNTRY",
-    "returnType" : "GOVERNMENTTYPE",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Wildon Grange?", "Tell me the form of government of Wildon Grange?", "What is the form of government of Wildon Grange?", "What was the form of government of Wildon Grange?", "Which Government Type is the form of government of Wildon Grange?", "Which Government Type was the form of government of Wildon Grange?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Wildon_Grange> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "COUNTRY",
-    "returnType" : "GOVERNMENTTYPE",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Winton, Stank and Hallikeld?", "Tell me the form of government of Winton, Stank and Hallikeld?", "What is the form of government of Winton, Stank and Hallikeld?", "What was the form of government of Winton, Stank and Hallikeld?", "Which Government Type is the form of government of Winton, Stank and Hallikeld?", "Which Government Type was the form of government of Winton, Stank and Hallikeld?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Winton,_Stank_and_Hallikeld> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "COUNTRY",
-    "returnType" : "GOVERNMENTTYPE",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Provisional Administration of South Ossetia?", "Tell me the form of government of Provisional Administration of South Ossetia?", "What is the form of government of Provisional Administration of South Ossetia?", "What was the form of government of Provisional Administration of South Ossetia?", "Which Government Type is the form of government of Provisional Administration of South Ossetia?", "Which Government Type was the form of government of Provisional Administration of South Ossetia?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Provisional_Administration_of_South_Ossetia> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "COUNTRY",
-    "returnType" : "GOVERNMENTTYPE",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Colony of Niger?", "Tell me the form of government of Colony of Niger?", "What is the form of government of Colony of Niger?", "What was the form of government of Colony of Niger?", "Which Government Type is the form of government of Colony of Niger?", "Which Government Type was the form of government of Colony of Niger?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Colony_of_Niger> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "COUNTRY",
-    "returnType" : "GOVERNMENTTYPE",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Republic of Noli?", "Tell me the form of government of Republic of Noli?", "What is the form of government of Republic of Noli?", "What was the form of government of Republic of Noli?", "Which Government Type is the form of government of Republic of Noli?", "Which Government Type was the form of government of Republic of Noli?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Republic_of_Noli> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "COUNTRY",
-    "returnType" : "GOVERNMENTTYPE",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of County of Álava?", "Tell me the form of government of County of Álava?", "What is the form of government of County of Álava?", "What was the form of government of County of Álava?", "Which Government Type is the form of government of County of Álava?", "Which Government Type was the form of government of County of Álava?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/County_of_Álava> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "COUNTRY",
-    "returnType" : "GOVERNMENTTYPE",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Ciudad de Nueva Cáceres?", "Tell me the form of government of Ciudad de Nueva Cáceres?", "What is the form of government of Ciudad de Nueva Cáceres?", "What was the form of government of Ciudad de Nueva Cáceres?", "Which Government Type is the form of government of Ciudad de Nueva Cáceres?", "Which Government Type was the form of government of Ciudad de Nueva Cáceres?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Ciudad_de_Nueva_Cáceres> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "COUNTRY",
-    "returnType" : "GOVERNMENTTYPE",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Egypt Eyalet?", "Tell me the form of government of Egypt Eyalet?", "What is the form of government of Egypt Eyalet?", "What was the form of government of Egypt Eyalet?", "Which Government Type is the form of government of Egypt Eyalet?", "Which Government Type was the form of government of Egypt Eyalet?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Egypt_Eyalet> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "COUNTRY",
-    "returnType" : "GOVERNMENTTYPE",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Harrington Park, New Jersey?", "Tell me the form of government of Harrington Park, New Jersey?", "What is the form of government of Harrington Park, New Jersey?", "What was the form of government of Harrington Park, New Jersey?", "Which Government Type is the form of government of Harrington Park, New Jersey?", "Which Government Type was the form of government of Harrington Park, New Jersey?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Harrington_Park,_New_Jersey> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "COUNTRY",
-    "returnType" : "GOVERNMENTTYPE",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Kingdom of Egypt?", "Tell me the form of government of Kingdom of Egypt?", "What is the form of government of Kingdom of Egypt?", "What was the form of government of Kingdom of Egypt?", "Which Government Type is the form of government of Kingdom of Egypt?", "Which Government Type was the form of government of Kingdom of Egypt?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Kingdom_of_Egypt> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "COUNTRY",
-    "returnType" : "GOVERNMENTTYPE",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Kingdom of Greece?", "Tell me the form of government of Kingdom of Greece?", "What is the form of government of Kingdom of Greece?", "What was the form of government of Kingdom of Greece?", "Which Government Type is the form of government of Kingdom of Greece?", "Which Government Type was the form of government of Kingdom of Greece?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Kingdom_of_Greece> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "COUNTRY",
-    "returnType" : "GOVERNMENTTYPE",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of San Fernando, Romblon?", "Tell me the form of government of San Fernando, Romblon?", "What is the form of government of San Fernando, Romblon?", "What was the form of government of San Fernando, Romblon?", "Which Government Type is the form of government of San Fernando, Romblon?", "Which Government Type was the form of government of San Fernando, Romblon?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/San_Fernando,_Romblon> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "COUNTRY",
-    "returnType" : "GOVERNMENTTYPE",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Azerbaijan Democratic Republic?", "Tell me the form of government of Azerbaijan Democratic Republic?", "What is the form of government of Azerbaijan Democratic Republic?", "What was the form of government of Azerbaijan Democratic Republic?", "Which Government Type is the form of government of Azerbaijan Democratic Republic?", "Which Government Type was the form of government of Azerbaijan Democratic Republic?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Azerbaijan_Democratic_Republic> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "COUNTRY",
-    "returnType" : "GOVERNMENTTYPE",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Regional District of Central Okanagan?", "Tell me the form of government of Regional District of Central Okanagan?", "What is the form of government of Regional District of Central Okanagan?", "What was the form of government of Regional District of Central Okanagan?", "Which Government Type is the form of government of Regional District of Central Okanagan?", "Which Government Type was the form of government of Regional District of Central Okanagan?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Regional_District_of_Central_Okanagan> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "COUNTRY",
-    "returnType" : "GOVERNMENTTYPE",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Balearic Islands?", "Tell me the form of government of Balearic Islands?", "What is the form of government of Balearic Islands?", "What was the form of government of Balearic Islands?", "Which Government Type is the form of government of Balearic Islands?", "Which Government Type was the form of government of Balearic Islands?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Balearic_Islands> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "COUNTRY",
-    "returnType" : "GOVERNMENTTYPE",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Clinton, Connecticut?", "Tell me the form of government of Clinton, Connecticut?", "What is the form of government of Clinton, Connecticut?", "What was the form of government of Clinton, Connecticut?", "Which Government Type is the form of government of Clinton, Connecticut?", "Which Government Type was the form of government of Clinton, Connecticut?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Clinton,_Connecticut> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "COUNTRY",
-    "returnType" : "GOVERNMENTTYPE",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Manzana, San Jose?", "Tell me the form of government of Manzana, San Jose?", "What is the form of government of Manzana, San Jose?", "What was the form of government of Manzana, San Jose?", "Which Government Type is the form of government of Manzana, San Jose?", "Which Government Type was the form of government of Manzana, San Jose?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Manzana,_San_Jose> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "COUNTRY",
-    "returnType" : "GOVERNMENTTYPE",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Upper Bicutan?", "Tell me the form of government of Upper Bicutan?", "What is the form of government of Upper Bicutan?", "What was the form of government of Upper Bicutan?", "Which Government Type is the form of government of Upper Bicutan?", "Which Government Type was the form of government of Upper Bicutan?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Upper_Bicutan> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "COUNTRY",
-    "returnType" : "GOVERNMENTTYPE",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Warsill?", "Tell me the form of government of Warsill?", "What is the form of government of Warsill?", "What was the form of government of Warsill?", "Which Government Type is the form of government of Warsill?", "Which Government Type was the form of government of Warsill?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Warsill> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "COUNTRY",
-    "returnType" : "GOVERNMENTTYPE",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Seludong?", "Tell me the form of government of Seludong?", "What is the form of government of Seludong?", "What was the form of government of Seludong?", "Which Government Type is the form of government of Seludong?", "Which Government Type was the form of government of Seludong?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Seludong> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "COUNTRY",
-    "returnType" : "GOVERNMENTTYPE",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of County of East Frisia?", "Tell me the form of government of County of East Frisia?", "What is the form of government of County of East Frisia?", "What was the form of government of County of East Frisia?", "Which Government Type is the form of government of County of East Frisia?", "Which Government Type was the form of government of County of East Frisia?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/County_of_East_Frisia> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "COUNTRY",
-    "returnType" : "GOVERNMENTTYPE",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Albania?", "Tell me the form of government of Albania?", "What is the form of government of Albania?", "What was the form of government of Albania?", "Which Government Type is the form of government of Albania?", "Which Government Type was the form of government of Albania?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Albania> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "COUNTRY",
-    "returnType" : "GOVERNMENTTYPE",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Andorra?", "Tell me the form of government of Andorra?", "What is the form of government of Andorra?", "What was the form of government of Andorra?", "Which Government Type is the form of government of Andorra?", "Which Government Type was the form of government of Andorra?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Andorra> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "COUNTRY",
-    "returnType" : "GOVERNMENTTYPE",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Anguilla?", "Tell me the form of government of Anguilla?", "What is the form of government of Anguilla?", "What was the form of government of Anguilla?", "Which Government Type is the form of government of Anguilla?", "Which Government Type was the form of government of Anguilla?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Anguilla> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "COUNTRY",
-    "returnType" : "GOVERNMENTTYPE",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Ann Arbor, Michigan?", "Tell me the form of government of Ann Arbor, Michigan?", "What is the form of government of Ann Arbor, Michigan?", "What was the form of government of Ann Arbor, Michigan?", "Which Government Type is the form of government of Ann Arbor, Michigan?", "Which Government Type was the form of government of Ann Arbor, Michigan?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Ann_Arbor,_Michigan> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "COUNTRY",
-    "returnType" : "GOVERNMENTTYPE",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Antigua and Barbuda?", "Tell me the form of government of Antigua and Barbuda?", "What is the form of government of Antigua and Barbuda?", "What was the form of government of Antigua and Barbuda?", "Which Government Type is the form of government of Antigua and Barbuda?", "Which Government Type was the form of government of Antigua and Barbuda?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Antigua_and_Barbuda> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "COUNTRY",
-    "returnType" : "GOVERNMENTTYPE",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Azad Kashmir?", "Tell me the form of government of Azad Kashmir?", "What is the form of government of Azad Kashmir?", "What was the form of government of Azad Kashmir?", "Which Government Type is the form of government of Azad Kashmir?", "Which Government Type was the form of government of Azad Kashmir?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Azad_Kashmir> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "COUNTRY",
-    "returnType" : "GOVERNMENTTYPE",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Azerbaijan?", "Tell me the form of government of Azerbaijan?", "What is the form of government of Azerbaijan?", "What was the form of government of Azerbaijan?", "Which Government Type is the form of government of Azerbaijan?", "Which Government Type was the form of government of Azerbaijan?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Azerbaijan> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "COUNTRY",
-    "returnType" : "GOVERNMENTTYPE",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Bermuda?", "Tell me the form of government of Bermuda?", "What is the form of government of Bermuda?", "What was the form of government of Bermuda?", "Which Government Type is the form of government of Bermuda?", "Which Government Type was the form of government of Bermuda?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Bermuda> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "COUNTRY",
-    "returnType" : "GOVERNMENTTYPE",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Bosnia and Herzegovina?", "Tell me the form of government of Bosnia and Herzegovina?", "What is the form of government of Bosnia and Herzegovina?", "What was the form of government of Bosnia and Herzegovina?", "Which Government Type is the form of government of Bosnia and Herzegovina?", "Which Government Type was the form of government of Bosnia and Herzegovina?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Bosnia_and_Herzegovina> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "COUNTRY",
-    "returnType" : "GOVERNMENTTYPE",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of British Virgin Islands?", "Tell me the form of government of British Virgin Islands?", "What is the form of government of British Virgin Islands?", "What was the form of government of British Virgin Islands?", "Which Government Type is the form of government of British Virgin Islands?", "Which Government Type was the form of government of British Virgin Islands?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/British_Virgin_Islands> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "COUNTRY",
-    "returnType" : "GOVERNMENTTYPE",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Cadillac, Michigan?", "Tell me the form of government of Cadillac, Michigan?", "What is the form of government of Cadillac, Michigan?", "What was the form of government of Cadillac, Michigan?", "Which Government Type is the form of government of Cadillac, Michigan?", "Which Government Type was the form of government of Cadillac, Michigan?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Cadillac,_Michigan> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "COUNTRY",
-    "returnType" : "GOVERNMENTTYPE",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Cayman Islands?", "Tell me the form of government of Cayman Islands?", "What is the form of government of Cayman Islands?", "What was the form of government of Cayman Islands?", "Which Government Type is the form of government of Cayman Islands?", "Which Government Type was the form of government of Cayman Islands?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Cayman_Islands> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "COUNTRY",
-    "returnType" : "GOVERNMENTTYPE",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Chad?", "Tell me the form of government of Chad?", "What is the form of government of Chad?", "What was the form of government of Chad?", "Which Government Type is the form of government of Chad?", "Which Government Type was the form of government of Chad?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Chad> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "COUNTRY",
-    "returnType" : "GOVERNMENTTYPE",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of County Mayo?", "Tell me the form of government of County Mayo?", "What is the form of government of County Mayo?", "What was the form of government of County Mayo?", "Which Government Type is the form of government of County Mayo?", "Which Government Type was the form of government of County Mayo?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/County_Mayo> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "COUNTRY",
-    "returnType" : "GOVERNMENTTYPE",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Czech Republic?", "Tell me the form of government of Czech Republic?", "What is the form of government of Czech Republic?", "What was the form of government of Czech Republic?", "Which Government Type is the form of government of Czech Republic?", "Which Government Type was the form of government of Czech Republic?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Czech_Republic> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "COUNTRY",
-    "returnType" : "GOVERNMENTTYPE",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Equatorial Guinea?", "Tell me the form of government of Equatorial Guinea?", "What is the form of government of Equatorial Guinea?", "What was the form of government of Equatorial Guinea?", "Which Government Type is the form of government of Equatorial Guinea?", "Which Government Type was the form of government of Equatorial Guinea?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Equatorial_Guinea> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "COUNTRY",
-    "returnType" : "GOVERNMENTTYPE",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Gabon?", "Tell me the form of government of Gabon?", "What is the form of government of Gabon?", "What was the form of government of Gabon?", "Which Government Type is the form of government of Gabon?", "Which Government Type was the form of government of Gabon?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Gabon> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "COUNTRY",
-    "returnType" : "GOVERNMENTTYPE",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Galicia (Spain)?", "Tell me the form of government of Galicia (Spain)?", "What is the form of government of Galicia (Spain)?", "What was the form of government of Galicia (Spain)?", "Which Government Type is the form of government of Galicia (Spain)?", "Which Government Type was the form of government of Galicia (Spain)?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Galicia_(Spain)> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "COUNTRY",
-    "returnType" : "GOVERNMENTTYPE",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Greece?", "Tell me the form of government of Greece?", "What is the form of government of Greece?", "What was the form of government of Greece?", "Which Government Type is the form of government of Greece?", "Which Government Type was the form of government of Greece?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Greece> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "COUNTRY",
-    "returnType" : "GOVERNMENTTYPE",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Greenland?", "Tell me the form of government of Greenland?", "What is the form of government of Greenland?", "What was the form of government of Greenland?", "Which Government Type is the form of government of Greenland?", "Which Government Type was the form of government of Greenland?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Greenland> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "COUNTRY",
-    "returnType" : "GOVERNMENTTYPE",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Hungary?", "Tell me the form of government of Hungary?", "What is the form of government of Hungary?", "What was the form of government of Hungary?", "Which Government Type is the form of government of Hungary?", "Which Government Type was the form of government of Hungary?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Hungary> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "COUNTRY",
-    "returnType" : "GOVERNMENTTYPE",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Huns?", "Tell me the form of government of Huns?", "What is the form of government of Huns?", "What was the form of government of Huns?", "Which Government Type is the form of government of Huns?", "Which Government Type was the form of government of Huns?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Huns> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "COUNTRY",
-    "returnType" : "GOVERNMENTTYPE",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Iceland?", "Tell me the form of government of Iceland?", "What is the form of government of Iceland?", "What was the form of government of Iceland?", "Which Government Type is the form of government of Iceland?", "Which Government Type was the form of government of Iceland?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Iceland> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "COUNTRY",
-    "returnType" : "GOVERNMENTTYPE",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of India?", "Tell me the form of government of India?", "What is the form of government of India?", "What was the form of government of India?", "Which Government Type is the form of government of India?", "Which Government Type was the form of government of India?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/India> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "COUNTRY",
-    "returnType" : "GOVERNMENTTYPE",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Iran?", "Tell me the form of government of Iran?", "What is the form of government of Iran?", "What was the form of government of Iran?", "Which Government Type is the form of government of Iran?", "Which Government Type was the form of government of Iran?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Iran> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "COUNTRY",
-    "returnType" : "GOVERNMENTTYPE",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Isle of Man?", "Tell me the form of government of Isle of Man?", "What is the form of government of Isle of Man?", "What was the form of government of Isle of Man?", "Which Government Type is the form of government of Isle of Man?", "Which Government Type was the form of government of Isle of Man?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Isle_of_Man> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "COUNTRY",
-    "returnType" : "GOVERNMENTTYPE",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Jackson, Michigan?", "Tell me the form of government of Jackson, Michigan?", "What is the form of government of Jackson, Michigan?", "What was the form of government of Jackson, Michigan?", "Which Government Type is the form of government of Jackson, Michigan?", "Which Government Type was the form of government of Jackson, Michigan?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Jackson,_Michigan> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "COUNTRY",
-    "returnType" : "GOVERNMENTTYPE",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Jamaica?", "Tell me the form of government of Jamaica?", "What is the form of government of Jamaica?", "What was the form of government of Jamaica?", "Which Government Type is the form of government of Jamaica?", "Which Government Type was the form of government of Jamaica?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Jamaica> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "COUNTRY",
-    "returnType" : "GOVERNMENTTYPE",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Lebanon?", "Tell me the form of government of Lebanon?", "What is the form of government of Lebanon?", "What was the form of government of Lebanon?", "Which Government Type is the form of government of Lebanon?", "Which Government Type was the form of government of Lebanon?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Lebanon> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "COUNTRY",
-    "returnType" : "GOVERNMENTTYPE",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Libya?", "Tell me the form of government of Libya?", "What is the form of government of Libya?", "What was the form of government of Libya?", "Which Government Type is the form of government of Libya?", "Which Government Type was the form of government of Libya?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Libya> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "COUNTRY",
-    "returnType" : "GOVERNMENTTYPE",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Liechtenstein?", "Tell me the form of government of Liechtenstein?", "What is the form of government of Liechtenstein?", "What was the form of government of Liechtenstein?", "Which Government Type is the form of government of Liechtenstein?", "Which Government Type was the form of government of Liechtenstein?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Liechtenstein> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "COUNTRY",
-    "returnType" : "GOVERNMENTTYPE",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the form of government of Marquette, Michigan?", "Tell me the form of government of Marquette, Michigan?", "What is the form of government of Marquette, Michigan?", "What was the form of government of Marquette, Michigan?", "Which Government Type is the form of government of Marquette, Michigan?", "Which Government Type was the form of government of Marquette, Michigan?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Marquette,_Michigan> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
+    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Ajur> <http://dbpedia.org/ontology/governmentType> ?objOfProp))\n",
     "sentenceToSparqlParameterMapping" : {
       "$x" : "subjOfProp"
     },

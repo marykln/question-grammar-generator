@@ -3,6 +3,1282 @@
     "id" : "1",
     "language" : "EN",
     "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "LOCATION",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the destination of ($x | THING_NP)?", "Tell me the destination of ($x | THING_NP)?", "What is the destination of ($x | THING_NP)?", "What was the destination of ($x | THING_NP)?", "Which populated place is the destination of ($x | THING_NP)?", "Which populated place was the destination of ($x | THING_NP)?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/destination> ?objOfProp))\n",
+    "sentenceToSparqlParameterMapping" : {
+      "$x" : "subjOfProp"
+    },
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "$x",
+      "bindingList" : [ {
+        "label" : "Silver City Airways",
+        "uri" : "http://dbpedia.org/resource/Silver_City_Airways"
+      }, {
+        "label" : "United Airlines",
+        "uri" : "http://dbpedia.org/resource/United_Airlines"
+      }, {
+        "label" : "Mali Air Express",
+        "uri" : "http://dbpedia.org/resource/Mali_Air_Express"
+      }, {
+        "label" : "Air Ecosse",
+        "uri" : "http://dbpedia.org/resource/Air_Ecosse"
+      }, {
+        "label" : "Cherry Red Airline",
+        "uri" : "http://dbpedia.org/resource/Cherry_Red_Airline"
+      }, {
+        "label" : "Dorado Wings",
+        "uri" : "http://dbpedia.org/resource/Dorado_Wings"
+      }, {
+        "label" : "European Air Transport Leipzig",
+        "uri" : "http://dbpedia.org/resource/European_Air_Transport_Leipzig"
+      }, {
+        "label" : "Misr Overseas Airways",
+        "uri" : "http://dbpedia.org/resource/Misr_Overseas_Airways"
+      }, {
+        "label" : "Parks College Airline",
+        "uri" : "http://dbpedia.org/resource/Parks_College_Airline"
+      }, {
+        "label" : "Alitalia",
+        "uri" : "http://dbpedia.org/resource/Alitalia"
+      }, {
+        "label" : "Belau Air",
+        "uri" : "http://dbpedia.org/resource/Belau_Air"
+      }, {
+        "label" : "East African Air",
+        "uri" : "http://dbpedia.org/resource/East_African_Air"
+      }, {
+        "label" : "Intra Airways",
+        "uri" : "http://dbpedia.org/resource/Intra_Airways"
+      }, {
+        "label" : "Ontario Central Airlines",
+        "uri" : "http://dbpedia.org/resource/Ontario_Central_Airlines"
+      }, {
+        "label" : "Air New Orleans",
+        "uri" : "http://dbpedia.org/resource/Air_New_Orleans"
+      }, {
+        "label" : "Rhodesia United Air Carriers",
+        "uri" : "http://dbpedia.org/resource/Rhodesia_United_Air_Carriers"
+      }, {
+        "label" : "Société Générale des Transports Aériens",
+        "uri" : "http://dbpedia.org/resource/Société_Générale_des_Transports_Aériens"
+      }, {
+        "label" : "Lamb Air",
+        "uri" : "http://dbpedia.org/resource/Lamb_Air"
+      }, {
+        "label" : "Canadian Affair",
+        "uri" : "http://dbpedia.org/resource/Canadian_Affair"
+      }, {
+        "label" : "TranStar Airlines",
+        "uri" : "http://dbpedia.org/resource/TranStar_Airlines"
+      }, {
+        "label" : "EasyJet",
+        "uri" : "http://dbpedia.org/resource/EasyJet"
+      }, {
+        "label" : "Arizona Airways",
+        "uri" : "http://dbpedia.org/resource/Arizona_Airways"
+      }, {
+        "label" : "Air Rhodesia",
+        "uri" : "http://dbpedia.org/resource/Air_Rhodesia"
+      }, {
+        "label" : "British Marine Air Navigation Co Ltd",
+        "uri" : "http://dbpedia.org/resource/British_Marine_Air_Navigation_Co_Ltd"
+      }, {
+        "label" : "EAS Europe Airlines",
+        "uri" : "http://dbpedia.org/resource/EAS_Europe_Airlines"
+      }, {
+        "label" : "Jet 24",
+        "uri" : "http://dbpedia.org/resource/Jet_24"
+      }, {
+        "label" : "Malert",
+        "uri" : "http://dbpedia.org/resource/Malert"
+      }, {
+        "label" : "Private Jet Expeditions",
+        "uri" : "http://dbpedia.org/resource/Private_Jet_Expeditions"
+      }, {
+        "label" : "Island Birds",
+        "uri" : "http://dbpedia.org/resource/Island_Birds"
+      }, {
+        "label" : "Inter European Airways",
+        "uri" : "http://dbpedia.org/resource/Inter_European_Airways"
+      }, {
+        "label" : "AeroLyon",
+        "uri" : "http://dbpedia.org/resource/AeroLyon"
+      }, {
+        "label" : "British Island Airways",
+        "uri" : "http://dbpedia.org/resource/British_Island_Airways"
+      }, {
+        "label" : "Hunting-Clan Air Transport",
+        "uri" : "http://dbpedia.org/resource/Hunting-Clan_Air_Transport"
+      }, {
+        "label" : "Kenmore Air",
+        "uri" : "http://dbpedia.org/resource/Kenmore_Air"
+      }, {
+        "label" : "New Zealand National Airways Corporation",
+        "uri" : "http://dbpedia.org/resource/New_Zealand_National_Airways_Corporation"
+      }, {
+        "label" : "Skyways Coach-Air Limited",
+        "uri" : "http://dbpedia.org/resource/Skyways_Coach-Air_Limited"
+      }, {
+        "label" : "Union de Transports Aériens",
+        "uri" : "http://dbpedia.org/resource/Union_de_Transports_Aériens"
+      }, {
+        "label" : "Ansett New Zealand",
+        "uri" : "http://dbpedia.org/resource/Ansett_New_Zealand"
+      }, {
+        "label" : "New York, Rio, and Buenos Aires Line",
+        "uri" : "http://dbpedia.org/resource/New_York,_Rio,_and_Buenos_Aires_Line"
+      }, {
+        "label" : "SCADTA",
+        "uri" : "http://dbpedia.org/resource/SCADTA"
+      }, {
+        "label" : "Mondair",
+        "uri" : "http://dbpedia.org/resource/Mondair"
+      }, {
+        "label" : "Morris Air",
+        "uri" : "http://dbpedia.org/resource/Morris_Air"
+      }, {
+        "label" : "Novair International Airways",
+        "uri" : "http://dbpedia.org/resource/Novair_International_Airways"
+      }, {
+        "label" : "British United Air Ferries",
+        "uri" : "http://dbpedia.org/resource/British_United_Air_Ferries"
+      }, {
+        "label" : "Cal Sierra Airlines",
+        "uri" : "http://dbpedia.org/resource/Cal_Sierra_Airlines"
+      }, {
+        "label" : "Malta Air Charter",
+        "uri" : "http://dbpedia.org/resource/Malta_Air_Charter"
+      }, {
+        "label" : "Palau Trans Pacific Airlines",
+        "uri" : "http://dbpedia.org/resource/Palau_Trans_Pacific_Airlines"
+      }, {
+        "label" : "Papua Indonesia Air System",
+        "uri" : "http://dbpedia.org/resource/Papua_Indonesia_Air_System"
+      }, {
+        "label" : "Ukrvozdukhput",
+        "uri" : "http://dbpedia.org/resource/Ukrvozdukhput"
+      }, {
+        "label" : "American Airlines",
+        "uri" : "http://dbpedia.org/resource/American_Airlines"
+      }, {
+        "label" : "British Airways",
+        "uri" : "http://dbpedia.org/resource/British_Airways"
+      }, {
+        "label" : "Copa Airlines",
+        "uri" : "http://dbpedia.org/resource/Copa_Airlines"
+      }, {
+        "label" : "Helios Airways",
+        "uri" : "http://dbpedia.org/resource/Helios_Airways"
+      }, {
+        "label" : "IndiGo",
+        "uri" : "http://dbpedia.org/resource/IndiGo"
+      }, {
+        "label" : "JetBlue",
+        "uri" : "http://dbpedia.org/resource/JetBlue"
+      }, {
+        "label" : "Monarch Airlines (1946–1950)",
+        "uri" : "http://dbpedia.org/resource/Monarch_Airlines_(1946–1950)"
+      }, {
+        "label" : "British United Airways",
+        "uri" : "http://dbpedia.org/resource/British_United_Airways"
+      }, {
+        "label" : "United Airways Limited",
+        "uri" : "http://dbpedia.org/resource/United_Airways_Limited"
+      }, {
+        "label" : "Aero Benin",
+        "uri" : "http://dbpedia.org/resource/Aero_Benin"
+      }, {
+        "label" : "Aeromás",
+        "uri" : "http://dbpedia.org/resource/Aeromás"
+      }, {
+        "label" : "Air Atlas Express",
+        "uri" : "http://dbpedia.org/resource/Air_Atlas_Express"
+      }, {
+        "label" : "Air Haïti",
+        "uri" : "http://dbpedia.org/resource/Air_Haïti"
+      }, {
+        "label" : "Air Littoral",
+        "uri" : "http://dbpedia.org/resource/Air_Littoral"
+      }, {
+        "label" : "Air Somalia",
+        "uri" : "http://dbpedia.org/resource/Air_Somalia"
+      }, {
+        "label" : "Ecoair International",
+        "uri" : "http://dbpedia.org/resource/Ecoair_International"
+      }, {
+        "label" : "Nordair",
+        "uri" : "http://dbpedia.org/resource/Nordair"
+      }, {
+        "label" : "Norfolk Jet Express",
+        "uri" : "http://dbpedia.org/resource/Norfolk_Jet_Express"
+      }, {
+        "label" : "Red Sea Air",
+        "uri" : "http://dbpedia.org/resource/Red_Sea_Air"
+      }, {
+        "label" : "Satgur Air Transport",
+        "uri" : "http://dbpedia.org/resource/Satgur_Air_Transport"
+      }, {
+        "label" : "Thai Pacific Airlines",
+        "uri" : "http://dbpedia.org/resource/Thai_Pacific_Airlines"
+      }, {
+        "label" : "Zimbabwe Express Airlines",
+        "uri" : "http://dbpedia.org/resource/Zimbabwe_Express_Airlines"
+      }, {
+        "label" : "Aviatour Air",
+        "uri" : "http://dbpedia.org/resource/Aviatour_Air"
+      }, {
+        "label" : "Yanda Airlines",
+        "uri" : "http://dbpedia.org/resource/Yanda_Airlines"
+      }, {
+        "label" : "Zapolyariye",
+        "uri" : "http://dbpedia.org/resource/Zapolyariye"
+      }, {
+        "label" : "Guy-America Airways",
+        "uri" : "http://dbpedia.org/resource/Guy-America_Airways"
+      }, {
+        "label" : "Marco Island Airways",
+        "uri" : "http://dbpedia.org/resource/Marco_Island_Airways"
+      }, {
+        "label" : "Los Angeles Airways",
+        "uri" : "http://dbpedia.org/resource/Los_Angeles_Airways"
+      }, {
+        "label" : "Líneas Aéreas Nacionales S. A. (Peru)",
+        "uri" : "http://dbpedia.org/resource/Líneas_Aéreas_Nacionales_S._A._(Peru)"
+      }, {
+        "label" : "DAP Helicópteros",
+        "uri" : "http://dbpedia.org/resource/DAP_Helicópteros"
+      }, {
+        "label" : "Air Sylhet",
+        "uri" : "http://dbpedia.org/resource/Air_Sylhet"
+      }, {
+        "label" : "Air West Coast",
+        "uri" : "http://dbpedia.org/resource/Air_West_Coast"
+      }, {
+        "label" : "Nicon Airways",
+        "uri" : "http://dbpedia.org/resource/Nicon_Airways"
+      }, {
+        "label" : "Superior Airways",
+        "uri" : "http://dbpedia.org/resource/Superior_Airways"
+      }, {
+        "label" : "Nesma Airlines",
+        "uri" : "http://dbpedia.org/resource/Nesma_Airlines"
+      }, {
+        "label" : "Ryan Air Services",
+        "uri" : "http://dbpedia.org/resource/Ryan_Air_Services"
+      }, {
+        "label" : "South Phoenix Airlines",
+        "uri" : "http://dbpedia.org/resource/South_Phoenix_Airlines"
+      }, {
+        "label" : "Deutsche Zeppelin Reederei",
+        "uri" : "http://dbpedia.org/resource/Deutsche_Zeppelin_Reederei"
+      }, {
+        "label" : "Glenorchy Air",
+        "uri" : "http://dbpedia.org/resource/Glenorchy_Air"
+      }, {
+        "label" : "CityFlyer Express",
+        "uri" : "http://dbpedia.org/resource/CityFlyer_Express"
+      }, {
+        "label" : "Eurodirect",
+        "uri" : "http://dbpedia.org/resource/Eurodirect"
+      }, {
+        "label" : "Flying Colours Airlines",
+        "uri" : "http://dbpedia.org/resource/Flying_Colours_Airlines"
+      }, {
+        "label" : "Powell Air",
+        "uri" : "http://dbpedia.org/resource/Powell_Air"
+      }, {
+        "label" : "Southwest Airlines",
+        "uri" : "http://dbpedia.org/resource/Southwest_Airlines"
+      }, {
+        "label" : "Aegean Airlines",
+        "uri" : "http://dbpedia.org/resource/Aegean_Airlines"
+      }, {
+        "label" : "Air Berlin",
+        "uri" : "http://dbpedia.org/resource/Air_Berlin"
+      }, {
+        "label" : "Air France",
+        "uri" : "http://dbpedia.org/resource/Air_France"
+      }, {
+        "label" : "Belair (airline)",
+        "uri" : "http://dbpedia.org/resource/Belair_(airline)"
+      }, {
+        "label" : "British European Airways",
+        "uri" : "http://dbpedia.org/resource/British_European_Airways"
+      }, {
+        "label" : "Cairo Aviation",
+        "uri" : "http://dbpedia.org/resource/Cairo_Aviation"
+      }, {
+        "label" : "Cal Air International",
+        "uri" : "http://dbpedia.org/resource/Cal_Air_International"
+      } ]
+    },
+    "combination" : false
+  }, {
+    "id" : "2",
+    "language" : "EN",
+    "type" : "NP",
+    "bindingType" : "THING",
+    "returnType" : "LOCATION",
+    "frameType" : "NPP",
+    "sentences" : [ "the destination of $x" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/destination> ?objOfProp))\n",
+    "sentenceToSparqlParameterMapping" : {
+      "$x" : "subjOfProp"
+    },
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "$x",
+      "bindingList" : [ {
+        "label" : "Silver City Airways",
+        "uri" : "http://dbpedia.org/resource/Silver_City_Airways"
+      }, {
+        "label" : "United Airlines",
+        "uri" : "http://dbpedia.org/resource/United_Airlines"
+      }, {
+        "label" : "Mali Air Express",
+        "uri" : "http://dbpedia.org/resource/Mali_Air_Express"
+      }, {
+        "label" : "Air Ecosse",
+        "uri" : "http://dbpedia.org/resource/Air_Ecosse"
+      }, {
+        "label" : "Cherry Red Airline",
+        "uri" : "http://dbpedia.org/resource/Cherry_Red_Airline"
+      }, {
+        "label" : "Dorado Wings",
+        "uri" : "http://dbpedia.org/resource/Dorado_Wings"
+      }, {
+        "label" : "European Air Transport Leipzig",
+        "uri" : "http://dbpedia.org/resource/European_Air_Transport_Leipzig"
+      }, {
+        "label" : "Misr Overseas Airways",
+        "uri" : "http://dbpedia.org/resource/Misr_Overseas_Airways"
+      }, {
+        "label" : "Parks College Airline",
+        "uri" : "http://dbpedia.org/resource/Parks_College_Airline"
+      }, {
+        "label" : "Alitalia",
+        "uri" : "http://dbpedia.org/resource/Alitalia"
+      }, {
+        "label" : "Belau Air",
+        "uri" : "http://dbpedia.org/resource/Belau_Air"
+      }, {
+        "label" : "East African Air",
+        "uri" : "http://dbpedia.org/resource/East_African_Air"
+      }, {
+        "label" : "Intra Airways",
+        "uri" : "http://dbpedia.org/resource/Intra_Airways"
+      }, {
+        "label" : "Ontario Central Airlines",
+        "uri" : "http://dbpedia.org/resource/Ontario_Central_Airlines"
+      }, {
+        "label" : "Air New Orleans",
+        "uri" : "http://dbpedia.org/resource/Air_New_Orleans"
+      }, {
+        "label" : "Rhodesia United Air Carriers",
+        "uri" : "http://dbpedia.org/resource/Rhodesia_United_Air_Carriers"
+      }, {
+        "label" : "Société Générale des Transports Aériens",
+        "uri" : "http://dbpedia.org/resource/Société_Générale_des_Transports_Aériens"
+      }, {
+        "label" : "Lamb Air",
+        "uri" : "http://dbpedia.org/resource/Lamb_Air"
+      }, {
+        "label" : "Canadian Affair",
+        "uri" : "http://dbpedia.org/resource/Canadian_Affair"
+      }, {
+        "label" : "TranStar Airlines",
+        "uri" : "http://dbpedia.org/resource/TranStar_Airlines"
+      }, {
+        "label" : "EasyJet",
+        "uri" : "http://dbpedia.org/resource/EasyJet"
+      }, {
+        "label" : "Arizona Airways",
+        "uri" : "http://dbpedia.org/resource/Arizona_Airways"
+      }, {
+        "label" : "Air Rhodesia",
+        "uri" : "http://dbpedia.org/resource/Air_Rhodesia"
+      }, {
+        "label" : "British Marine Air Navigation Co Ltd",
+        "uri" : "http://dbpedia.org/resource/British_Marine_Air_Navigation_Co_Ltd"
+      }, {
+        "label" : "EAS Europe Airlines",
+        "uri" : "http://dbpedia.org/resource/EAS_Europe_Airlines"
+      }, {
+        "label" : "Jet 24",
+        "uri" : "http://dbpedia.org/resource/Jet_24"
+      }, {
+        "label" : "Malert",
+        "uri" : "http://dbpedia.org/resource/Malert"
+      }, {
+        "label" : "Private Jet Expeditions",
+        "uri" : "http://dbpedia.org/resource/Private_Jet_Expeditions"
+      }, {
+        "label" : "Island Birds",
+        "uri" : "http://dbpedia.org/resource/Island_Birds"
+      }, {
+        "label" : "Inter European Airways",
+        "uri" : "http://dbpedia.org/resource/Inter_European_Airways"
+      }, {
+        "label" : "AeroLyon",
+        "uri" : "http://dbpedia.org/resource/AeroLyon"
+      }, {
+        "label" : "British Island Airways",
+        "uri" : "http://dbpedia.org/resource/British_Island_Airways"
+      }, {
+        "label" : "Hunting-Clan Air Transport",
+        "uri" : "http://dbpedia.org/resource/Hunting-Clan_Air_Transport"
+      }, {
+        "label" : "Kenmore Air",
+        "uri" : "http://dbpedia.org/resource/Kenmore_Air"
+      }, {
+        "label" : "New Zealand National Airways Corporation",
+        "uri" : "http://dbpedia.org/resource/New_Zealand_National_Airways_Corporation"
+      }, {
+        "label" : "Skyways Coach-Air Limited",
+        "uri" : "http://dbpedia.org/resource/Skyways_Coach-Air_Limited"
+      }, {
+        "label" : "Union de Transports Aériens",
+        "uri" : "http://dbpedia.org/resource/Union_de_Transports_Aériens"
+      }, {
+        "label" : "Ansett New Zealand",
+        "uri" : "http://dbpedia.org/resource/Ansett_New_Zealand"
+      }, {
+        "label" : "New York, Rio, and Buenos Aires Line",
+        "uri" : "http://dbpedia.org/resource/New_York,_Rio,_and_Buenos_Aires_Line"
+      }, {
+        "label" : "SCADTA",
+        "uri" : "http://dbpedia.org/resource/SCADTA"
+      }, {
+        "label" : "Mondair",
+        "uri" : "http://dbpedia.org/resource/Mondair"
+      }, {
+        "label" : "Morris Air",
+        "uri" : "http://dbpedia.org/resource/Morris_Air"
+      }, {
+        "label" : "Novair International Airways",
+        "uri" : "http://dbpedia.org/resource/Novair_International_Airways"
+      }, {
+        "label" : "British United Air Ferries",
+        "uri" : "http://dbpedia.org/resource/British_United_Air_Ferries"
+      }, {
+        "label" : "Cal Sierra Airlines",
+        "uri" : "http://dbpedia.org/resource/Cal_Sierra_Airlines"
+      }, {
+        "label" : "Malta Air Charter",
+        "uri" : "http://dbpedia.org/resource/Malta_Air_Charter"
+      }, {
+        "label" : "Palau Trans Pacific Airlines",
+        "uri" : "http://dbpedia.org/resource/Palau_Trans_Pacific_Airlines"
+      }, {
+        "label" : "Papua Indonesia Air System",
+        "uri" : "http://dbpedia.org/resource/Papua_Indonesia_Air_System"
+      }, {
+        "label" : "Ukrvozdukhput",
+        "uri" : "http://dbpedia.org/resource/Ukrvozdukhput"
+      }, {
+        "label" : "American Airlines",
+        "uri" : "http://dbpedia.org/resource/American_Airlines"
+      }, {
+        "label" : "British Airways",
+        "uri" : "http://dbpedia.org/resource/British_Airways"
+      }, {
+        "label" : "Copa Airlines",
+        "uri" : "http://dbpedia.org/resource/Copa_Airlines"
+      }, {
+        "label" : "Helios Airways",
+        "uri" : "http://dbpedia.org/resource/Helios_Airways"
+      }, {
+        "label" : "IndiGo",
+        "uri" : "http://dbpedia.org/resource/IndiGo"
+      }, {
+        "label" : "JetBlue",
+        "uri" : "http://dbpedia.org/resource/JetBlue"
+      }, {
+        "label" : "Monarch Airlines (1946–1950)",
+        "uri" : "http://dbpedia.org/resource/Monarch_Airlines_(1946–1950)"
+      }, {
+        "label" : "British United Airways",
+        "uri" : "http://dbpedia.org/resource/British_United_Airways"
+      }, {
+        "label" : "United Airways Limited",
+        "uri" : "http://dbpedia.org/resource/United_Airways_Limited"
+      }, {
+        "label" : "Aero Benin",
+        "uri" : "http://dbpedia.org/resource/Aero_Benin"
+      }, {
+        "label" : "Aeromás",
+        "uri" : "http://dbpedia.org/resource/Aeromás"
+      }, {
+        "label" : "Air Atlas Express",
+        "uri" : "http://dbpedia.org/resource/Air_Atlas_Express"
+      }, {
+        "label" : "Air Haïti",
+        "uri" : "http://dbpedia.org/resource/Air_Haïti"
+      }, {
+        "label" : "Air Littoral",
+        "uri" : "http://dbpedia.org/resource/Air_Littoral"
+      }, {
+        "label" : "Air Somalia",
+        "uri" : "http://dbpedia.org/resource/Air_Somalia"
+      }, {
+        "label" : "Ecoair International",
+        "uri" : "http://dbpedia.org/resource/Ecoair_International"
+      }, {
+        "label" : "Nordair",
+        "uri" : "http://dbpedia.org/resource/Nordair"
+      }, {
+        "label" : "Norfolk Jet Express",
+        "uri" : "http://dbpedia.org/resource/Norfolk_Jet_Express"
+      }, {
+        "label" : "Red Sea Air",
+        "uri" : "http://dbpedia.org/resource/Red_Sea_Air"
+      }, {
+        "label" : "Satgur Air Transport",
+        "uri" : "http://dbpedia.org/resource/Satgur_Air_Transport"
+      }, {
+        "label" : "Thai Pacific Airlines",
+        "uri" : "http://dbpedia.org/resource/Thai_Pacific_Airlines"
+      }, {
+        "label" : "Zimbabwe Express Airlines",
+        "uri" : "http://dbpedia.org/resource/Zimbabwe_Express_Airlines"
+      }, {
+        "label" : "Aviatour Air",
+        "uri" : "http://dbpedia.org/resource/Aviatour_Air"
+      }, {
+        "label" : "Yanda Airlines",
+        "uri" : "http://dbpedia.org/resource/Yanda_Airlines"
+      }, {
+        "label" : "Zapolyariye",
+        "uri" : "http://dbpedia.org/resource/Zapolyariye"
+      }, {
+        "label" : "Guy-America Airways",
+        "uri" : "http://dbpedia.org/resource/Guy-America_Airways"
+      }, {
+        "label" : "Marco Island Airways",
+        "uri" : "http://dbpedia.org/resource/Marco_Island_Airways"
+      }, {
+        "label" : "Los Angeles Airways",
+        "uri" : "http://dbpedia.org/resource/Los_Angeles_Airways"
+      }, {
+        "label" : "Líneas Aéreas Nacionales S. A. (Peru)",
+        "uri" : "http://dbpedia.org/resource/Líneas_Aéreas_Nacionales_S._A._(Peru)"
+      }, {
+        "label" : "DAP Helicópteros",
+        "uri" : "http://dbpedia.org/resource/DAP_Helicópteros"
+      }, {
+        "label" : "Air Sylhet",
+        "uri" : "http://dbpedia.org/resource/Air_Sylhet"
+      }, {
+        "label" : "Air West Coast",
+        "uri" : "http://dbpedia.org/resource/Air_West_Coast"
+      }, {
+        "label" : "Nicon Airways",
+        "uri" : "http://dbpedia.org/resource/Nicon_Airways"
+      }, {
+        "label" : "Superior Airways",
+        "uri" : "http://dbpedia.org/resource/Superior_Airways"
+      }, {
+        "label" : "Nesma Airlines",
+        "uri" : "http://dbpedia.org/resource/Nesma_Airlines"
+      }, {
+        "label" : "Ryan Air Services",
+        "uri" : "http://dbpedia.org/resource/Ryan_Air_Services"
+      }, {
+        "label" : "South Phoenix Airlines",
+        "uri" : "http://dbpedia.org/resource/South_Phoenix_Airlines"
+      }, {
+        "label" : "Deutsche Zeppelin Reederei",
+        "uri" : "http://dbpedia.org/resource/Deutsche_Zeppelin_Reederei"
+      }, {
+        "label" : "Glenorchy Air",
+        "uri" : "http://dbpedia.org/resource/Glenorchy_Air"
+      }, {
+        "label" : "CityFlyer Express",
+        "uri" : "http://dbpedia.org/resource/CityFlyer_Express"
+      }, {
+        "label" : "Eurodirect",
+        "uri" : "http://dbpedia.org/resource/Eurodirect"
+      }, {
+        "label" : "Flying Colours Airlines",
+        "uri" : "http://dbpedia.org/resource/Flying_Colours_Airlines"
+      }, {
+        "label" : "Powell Air",
+        "uri" : "http://dbpedia.org/resource/Powell_Air"
+      }, {
+        "label" : "Southwest Airlines",
+        "uri" : "http://dbpedia.org/resource/Southwest_Airlines"
+      }, {
+        "label" : "Aegean Airlines",
+        "uri" : "http://dbpedia.org/resource/Aegean_Airlines"
+      }, {
+        "label" : "Air Berlin",
+        "uri" : "http://dbpedia.org/resource/Air_Berlin"
+      }, {
+        "label" : "Air France",
+        "uri" : "http://dbpedia.org/resource/Air_France"
+      }, {
+        "label" : "Belair (airline)",
+        "uri" : "http://dbpedia.org/resource/Belair_(airline)"
+      }, {
+        "label" : "British European Airways",
+        "uri" : "http://dbpedia.org/resource/British_European_Airways"
+      }, {
+        "label" : "Cairo Aviation",
+        "uri" : "http://dbpedia.org/resource/Cairo_Aviation"
+      }, {
+        "label" : "Cal Air International",
+        "uri" : "http://dbpedia.org/resource/Cal_Air_International"
+      } ]
+    },
+    "combination" : false
+  }, {
+    "id" : "3",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "LOCATION",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the destination of ($x | THING_NP)?", "Tell me the destination of ($x | THING_NP)?", "What is the destination of ($x | THING_NP)?", "What was the destination of ($x | THING_NP)?", "Which populated place is the destination of ($x | THING_NP)?", "Which populated place was the destination of ($x | THING_NP)?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/destination> ?objOfProp))\n",
+    "sentenceToSparqlParameterMapping" : {
+      "$x" : "subjOfProp"
+    },
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "$x",
+      "bindingList" : [ {
+        "label" : "Silver City Airways",
+        "uri" : "http://dbpedia.org/resource/Silver_City_Airways"
+      }, {
+        "label" : "United Airlines",
+        "uri" : "http://dbpedia.org/resource/United_Airlines"
+      }, {
+        "label" : "Mali Air Express",
+        "uri" : "http://dbpedia.org/resource/Mali_Air_Express"
+      }, {
+        "label" : "Air Ecosse",
+        "uri" : "http://dbpedia.org/resource/Air_Ecosse"
+      }, {
+        "label" : "Cherry Red Airline",
+        "uri" : "http://dbpedia.org/resource/Cherry_Red_Airline"
+      }, {
+        "label" : "Dorado Wings",
+        "uri" : "http://dbpedia.org/resource/Dorado_Wings"
+      }, {
+        "label" : "European Air Transport Leipzig",
+        "uri" : "http://dbpedia.org/resource/European_Air_Transport_Leipzig"
+      }, {
+        "label" : "Misr Overseas Airways",
+        "uri" : "http://dbpedia.org/resource/Misr_Overseas_Airways"
+      }, {
+        "label" : "Parks College Airline",
+        "uri" : "http://dbpedia.org/resource/Parks_College_Airline"
+      }, {
+        "label" : "Alitalia",
+        "uri" : "http://dbpedia.org/resource/Alitalia"
+      }, {
+        "label" : "Belau Air",
+        "uri" : "http://dbpedia.org/resource/Belau_Air"
+      }, {
+        "label" : "East African Air",
+        "uri" : "http://dbpedia.org/resource/East_African_Air"
+      }, {
+        "label" : "Intra Airways",
+        "uri" : "http://dbpedia.org/resource/Intra_Airways"
+      }, {
+        "label" : "Ontario Central Airlines",
+        "uri" : "http://dbpedia.org/resource/Ontario_Central_Airlines"
+      }, {
+        "label" : "Air New Orleans",
+        "uri" : "http://dbpedia.org/resource/Air_New_Orleans"
+      }, {
+        "label" : "Rhodesia United Air Carriers",
+        "uri" : "http://dbpedia.org/resource/Rhodesia_United_Air_Carriers"
+      }, {
+        "label" : "Société Générale des Transports Aériens",
+        "uri" : "http://dbpedia.org/resource/Société_Générale_des_Transports_Aériens"
+      }, {
+        "label" : "Lamb Air",
+        "uri" : "http://dbpedia.org/resource/Lamb_Air"
+      }, {
+        "label" : "Canadian Affair",
+        "uri" : "http://dbpedia.org/resource/Canadian_Affair"
+      }, {
+        "label" : "TranStar Airlines",
+        "uri" : "http://dbpedia.org/resource/TranStar_Airlines"
+      }, {
+        "label" : "EasyJet",
+        "uri" : "http://dbpedia.org/resource/EasyJet"
+      }, {
+        "label" : "Arizona Airways",
+        "uri" : "http://dbpedia.org/resource/Arizona_Airways"
+      }, {
+        "label" : "Air Rhodesia",
+        "uri" : "http://dbpedia.org/resource/Air_Rhodesia"
+      }, {
+        "label" : "British Marine Air Navigation Co Ltd",
+        "uri" : "http://dbpedia.org/resource/British_Marine_Air_Navigation_Co_Ltd"
+      }, {
+        "label" : "EAS Europe Airlines",
+        "uri" : "http://dbpedia.org/resource/EAS_Europe_Airlines"
+      }, {
+        "label" : "Jet 24",
+        "uri" : "http://dbpedia.org/resource/Jet_24"
+      }, {
+        "label" : "Malert",
+        "uri" : "http://dbpedia.org/resource/Malert"
+      }, {
+        "label" : "Private Jet Expeditions",
+        "uri" : "http://dbpedia.org/resource/Private_Jet_Expeditions"
+      }, {
+        "label" : "Island Birds",
+        "uri" : "http://dbpedia.org/resource/Island_Birds"
+      }, {
+        "label" : "Inter European Airways",
+        "uri" : "http://dbpedia.org/resource/Inter_European_Airways"
+      }, {
+        "label" : "AeroLyon",
+        "uri" : "http://dbpedia.org/resource/AeroLyon"
+      }, {
+        "label" : "British Island Airways",
+        "uri" : "http://dbpedia.org/resource/British_Island_Airways"
+      }, {
+        "label" : "Hunting-Clan Air Transport",
+        "uri" : "http://dbpedia.org/resource/Hunting-Clan_Air_Transport"
+      }, {
+        "label" : "Kenmore Air",
+        "uri" : "http://dbpedia.org/resource/Kenmore_Air"
+      }, {
+        "label" : "New Zealand National Airways Corporation",
+        "uri" : "http://dbpedia.org/resource/New_Zealand_National_Airways_Corporation"
+      }, {
+        "label" : "Skyways Coach-Air Limited",
+        "uri" : "http://dbpedia.org/resource/Skyways_Coach-Air_Limited"
+      }, {
+        "label" : "Union de Transports Aériens",
+        "uri" : "http://dbpedia.org/resource/Union_de_Transports_Aériens"
+      }, {
+        "label" : "Ansett New Zealand",
+        "uri" : "http://dbpedia.org/resource/Ansett_New_Zealand"
+      }, {
+        "label" : "New York, Rio, and Buenos Aires Line",
+        "uri" : "http://dbpedia.org/resource/New_York,_Rio,_and_Buenos_Aires_Line"
+      }, {
+        "label" : "SCADTA",
+        "uri" : "http://dbpedia.org/resource/SCADTA"
+      }, {
+        "label" : "Mondair",
+        "uri" : "http://dbpedia.org/resource/Mondair"
+      }, {
+        "label" : "Morris Air",
+        "uri" : "http://dbpedia.org/resource/Morris_Air"
+      }, {
+        "label" : "Novair International Airways",
+        "uri" : "http://dbpedia.org/resource/Novair_International_Airways"
+      }, {
+        "label" : "British United Air Ferries",
+        "uri" : "http://dbpedia.org/resource/British_United_Air_Ferries"
+      }, {
+        "label" : "Cal Sierra Airlines",
+        "uri" : "http://dbpedia.org/resource/Cal_Sierra_Airlines"
+      }, {
+        "label" : "Malta Air Charter",
+        "uri" : "http://dbpedia.org/resource/Malta_Air_Charter"
+      }, {
+        "label" : "Palau Trans Pacific Airlines",
+        "uri" : "http://dbpedia.org/resource/Palau_Trans_Pacific_Airlines"
+      }, {
+        "label" : "Papua Indonesia Air System",
+        "uri" : "http://dbpedia.org/resource/Papua_Indonesia_Air_System"
+      }, {
+        "label" : "Ukrvozdukhput",
+        "uri" : "http://dbpedia.org/resource/Ukrvozdukhput"
+      }, {
+        "label" : "American Airlines",
+        "uri" : "http://dbpedia.org/resource/American_Airlines"
+      }, {
+        "label" : "British Airways",
+        "uri" : "http://dbpedia.org/resource/British_Airways"
+      }, {
+        "label" : "Copa Airlines",
+        "uri" : "http://dbpedia.org/resource/Copa_Airlines"
+      }, {
+        "label" : "Helios Airways",
+        "uri" : "http://dbpedia.org/resource/Helios_Airways"
+      }, {
+        "label" : "IndiGo",
+        "uri" : "http://dbpedia.org/resource/IndiGo"
+      }, {
+        "label" : "JetBlue",
+        "uri" : "http://dbpedia.org/resource/JetBlue"
+      }, {
+        "label" : "Monarch Airlines (1946–1950)",
+        "uri" : "http://dbpedia.org/resource/Monarch_Airlines_(1946–1950)"
+      }, {
+        "label" : "British United Airways",
+        "uri" : "http://dbpedia.org/resource/British_United_Airways"
+      }, {
+        "label" : "United Airways Limited",
+        "uri" : "http://dbpedia.org/resource/United_Airways_Limited"
+      }, {
+        "label" : "Aero Benin",
+        "uri" : "http://dbpedia.org/resource/Aero_Benin"
+      }, {
+        "label" : "Aeromás",
+        "uri" : "http://dbpedia.org/resource/Aeromás"
+      }, {
+        "label" : "Air Atlas Express",
+        "uri" : "http://dbpedia.org/resource/Air_Atlas_Express"
+      }, {
+        "label" : "Air Haïti",
+        "uri" : "http://dbpedia.org/resource/Air_Haïti"
+      }, {
+        "label" : "Air Littoral",
+        "uri" : "http://dbpedia.org/resource/Air_Littoral"
+      }, {
+        "label" : "Air Somalia",
+        "uri" : "http://dbpedia.org/resource/Air_Somalia"
+      }, {
+        "label" : "Ecoair International",
+        "uri" : "http://dbpedia.org/resource/Ecoair_International"
+      }, {
+        "label" : "Nordair",
+        "uri" : "http://dbpedia.org/resource/Nordair"
+      }, {
+        "label" : "Norfolk Jet Express",
+        "uri" : "http://dbpedia.org/resource/Norfolk_Jet_Express"
+      }, {
+        "label" : "Red Sea Air",
+        "uri" : "http://dbpedia.org/resource/Red_Sea_Air"
+      }, {
+        "label" : "Satgur Air Transport",
+        "uri" : "http://dbpedia.org/resource/Satgur_Air_Transport"
+      }, {
+        "label" : "Thai Pacific Airlines",
+        "uri" : "http://dbpedia.org/resource/Thai_Pacific_Airlines"
+      }, {
+        "label" : "Zimbabwe Express Airlines",
+        "uri" : "http://dbpedia.org/resource/Zimbabwe_Express_Airlines"
+      }, {
+        "label" : "Aviatour Air",
+        "uri" : "http://dbpedia.org/resource/Aviatour_Air"
+      }, {
+        "label" : "Yanda Airlines",
+        "uri" : "http://dbpedia.org/resource/Yanda_Airlines"
+      }, {
+        "label" : "Zapolyariye",
+        "uri" : "http://dbpedia.org/resource/Zapolyariye"
+      }, {
+        "label" : "Guy-America Airways",
+        "uri" : "http://dbpedia.org/resource/Guy-America_Airways"
+      }, {
+        "label" : "Marco Island Airways",
+        "uri" : "http://dbpedia.org/resource/Marco_Island_Airways"
+      }, {
+        "label" : "Los Angeles Airways",
+        "uri" : "http://dbpedia.org/resource/Los_Angeles_Airways"
+      }, {
+        "label" : "Líneas Aéreas Nacionales S. A. (Peru)",
+        "uri" : "http://dbpedia.org/resource/Líneas_Aéreas_Nacionales_S._A._(Peru)"
+      }, {
+        "label" : "DAP Helicópteros",
+        "uri" : "http://dbpedia.org/resource/DAP_Helicópteros"
+      }, {
+        "label" : "Air Sylhet",
+        "uri" : "http://dbpedia.org/resource/Air_Sylhet"
+      }, {
+        "label" : "Air West Coast",
+        "uri" : "http://dbpedia.org/resource/Air_West_Coast"
+      }, {
+        "label" : "Nicon Airways",
+        "uri" : "http://dbpedia.org/resource/Nicon_Airways"
+      }, {
+        "label" : "Superior Airways",
+        "uri" : "http://dbpedia.org/resource/Superior_Airways"
+      }, {
+        "label" : "Nesma Airlines",
+        "uri" : "http://dbpedia.org/resource/Nesma_Airlines"
+      }, {
+        "label" : "Ryan Air Services",
+        "uri" : "http://dbpedia.org/resource/Ryan_Air_Services"
+      }, {
+        "label" : "South Phoenix Airlines",
+        "uri" : "http://dbpedia.org/resource/South_Phoenix_Airlines"
+      }, {
+        "label" : "Deutsche Zeppelin Reederei",
+        "uri" : "http://dbpedia.org/resource/Deutsche_Zeppelin_Reederei"
+      }, {
+        "label" : "Glenorchy Air",
+        "uri" : "http://dbpedia.org/resource/Glenorchy_Air"
+      }, {
+        "label" : "CityFlyer Express",
+        "uri" : "http://dbpedia.org/resource/CityFlyer_Express"
+      }, {
+        "label" : "Eurodirect",
+        "uri" : "http://dbpedia.org/resource/Eurodirect"
+      }, {
+        "label" : "Flying Colours Airlines",
+        "uri" : "http://dbpedia.org/resource/Flying_Colours_Airlines"
+      }, {
+        "label" : "Powell Air",
+        "uri" : "http://dbpedia.org/resource/Powell_Air"
+      }, {
+        "label" : "Southwest Airlines",
+        "uri" : "http://dbpedia.org/resource/Southwest_Airlines"
+      }, {
+        "label" : "Aegean Airlines",
+        "uri" : "http://dbpedia.org/resource/Aegean_Airlines"
+      }, {
+        "label" : "Air Berlin",
+        "uri" : "http://dbpedia.org/resource/Air_Berlin"
+      }, {
+        "label" : "Air France",
+        "uri" : "http://dbpedia.org/resource/Air_France"
+      }, {
+        "label" : "Belair (airline)",
+        "uri" : "http://dbpedia.org/resource/Belair_(airline)"
+      }, {
+        "label" : "British European Airways",
+        "uri" : "http://dbpedia.org/resource/British_European_Airways"
+      }, {
+        "label" : "Cairo Aviation",
+        "uri" : "http://dbpedia.org/resource/Cairo_Aviation"
+      }, {
+        "label" : "Cal Air International",
+        "uri" : "http://dbpedia.org/resource/Cal_Air_International"
+      } ]
+    },
+    "combination" : false
+  }, {
+    "id" : "4",
+    "language" : "EN",
+    "type" : "NP",
+    "bindingType" : "THING",
+    "returnType" : "LOCATION",
+    "frameType" : "NPP",
+    "sentences" : [ "the destination of $x" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/destination> ?objOfProp))\n",
+    "sentenceToSparqlParameterMapping" : {
+      "$x" : "subjOfProp"
+    },
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "$x",
+      "bindingList" : [ {
+        "label" : "Silver City Airways",
+        "uri" : "http://dbpedia.org/resource/Silver_City_Airways"
+      }, {
+        "label" : "United Airlines",
+        "uri" : "http://dbpedia.org/resource/United_Airlines"
+      }, {
+        "label" : "Mali Air Express",
+        "uri" : "http://dbpedia.org/resource/Mali_Air_Express"
+      }, {
+        "label" : "Air Ecosse",
+        "uri" : "http://dbpedia.org/resource/Air_Ecosse"
+      }, {
+        "label" : "Cherry Red Airline",
+        "uri" : "http://dbpedia.org/resource/Cherry_Red_Airline"
+      }, {
+        "label" : "Dorado Wings",
+        "uri" : "http://dbpedia.org/resource/Dorado_Wings"
+      }, {
+        "label" : "European Air Transport Leipzig",
+        "uri" : "http://dbpedia.org/resource/European_Air_Transport_Leipzig"
+      }, {
+        "label" : "Misr Overseas Airways",
+        "uri" : "http://dbpedia.org/resource/Misr_Overseas_Airways"
+      }, {
+        "label" : "Parks College Airline",
+        "uri" : "http://dbpedia.org/resource/Parks_College_Airline"
+      }, {
+        "label" : "Alitalia",
+        "uri" : "http://dbpedia.org/resource/Alitalia"
+      }, {
+        "label" : "Belau Air",
+        "uri" : "http://dbpedia.org/resource/Belau_Air"
+      }, {
+        "label" : "East African Air",
+        "uri" : "http://dbpedia.org/resource/East_African_Air"
+      }, {
+        "label" : "Intra Airways",
+        "uri" : "http://dbpedia.org/resource/Intra_Airways"
+      }, {
+        "label" : "Ontario Central Airlines",
+        "uri" : "http://dbpedia.org/resource/Ontario_Central_Airlines"
+      }, {
+        "label" : "Air New Orleans",
+        "uri" : "http://dbpedia.org/resource/Air_New_Orleans"
+      }, {
+        "label" : "Rhodesia United Air Carriers",
+        "uri" : "http://dbpedia.org/resource/Rhodesia_United_Air_Carriers"
+      }, {
+        "label" : "Société Générale des Transports Aériens",
+        "uri" : "http://dbpedia.org/resource/Société_Générale_des_Transports_Aériens"
+      }, {
+        "label" : "Lamb Air",
+        "uri" : "http://dbpedia.org/resource/Lamb_Air"
+      }, {
+        "label" : "Canadian Affair",
+        "uri" : "http://dbpedia.org/resource/Canadian_Affair"
+      }, {
+        "label" : "TranStar Airlines",
+        "uri" : "http://dbpedia.org/resource/TranStar_Airlines"
+      }, {
+        "label" : "EasyJet",
+        "uri" : "http://dbpedia.org/resource/EasyJet"
+      }, {
+        "label" : "Arizona Airways",
+        "uri" : "http://dbpedia.org/resource/Arizona_Airways"
+      }, {
+        "label" : "Air Rhodesia",
+        "uri" : "http://dbpedia.org/resource/Air_Rhodesia"
+      }, {
+        "label" : "British Marine Air Navigation Co Ltd",
+        "uri" : "http://dbpedia.org/resource/British_Marine_Air_Navigation_Co_Ltd"
+      }, {
+        "label" : "EAS Europe Airlines",
+        "uri" : "http://dbpedia.org/resource/EAS_Europe_Airlines"
+      }, {
+        "label" : "Jet 24",
+        "uri" : "http://dbpedia.org/resource/Jet_24"
+      }, {
+        "label" : "Malert",
+        "uri" : "http://dbpedia.org/resource/Malert"
+      }, {
+        "label" : "Private Jet Expeditions",
+        "uri" : "http://dbpedia.org/resource/Private_Jet_Expeditions"
+      }, {
+        "label" : "Island Birds",
+        "uri" : "http://dbpedia.org/resource/Island_Birds"
+      }, {
+        "label" : "Inter European Airways",
+        "uri" : "http://dbpedia.org/resource/Inter_European_Airways"
+      }, {
+        "label" : "AeroLyon",
+        "uri" : "http://dbpedia.org/resource/AeroLyon"
+      }, {
+        "label" : "British Island Airways",
+        "uri" : "http://dbpedia.org/resource/British_Island_Airways"
+      }, {
+        "label" : "Hunting-Clan Air Transport",
+        "uri" : "http://dbpedia.org/resource/Hunting-Clan_Air_Transport"
+      }, {
+        "label" : "Kenmore Air",
+        "uri" : "http://dbpedia.org/resource/Kenmore_Air"
+      }, {
+        "label" : "New Zealand National Airways Corporation",
+        "uri" : "http://dbpedia.org/resource/New_Zealand_National_Airways_Corporation"
+      }, {
+        "label" : "Skyways Coach-Air Limited",
+        "uri" : "http://dbpedia.org/resource/Skyways_Coach-Air_Limited"
+      }, {
+        "label" : "Union de Transports Aériens",
+        "uri" : "http://dbpedia.org/resource/Union_de_Transports_Aériens"
+      }, {
+        "label" : "Ansett New Zealand",
+        "uri" : "http://dbpedia.org/resource/Ansett_New_Zealand"
+      }, {
+        "label" : "New York, Rio, and Buenos Aires Line",
+        "uri" : "http://dbpedia.org/resource/New_York,_Rio,_and_Buenos_Aires_Line"
+      }, {
+        "label" : "SCADTA",
+        "uri" : "http://dbpedia.org/resource/SCADTA"
+      }, {
+        "label" : "Mondair",
+        "uri" : "http://dbpedia.org/resource/Mondair"
+      }, {
+        "label" : "Morris Air",
+        "uri" : "http://dbpedia.org/resource/Morris_Air"
+      }, {
+        "label" : "Novair International Airways",
+        "uri" : "http://dbpedia.org/resource/Novair_International_Airways"
+      }, {
+        "label" : "British United Air Ferries",
+        "uri" : "http://dbpedia.org/resource/British_United_Air_Ferries"
+      }, {
+        "label" : "Cal Sierra Airlines",
+        "uri" : "http://dbpedia.org/resource/Cal_Sierra_Airlines"
+      }, {
+        "label" : "Malta Air Charter",
+        "uri" : "http://dbpedia.org/resource/Malta_Air_Charter"
+      }, {
+        "label" : "Palau Trans Pacific Airlines",
+        "uri" : "http://dbpedia.org/resource/Palau_Trans_Pacific_Airlines"
+      }, {
+        "label" : "Papua Indonesia Air System",
+        "uri" : "http://dbpedia.org/resource/Papua_Indonesia_Air_System"
+      }, {
+        "label" : "Ukrvozdukhput",
+        "uri" : "http://dbpedia.org/resource/Ukrvozdukhput"
+      }, {
+        "label" : "American Airlines",
+        "uri" : "http://dbpedia.org/resource/American_Airlines"
+      }, {
+        "label" : "British Airways",
+        "uri" : "http://dbpedia.org/resource/British_Airways"
+      }, {
+        "label" : "Copa Airlines",
+        "uri" : "http://dbpedia.org/resource/Copa_Airlines"
+      }, {
+        "label" : "Helios Airways",
+        "uri" : "http://dbpedia.org/resource/Helios_Airways"
+      }, {
+        "label" : "IndiGo",
+        "uri" : "http://dbpedia.org/resource/IndiGo"
+      }, {
+        "label" : "JetBlue",
+        "uri" : "http://dbpedia.org/resource/JetBlue"
+      }, {
+        "label" : "Monarch Airlines (1946–1950)",
+        "uri" : "http://dbpedia.org/resource/Monarch_Airlines_(1946–1950)"
+      }, {
+        "label" : "British United Airways",
+        "uri" : "http://dbpedia.org/resource/British_United_Airways"
+      }, {
+        "label" : "United Airways Limited",
+        "uri" : "http://dbpedia.org/resource/United_Airways_Limited"
+      }, {
+        "label" : "Aero Benin",
+        "uri" : "http://dbpedia.org/resource/Aero_Benin"
+      }, {
+        "label" : "Aeromás",
+        "uri" : "http://dbpedia.org/resource/Aeromás"
+      }, {
+        "label" : "Air Atlas Express",
+        "uri" : "http://dbpedia.org/resource/Air_Atlas_Express"
+      }, {
+        "label" : "Air Haïti",
+        "uri" : "http://dbpedia.org/resource/Air_Haïti"
+      }, {
+        "label" : "Air Littoral",
+        "uri" : "http://dbpedia.org/resource/Air_Littoral"
+      }, {
+        "label" : "Air Somalia",
+        "uri" : "http://dbpedia.org/resource/Air_Somalia"
+      }, {
+        "label" : "Ecoair International",
+        "uri" : "http://dbpedia.org/resource/Ecoair_International"
+      }, {
+        "label" : "Nordair",
+        "uri" : "http://dbpedia.org/resource/Nordair"
+      }, {
+        "label" : "Norfolk Jet Express",
+        "uri" : "http://dbpedia.org/resource/Norfolk_Jet_Express"
+      }, {
+        "label" : "Red Sea Air",
+        "uri" : "http://dbpedia.org/resource/Red_Sea_Air"
+      }, {
+        "label" : "Satgur Air Transport",
+        "uri" : "http://dbpedia.org/resource/Satgur_Air_Transport"
+      }, {
+        "label" : "Thai Pacific Airlines",
+        "uri" : "http://dbpedia.org/resource/Thai_Pacific_Airlines"
+      }, {
+        "label" : "Zimbabwe Express Airlines",
+        "uri" : "http://dbpedia.org/resource/Zimbabwe_Express_Airlines"
+      }, {
+        "label" : "Aviatour Air",
+        "uri" : "http://dbpedia.org/resource/Aviatour_Air"
+      }, {
+        "label" : "Yanda Airlines",
+        "uri" : "http://dbpedia.org/resource/Yanda_Airlines"
+      }, {
+        "label" : "Zapolyariye",
+        "uri" : "http://dbpedia.org/resource/Zapolyariye"
+      }, {
+        "label" : "Guy-America Airways",
+        "uri" : "http://dbpedia.org/resource/Guy-America_Airways"
+      }, {
+        "label" : "Marco Island Airways",
+        "uri" : "http://dbpedia.org/resource/Marco_Island_Airways"
+      }, {
+        "label" : "Los Angeles Airways",
+        "uri" : "http://dbpedia.org/resource/Los_Angeles_Airways"
+      }, {
+        "label" : "Líneas Aéreas Nacionales S. A. (Peru)",
+        "uri" : "http://dbpedia.org/resource/Líneas_Aéreas_Nacionales_S._A._(Peru)"
+      }, {
+        "label" : "DAP Helicópteros",
+        "uri" : "http://dbpedia.org/resource/DAP_Helicópteros"
+      }, {
+        "label" : "Air Sylhet",
+        "uri" : "http://dbpedia.org/resource/Air_Sylhet"
+      }, {
+        "label" : "Air West Coast",
+        "uri" : "http://dbpedia.org/resource/Air_West_Coast"
+      }, {
+        "label" : "Nicon Airways",
+        "uri" : "http://dbpedia.org/resource/Nicon_Airways"
+      }, {
+        "label" : "Superior Airways",
+        "uri" : "http://dbpedia.org/resource/Superior_Airways"
+      }, {
+        "label" : "Nesma Airlines",
+        "uri" : "http://dbpedia.org/resource/Nesma_Airlines"
+      }, {
+        "label" : "Ryan Air Services",
+        "uri" : "http://dbpedia.org/resource/Ryan_Air_Services"
+      }, {
+        "label" : "South Phoenix Airlines",
+        "uri" : "http://dbpedia.org/resource/South_Phoenix_Airlines"
+      }, {
+        "label" : "Deutsche Zeppelin Reederei",
+        "uri" : "http://dbpedia.org/resource/Deutsche_Zeppelin_Reederei"
+      }, {
+        "label" : "Glenorchy Air",
+        "uri" : "http://dbpedia.org/resource/Glenorchy_Air"
+      }, {
+        "label" : "CityFlyer Express",
+        "uri" : "http://dbpedia.org/resource/CityFlyer_Express"
+      }, {
+        "label" : "Eurodirect",
+        "uri" : "http://dbpedia.org/resource/Eurodirect"
+      }, {
+        "label" : "Flying Colours Airlines",
+        "uri" : "http://dbpedia.org/resource/Flying_Colours_Airlines"
+      }, {
+        "label" : "Powell Air",
+        "uri" : "http://dbpedia.org/resource/Powell_Air"
+      }, {
+        "label" : "Southwest Airlines",
+        "uri" : "http://dbpedia.org/resource/Southwest_Airlines"
+      }, {
+        "label" : "Aegean Airlines",
+        "uri" : "http://dbpedia.org/resource/Aegean_Airlines"
+      }, {
+        "label" : "Air Berlin",
+        "uri" : "http://dbpedia.org/resource/Air_Berlin"
+      }, {
+        "label" : "Air France",
+        "uri" : "http://dbpedia.org/resource/Air_France"
+      }, {
+        "label" : "Belair (airline)",
+        "uri" : "http://dbpedia.org/resource/Belair_(airline)"
+      }, {
+        "label" : "British European Airways",
+        "uri" : "http://dbpedia.org/resource/British_European_Airways"
+      }, {
+        "label" : "Cairo Aviation",
+        "uri" : "http://dbpedia.org/resource/Cairo_Aviation"
+      }, {
+        "label" : "Cal Air International",
+        "uri" : "http://dbpedia.org/resource/Cal_Air_International"
+      } ]
+    },
+    "combination" : false
+  }, {
+    "id" : "5",
+    "language" : "EN",
+    "type" : "SENTENCE",
     "bindingType" : "PERSON",
     "returnType" : "LOCATION",
     "frameType" : "NPP",
@@ -319,7 +1595,7 @@
     },
     "combination" : false
   }, {
-    "id" : "2",
+    "id" : "6",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "PERSON",
@@ -638,7 +1914,1921 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "7",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "OWNEDTHING",
+    "returnType" : "OWNEDTHING",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the picture of ($x | OWNEDTHING_NP)?", "Tell me the picture of ($x | OWNEDTHING_NP)?", "What is the picture of ($x | OWNEDTHING_NP)?", "What was the picture of ($x | OWNEDTHING_NP)?", "Which is the picture of ($x | OWNEDTHING_NP)?", "Which was the picture of ($x | OWNEDTHING_NP)?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/picture> ?objOfProp))\n",
+    "sentenceToSparqlParameterMapping" : {
+      "$x" : "subjOfProp"
+    },
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "$x",
+      "bindingList" : [ {
+        "label" : "Wednesday Morning, 3 A.M.",
+        "uri" : "http://dbpedia.org/resource/Wednesday_Morning,_3_A.M."
+      }, {
+        "label" : "Trinity Lutheran Church (Canton, Ohio)",
+        "uri" : "http://dbpedia.org/resource/Trinity_Lutheran_Church_(Canton,_Ohio)"
+      }, {
+        "label" : "\"The Spaghetti Incident?\"",
+        "uri" : "http://dbpedia.org/resource/%22The_Spaghetti_Incident%3F%22"
+      }, {
+        "label" : "Alejandro Guerra",
+        "uri" : "http://dbpedia.org/resource/Alejandro_Guerra"
+      }, {
+        "label" : "Best Friend (50 Cent song)",
+        "uri" : "http://dbpedia.org/resource/Best_Friend_(50_Cent_song)"
+      }, {
+        "label" : "Brookside Museum",
+        "uri" : "http://dbpedia.org/resource/Brookside_Museum"
+      }, {
+        "label" : "First Presbyterian Church (Charlotte, North Carolina)",
+        "uri" : "http://dbpedia.org/resource/First_Presbyterian_Church_(Charlotte,_North_Carolina)"
+      }, {
+        "label" : "First Presbyterian Church (Lincolnton, North Carolina)",
+        "uri" : "http://dbpedia.org/resource/First_Presbyterian_Church_(Lincolnton,_North_Carolina)"
+      }, {
+        "label" : "First Presbyterian Church (Vandalia, Illinois)",
+        "uri" : "http://dbpedia.org/resource/First_Presbyterian_Church_(Vandalia,_Illinois)"
+      }, {
+        "label" : "First Presbyterian Church of Hector",
+        "uri" : "http://dbpedia.org/resource/First_Presbyterian_Church_of_Hector"
+      }, {
+        "label" : "First Presbyterian Church of West Chester",
+        "uri" : "http://dbpedia.org/resource/First_Presbyterian_Church_of_West_Chester"
+      }, {
+        "label" : "Gare du Nord",
+        "uri" : "http://dbpedia.org/resource/Gare_du_Nord"
+      }, {
+        "label" : "Grace Episcopal Church (Middletown, New York)",
+        "uri" : "http://dbpedia.org/resource/Grace_Episcopal_Church_(Middletown,_New_York)"
+      }, {
+        "label" : "Paseo YMCA",
+        "uri" : "http://dbpedia.org/resource/Paseo_YMCA"
+      }, {
+        "label" : "Paul Bunyan and Babe the Blue Ox",
+        "uri" : "http://dbpedia.org/resource/Paul_Bunyan_and_Babe_the_Blue_Ox"
+      }, {
+        "label" : "Red Allen, Kid Ory & Jack Teagarden at Newport",
+        "uri" : "http://dbpedia.org/resource/Red_Allen,_Kid_Ory_&_Jack_Teagarden_at_Newport"
+      }, {
+        "label" : "Sweet Briar (Geneseo, New York)",
+        "uri" : "http://dbpedia.org/resource/Sweet_Briar_(Geneseo,_New_York)"
+      }, {
+        "label" : "The Coleman Hawkins, Roy Eldridge, Pete Brown, Jo Jones All Stars at Newport",
+        "uri" : "http://dbpedia.org/resource/The_Coleman_Hawkins,_Roy_Eldridge,_Pete_Brown,_Jo_Jones_All_Stars_at_Newport"
+      }, {
+        "label" : "Trinity Episcopal Church (Claverack, New York)",
+        "uri" : "http://dbpedia.org/resource/Trinity_Episcopal_Church_(Claverack,_New_York)"
+      }, {
+        "label" : "Burgdorf, Idaho",
+        "uri" : "http://dbpedia.org/resource/Burgdorf,_Idaho"
+      }, {
+        "label" : "Goldstream Dredge No. 8",
+        "uri" : "http://dbpedia.org/resource/Goldstream_Dredge_No._8"
+      }, {
+        "label" : "Souq Waqif",
+        "uri" : "http://dbpedia.org/resource/Souq_Waqif"
+      }, {
+        "label" : "The Beatles in Mono",
+        "uri" : "http://dbpedia.org/resource/The_Beatles_in_Mono"
+      }, {
+        "label" : "Cragsmoor Historic District",
+        "uri" : "http://dbpedia.org/resource/Cragsmoor_Historic_District"
+      }, {
+        "label" : "Dickson Street",
+        "uri" : "http://dbpedia.org/resource/Dickson_Street"
+      }, {
+        "label" : "Harmony Mills",
+        "uri" : "http://dbpedia.org/resource/Harmony_Mills"
+      }, {
+        "label" : "Lower Main Street Historic District",
+        "uri" : "http://dbpedia.org/resource/Lower_Main_Street_Historic_District"
+      }, {
+        "label" : "Marsh Hall (Yale University)",
+        "uri" : "http://dbpedia.org/resource/Marsh_Hall_(Yale_University)"
+      }, {
+        "label" : "Moses Fowler House",
+        "uri" : "http://dbpedia.org/resource/Moses_Fowler_House"
+      }, {
+        "label" : "Paramount Theatre (Anderson, Indiana)",
+        "uri" : "http://dbpedia.org/resource/Paramount_Theatre_(Anderson,_Indiana)"
+      }, {
+        "label" : "San Juan Bautista State Historic Park",
+        "uri" : "http://dbpedia.org/resource/San_Juan_Bautista_State_Historic_Park"
+      }, {
+        "label" : "Tower Hotel (Anderson, Indiana)",
+        "uri" : "http://dbpedia.org/resource/Tower_Hotel_(Anderson,_Indiana)"
+      }, {
+        "label" : "United States Post Office (Hyde Park, New York)",
+        "uri" : "http://dbpedia.org/resource/United_States_Post_Office_(Hyde_Park,_New_York)"
+      }, {
+        "label" : "William Henry Seward Memorial",
+        "uri" : "http://dbpedia.org/resource/William_Henry_Seward_Memorial"
+      }, {
+        "label" : "St. Mary of the Immaculate Conception Church (Morges, Ohio)",
+        "uri" : "http://dbpedia.org/resource/St._Mary_of_the_Immaculate_Conception_Church_(Morges,_Ohio)"
+      }, {
+        "label" : "12 Songs of Christmas (Etta James album)",
+        "uri" : "http://dbpedia.org/resource/12_Songs_of_Christmas_(Etta_James_album)"
+      }, {
+        "label" : "David Kipiani",
+        "uri" : "http://dbpedia.org/resource/David_Kipiani"
+      }, {
+        "label" : "Dirck Westbrook Stone House",
+        "uri" : "http://dbpedia.org/resource/Dirck_Westbrook_Stone_House"
+      }, {
+        "label" : "Hinchman-Lippincott House",
+        "uri" : "http://dbpedia.org/resource/Hinchman-Lippincott_House"
+      }, {
+        "label" : "In Europe '82",
+        "uri" : "http://dbpedia.org/resource/In_Europe_'82"
+      }, {
+        "label" : "Isaac Roosevelt House",
+        "uri" : "http://dbpedia.org/resource/Isaac_Roosevelt_House"
+      }, {
+        "label" : "Jake Thackray and Songs",
+        "uri" : "http://dbpedia.org/resource/Jake_Thackray_and_Songs"
+      }, {
+        "label" : "Stash Up",
+        "uri" : "http://dbpedia.org/resource/Stash_Up"
+      }, {
+        "label" : "Stephen Hogeboom House",
+        "uri" : "http://dbpedia.org/resource/Stephen_Hogeboom_House"
+      }, {
+        "label" : "Third Street Bridge (Delavan, Illinois)",
+        "uri" : "http://dbpedia.org/resource/Third_Street_Bridge_(Delavan,_Illinois)"
+      }, {
+        "label" : "Pittsburgh & Steubenville Extension Railroad Tunnel",
+        "uri" : "http://dbpedia.org/resource/Pittsburgh_&_Steubenville_Extension_Railroad_Tunnel"
+      }, {
+        "label" : "Railway Bridge, Riga",
+        "uri" : "http://dbpedia.org/resource/Railway_Bridge,_Riga"
+      }, {
+        "label" : "South Elmsall bus station",
+        "uri" : "http://dbpedia.org/resource/South_Elmsall_bus_station"
+      }, {
+        "label" : "Alexander Mejía",
+        "uri" : "http://dbpedia.org/resource/Alexander_Mejía"
+      }, {
+        "label" : "Bill Haley and His Comets (1960 album)",
+        "uri" : "http://dbpedia.org/resource/Bill_Haley_and_His_Comets_(1960_album)"
+      }, {
+        "label" : "The Buddy Holly Story, Vol. 2",
+        "uri" : "http://dbpedia.org/resource/The_Buddy_Holly_Story,_Vol._2"
+      }, {
+        "label" : "Moss Ledge",
+        "uri" : "http://dbpedia.org/resource/Moss_Ledge"
+      }, {
+        "label" : "Prospect Point Camp",
+        "uri" : "http://dbpedia.org/resource/Prospect_Point_Camp"
+      }, {
+        "label" : "Dizzy Gillespie and the Double Six of Paris",
+        "uri" : "http://dbpedia.org/resource/Dizzy_Gillespie_and_the_Double_Six_of_Paris"
+      }, {
+        "label" : "Neftchilar Avenue",
+        "uri" : "http://dbpedia.org/resource/Neftchilar_Avenue"
+      }, {
+        "label" : "Allen County Museum",
+        "uri" : "http://dbpedia.org/resource/Allen_County_Museum"
+      }, {
+        "label" : "Celebrate Me Home",
+        "uri" : "http://dbpedia.org/resource/Celebrate_Me_Home"
+      }, {
+        "label" : "County and City Hall",
+        "uri" : "http://dbpedia.org/resource/County_and_City_Hall"
+      }, {
+        "label" : "Bridge in Newport Borough",
+        "uri" : "http://dbpedia.org/resource/Bridge_in_Newport_Borough"
+      }, {
+        "label" : "Clarkson Chapel",
+        "uri" : "http://dbpedia.org/resource/Clarkson_Chapel"
+      }, {
+        "label" : "Cobblestone Inn",
+        "uri" : "http://dbpedia.org/resource/Cobblestone_Inn"
+      }, {
+        "label" : "Coons House",
+        "uri" : "http://dbpedia.org/resource/Coons_House"
+      }, {
+        "label" : "Cotton Press (Tarboro, North Carolina)",
+        "uri" : "http://dbpedia.org/resource/Cotton_Press_(Tarboro,_North_Carolina)"
+      }, {
+        "label" : "Elias H. Geiger House",
+        "uri" : "http://dbpedia.org/resource/Elias_H._Geiger_House"
+      }, {
+        "label" : "Elisha Straight House",
+        "uri" : "http://dbpedia.org/resource/Elisha_Straight_House"
+      }, {
+        "label" : "Flat Rock Historic District",
+        "uri" : "http://dbpedia.org/resource/Flat_Rock_Historic_District"
+      }, {
+        "label" : "Fort Scammon",
+        "uri" : "http://dbpedia.org/resource/Fort_Scammon"
+      }, {
+        "label" : "Gifford–Walker Farm",
+        "uri" : "http://dbpedia.org/resource/Gifford–Walker_Farm"
+      }, {
+        "label" : "Grand Island United States Post Office and Courthouse",
+        "uri" : "http://dbpedia.org/resource/Grand_Island_United_States_Post_Office_and_Courthouse"
+      }, {
+        "label" : "Howard M. Metzenbaum United States Courthouse",
+        "uri" : "http://dbpedia.org/resource/Howard_M._Metzenbaum_United_States_Courthouse"
+      }, {
+        "label" : "Jacob Weinberger United States Courthouse",
+        "uri" : "http://dbpedia.org/resource/Jacob_Weinberger_United_States_Courthouse"
+      }, {
+        "label" : "Kellerman Log Cabin",
+        "uri" : "http://dbpedia.org/resource/Kellerman_Log_Cabin"
+      }, {
+        "label" : "Laredo United States Post Office, Court House and Custom House",
+        "uri" : "http://dbpedia.org/resource/Laredo_United_States_Post_Office,_Court_House_and_Custom_House"
+      }, {
+        "label" : "Main Street-Albertson Street-Park Place Historic District",
+        "uri" : "http://dbpedia.org/resource/Main_Street-Albertson_Street-Park_Place_Historic_District"
+      }, {
+        "label" : "Marion Steam Shovel (Le Roy, New York)",
+        "uri" : "http://dbpedia.org/resource/Marion_Steam_Shovel_(Le_Roy,_New_York)"
+      }, {
+        "label" : "Pastures Historic District",
+        "uri" : "http://dbpedia.org/resource/Pastures_Historic_District"
+      }, {
+        "label" : "Payne Cobblestone House",
+        "uri" : "http://dbpedia.org/resource/Payne_Cobblestone_House"
+      }, {
+        "label" : "Pioneer Farm",
+        "uri" : "http://dbpedia.org/resource/Pioneer_Farm"
+      }, {
+        "label" : "Post Mills Church",
+        "uri" : "http://dbpedia.org/resource/Post_Mills_Church"
+      }, {
+        "label" : "Rapp Road Community Historic District",
+        "uri" : "http://dbpedia.org/resource/Rapp_Road_Community_Historic_District"
+      }, {
+        "label" : "Religious Society of Friends Meetinghouse",
+        "uri" : "http://dbpedia.org/resource/Religious_Society_of_Friends_Meetinghouse"
+      }, {
+        "label" : "Roosevelt Point Cottage and Boathouse",
+        "uri" : "http://dbpedia.org/resource/Roosevelt_Point_Cottage_and_Boathouse"
+      }, {
+        "label" : "Sliker Cobblestone House",
+        "uri" : "http://dbpedia.org/resource/Sliker_Cobblestone_House"
+      }, {
+        "label" : "Stone Jug",
+        "uri" : "http://dbpedia.org/resource/Stone_Jug"
+      }, {
+        "label" : "United States Courthouse (Davenport)",
+        "uri" : "http://dbpedia.org/resource/United_States_Courthouse_(Davenport)"
+      }, {
+        "label" : "United States Customhouse (Houston)",
+        "uri" : "http://dbpedia.org/resource/United_States_Customhouse_(Houston)"
+      }, {
+        "label" : "United States Customhouse (Portland, Oregon)",
+        "uri" : "http://dbpedia.org/resource/United_States_Customhouse_(Portland,_Oregon)"
+      }, {
+        "label" : "United States Post Office, Courthouse, and Federal Office Building (Oklahoma City)",
+        "uri" : "http://dbpedia.org/resource/United_States_Post_Office,_Courthouse,_and_Federal_Office_Building_(Oklahoma_City)"
+      }, {
+        "label" : "United States Post Office (Ballston Spa, New York)",
+        "uri" : "http://dbpedia.org/resource/United_States_Post_Office_(Ballston_Spa,_New_York)"
+      }, {
+        "label" : "United States Post Office (Hoosick Falls, New York)",
+        "uri" : "http://dbpedia.org/resource/United_States_Post_Office_(Hoosick_Falls,_New_York)"
+      }, {
+        "label" : "United States Post Office (Missoula, Montana)",
+        "uri" : "http://dbpedia.org/resource/United_States_Post_Office_(Missoula,_Montana)"
+      }, {
+        "label" : "Vanderbilt Lane Historic District",
+        "uri" : "http://dbpedia.org/resource/Vanderbilt_Lane_Historic_District"
+      }, {
+        "label" : "Verbeck House",
+        "uri" : "http://dbpedia.org/resource/Verbeck_House"
+      }, {
+        "label" : "West Point Rice Mill",
+        "uri" : "http://dbpedia.org/resource/West_Point_Rice_Mill"
+      }, {
+        "label" : "William Hartman Farmstead",
+        "uri" : "http://dbpedia.org/resource/William_Hartman_Farmstead"
+      }, {
+        "label" : "Woodman Institute Museum",
+        "uri" : "http://dbpedia.org/resource/Woodman_Institute_Museum"
+      }, {
+        "label" : "Civilization Phaze III",
+        "uri" : "http://dbpedia.org/resource/Civilization_Phaze_III"
+      }, {
+        "label" : "Academy Building (University of Southern Maine)",
+        "uri" : "http://dbpedia.org/resource/Academy_Building_(University_of_Southern_Maine)"
+      }, {
+        "label" : "Benjamin Shotwell House",
+        "uri" : "http://dbpedia.org/resource/Benjamin_Shotwell_House"
+      }, {
+        "label" : "Bowles–Cooley House",
+        "uri" : "http://dbpedia.org/resource/Bowles–Cooley_House"
+      } ]
+    },
+    "combination" : false
+  }, {
+    "id" : "8",
+    "language" : "EN",
+    "type" : "NP",
+    "bindingType" : "OWNEDTHING",
+    "returnType" : "OWNEDTHING",
+    "frameType" : "NPP",
+    "sentences" : [ "the picture of $x" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/picture> ?objOfProp))\n",
+    "sentenceToSparqlParameterMapping" : {
+      "$x" : "subjOfProp"
+    },
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "$x",
+      "bindingList" : [ {
+        "label" : "Wednesday Morning, 3 A.M.",
+        "uri" : "http://dbpedia.org/resource/Wednesday_Morning,_3_A.M."
+      }, {
+        "label" : "Trinity Lutheran Church (Canton, Ohio)",
+        "uri" : "http://dbpedia.org/resource/Trinity_Lutheran_Church_(Canton,_Ohio)"
+      }, {
+        "label" : "\"The Spaghetti Incident?\"",
+        "uri" : "http://dbpedia.org/resource/%22The_Spaghetti_Incident%3F%22"
+      }, {
+        "label" : "Alejandro Guerra",
+        "uri" : "http://dbpedia.org/resource/Alejandro_Guerra"
+      }, {
+        "label" : "Best Friend (50 Cent song)",
+        "uri" : "http://dbpedia.org/resource/Best_Friend_(50_Cent_song)"
+      }, {
+        "label" : "Brookside Museum",
+        "uri" : "http://dbpedia.org/resource/Brookside_Museum"
+      }, {
+        "label" : "First Presbyterian Church (Charlotte, North Carolina)",
+        "uri" : "http://dbpedia.org/resource/First_Presbyterian_Church_(Charlotte,_North_Carolina)"
+      }, {
+        "label" : "First Presbyterian Church (Lincolnton, North Carolina)",
+        "uri" : "http://dbpedia.org/resource/First_Presbyterian_Church_(Lincolnton,_North_Carolina)"
+      }, {
+        "label" : "First Presbyterian Church (Vandalia, Illinois)",
+        "uri" : "http://dbpedia.org/resource/First_Presbyterian_Church_(Vandalia,_Illinois)"
+      }, {
+        "label" : "First Presbyterian Church of Hector",
+        "uri" : "http://dbpedia.org/resource/First_Presbyterian_Church_of_Hector"
+      }, {
+        "label" : "First Presbyterian Church of West Chester",
+        "uri" : "http://dbpedia.org/resource/First_Presbyterian_Church_of_West_Chester"
+      }, {
+        "label" : "Gare du Nord",
+        "uri" : "http://dbpedia.org/resource/Gare_du_Nord"
+      }, {
+        "label" : "Grace Episcopal Church (Middletown, New York)",
+        "uri" : "http://dbpedia.org/resource/Grace_Episcopal_Church_(Middletown,_New_York)"
+      }, {
+        "label" : "Paseo YMCA",
+        "uri" : "http://dbpedia.org/resource/Paseo_YMCA"
+      }, {
+        "label" : "Paul Bunyan and Babe the Blue Ox",
+        "uri" : "http://dbpedia.org/resource/Paul_Bunyan_and_Babe_the_Blue_Ox"
+      }, {
+        "label" : "Red Allen, Kid Ory & Jack Teagarden at Newport",
+        "uri" : "http://dbpedia.org/resource/Red_Allen,_Kid_Ory_&_Jack_Teagarden_at_Newport"
+      }, {
+        "label" : "Sweet Briar (Geneseo, New York)",
+        "uri" : "http://dbpedia.org/resource/Sweet_Briar_(Geneseo,_New_York)"
+      }, {
+        "label" : "The Coleman Hawkins, Roy Eldridge, Pete Brown, Jo Jones All Stars at Newport",
+        "uri" : "http://dbpedia.org/resource/The_Coleman_Hawkins,_Roy_Eldridge,_Pete_Brown,_Jo_Jones_All_Stars_at_Newport"
+      }, {
+        "label" : "Trinity Episcopal Church (Claverack, New York)",
+        "uri" : "http://dbpedia.org/resource/Trinity_Episcopal_Church_(Claverack,_New_York)"
+      }, {
+        "label" : "Burgdorf, Idaho",
+        "uri" : "http://dbpedia.org/resource/Burgdorf,_Idaho"
+      }, {
+        "label" : "Goldstream Dredge No. 8",
+        "uri" : "http://dbpedia.org/resource/Goldstream_Dredge_No._8"
+      }, {
+        "label" : "Souq Waqif",
+        "uri" : "http://dbpedia.org/resource/Souq_Waqif"
+      }, {
+        "label" : "The Beatles in Mono",
+        "uri" : "http://dbpedia.org/resource/The_Beatles_in_Mono"
+      }, {
+        "label" : "Cragsmoor Historic District",
+        "uri" : "http://dbpedia.org/resource/Cragsmoor_Historic_District"
+      }, {
+        "label" : "Dickson Street",
+        "uri" : "http://dbpedia.org/resource/Dickson_Street"
+      }, {
+        "label" : "Harmony Mills",
+        "uri" : "http://dbpedia.org/resource/Harmony_Mills"
+      }, {
+        "label" : "Lower Main Street Historic District",
+        "uri" : "http://dbpedia.org/resource/Lower_Main_Street_Historic_District"
+      }, {
+        "label" : "Marsh Hall (Yale University)",
+        "uri" : "http://dbpedia.org/resource/Marsh_Hall_(Yale_University)"
+      }, {
+        "label" : "Moses Fowler House",
+        "uri" : "http://dbpedia.org/resource/Moses_Fowler_House"
+      }, {
+        "label" : "Paramount Theatre (Anderson, Indiana)",
+        "uri" : "http://dbpedia.org/resource/Paramount_Theatre_(Anderson,_Indiana)"
+      }, {
+        "label" : "San Juan Bautista State Historic Park",
+        "uri" : "http://dbpedia.org/resource/San_Juan_Bautista_State_Historic_Park"
+      }, {
+        "label" : "Tower Hotel (Anderson, Indiana)",
+        "uri" : "http://dbpedia.org/resource/Tower_Hotel_(Anderson,_Indiana)"
+      }, {
+        "label" : "United States Post Office (Hyde Park, New York)",
+        "uri" : "http://dbpedia.org/resource/United_States_Post_Office_(Hyde_Park,_New_York)"
+      }, {
+        "label" : "William Henry Seward Memorial",
+        "uri" : "http://dbpedia.org/resource/William_Henry_Seward_Memorial"
+      }, {
+        "label" : "St. Mary of the Immaculate Conception Church (Morges, Ohio)",
+        "uri" : "http://dbpedia.org/resource/St._Mary_of_the_Immaculate_Conception_Church_(Morges,_Ohio)"
+      }, {
+        "label" : "12 Songs of Christmas (Etta James album)",
+        "uri" : "http://dbpedia.org/resource/12_Songs_of_Christmas_(Etta_James_album)"
+      }, {
+        "label" : "David Kipiani",
+        "uri" : "http://dbpedia.org/resource/David_Kipiani"
+      }, {
+        "label" : "Dirck Westbrook Stone House",
+        "uri" : "http://dbpedia.org/resource/Dirck_Westbrook_Stone_House"
+      }, {
+        "label" : "Hinchman-Lippincott House",
+        "uri" : "http://dbpedia.org/resource/Hinchman-Lippincott_House"
+      }, {
+        "label" : "In Europe '82",
+        "uri" : "http://dbpedia.org/resource/In_Europe_'82"
+      }, {
+        "label" : "Isaac Roosevelt House",
+        "uri" : "http://dbpedia.org/resource/Isaac_Roosevelt_House"
+      }, {
+        "label" : "Jake Thackray and Songs",
+        "uri" : "http://dbpedia.org/resource/Jake_Thackray_and_Songs"
+      }, {
+        "label" : "Stash Up",
+        "uri" : "http://dbpedia.org/resource/Stash_Up"
+      }, {
+        "label" : "Stephen Hogeboom House",
+        "uri" : "http://dbpedia.org/resource/Stephen_Hogeboom_House"
+      }, {
+        "label" : "Third Street Bridge (Delavan, Illinois)",
+        "uri" : "http://dbpedia.org/resource/Third_Street_Bridge_(Delavan,_Illinois)"
+      }, {
+        "label" : "Pittsburgh & Steubenville Extension Railroad Tunnel",
+        "uri" : "http://dbpedia.org/resource/Pittsburgh_&_Steubenville_Extension_Railroad_Tunnel"
+      }, {
+        "label" : "Railway Bridge, Riga",
+        "uri" : "http://dbpedia.org/resource/Railway_Bridge,_Riga"
+      }, {
+        "label" : "South Elmsall bus station",
+        "uri" : "http://dbpedia.org/resource/South_Elmsall_bus_station"
+      }, {
+        "label" : "Alexander Mejía",
+        "uri" : "http://dbpedia.org/resource/Alexander_Mejía"
+      }, {
+        "label" : "Bill Haley and His Comets (1960 album)",
+        "uri" : "http://dbpedia.org/resource/Bill_Haley_and_His_Comets_(1960_album)"
+      }, {
+        "label" : "The Buddy Holly Story, Vol. 2",
+        "uri" : "http://dbpedia.org/resource/The_Buddy_Holly_Story,_Vol._2"
+      }, {
+        "label" : "Moss Ledge",
+        "uri" : "http://dbpedia.org/resource/Moss_Ledge"
+      }, {
+        "label" : "Prospect Point Camp",
+        "uri" : "http://dbpedia.org/resource/Prospect_Point_Camp"
+      }, {
+        "label" : "Dizzy Gillespie and the Double Six of Paris",
+        "uri" : "http://dbpedia.org/resource/Dizzy_Gillespie_and_the_Double_Six_of_Paris"
+      }, {
+        "label" : "Neftchilar Avenue",
+        "uri" : "http://dbpedia.org/resource/Neftchilar_Avenue"
+      }, {
+        "label" : "Allen County Museum",
+        "uri" : "http://dbpedia.org/resource/Allen_County_Museum"
+      }, {
+        "label" : "Celebrate Me Home",
+        "uri" : "http://dbpedia.org/resource/Celebrate_Me_Home"
+      }, {
+        "label" : "County and City Hall",
+        "uri" : "http://dbpedia.org/resource/County_and_City_Hall"
+      }, {
+        "label" : "Bridge in Newport Borough",
+        "uri" : "http://dbpedia.org/resource/Bridge_in_Newport_Borough"
+      }, {
+        "label" : "Clarkson Chapel",
+        "uri" : "http://dbpedia.org/resource/Clarkson_Chapel"
+      }, {
+        "label" : "Cobblestone Inn",
+        "uri" : "http://dbpedia.org/resource/Cobblestone_Inn"
+      }, {
+        "label" : "Coons House",
+        "uri" : "http://dbpedia.org/resource/Coons_House"
+      }, {
+        "label" : "Cotton Press (Tarboro, North Carolina)",
+        "uri" : "http://dbpedia.org/resource/Cotton_Press_(Tarboro,_North_Carolina)"
+      }, {
+        "label" : "Elias H. Geiger House",
+        "uri" : "http://dbpedia.org/resource/Elias_H._Geiger_House"
+      }, {
+        "label" : "Elisha Straight House",
+        "uri" : "http://dbpedia.org/resource/Elisha_Straight_House"
+      }, {
+        "label" : "Flat Rock Historic District",
+        "uri" : "http://dbpedia.org/resource/Flat_Rock_Historic_District"
+      }, {
+        "label" : "Fort Scammon",
+        "uri" : "http://dbpedia.org/resource/Fort_Scammon"
+      }, {
+        "label" : "Gifford–Walker Farm",
+        "uri" : "http://dbpedia.org/resource/Gifford–Walker_Farm"
+      }, {
+        "label" : "Grand Island United States Post Office and Courthouse",
+        "uri" : "http://dbpedia.org/resource/Grand_Island_United_States_Post_Office_and_Courthouse"
+      }, {
+        "label" : "Howard M. Metzenbaum United States Courthouse",
+        "uri" : "http://dbpedia.org/resource/Howard_M._Metzenbaum_United_States_Courthouse"
+      }, {
+        "label" : "Jacob Weinberger United States Courthouse",
+        "uri" : "http://dbpedia.org/resource/Jacob_Weinberger_United_States_Courthouse"
+      }, {
+        "label" : "Kellerman Log Cabin",
+        "uri" : "http://dbpedia.org/resource/Kellerman_Log_Cabin"
+      }, {
+        "label" : "Laredo United States Post Office, Court House and Custom House",
+        "uri" : "http://dbpedia.org/resource/Laredo_United_States_Post_Office,_Court_House_and_Custom_House"
+      }, {
+        "label" : "Main Street-Albertson Street-Park Place Historic District",
+        "uri" : "http://dbpedia.org/resource/Main_Street-Albertson_Street-Park_Place_Historic_District"
+      }, {
+        "label" : "Marion Steam Shovel (Le Roy, New York)",
+        "uri" : "http://dbpedia.org/resource/Marion_Steam_Shovel_(Le_Roy,_New_York)"
+      }, {
+        "label" : "Pastures Historic District",
+        "uri" : "http://dbpedia.org/resource/Pastures_Historic_District"
+      }, {
+        "label" : "Payne Cobblestone House",
+        "uri" : "http://dbpedia.org/resource/Payne_Cobblestone_House"
+      }, {
+        "label" : "Pioneer Farm",
+        "uri" : "http://dbpedia.org/resource/Pioneer_Farm"
+      }, {
+        "label" : "Post Mills Church",
+        "uri" : "http://dbpedia.org/resource/Post_Mills_Church"
+      }, {
+        "label" : "Rapp Road Community Historic District",
+        "uri" : "http://dbpedia.org/resource/Rapp_Road_Community_Historic_District"
+      }, {
+        "label" : "Religious Society of Friends Meetinghouse",
+        "uri" : "http://dbpedia.org/resource/Religious_Society_of_Friends_Meetinghouse"
+      }, {
+        "label" : "Roosevelt Point Cottage and Boathouse",
+        "uri" : "http://dbpedia.org/resource/Roosevelt_Point_Cottage_and_Boathouse"
+      }, {
+        "label" : "Sliker Cobblestone House",
+        "uri" : "http://dbpedia.org/resource/Sliker_Cobblestone_House"
+      }, {
+        "label" : "Stone Jug",
+        "uri" : "http://dbpedia.org/resource/Stone_Jug"
+      }, {
+        "label" : "United States Courthouse (Davenport)",
+        "uri" : "http://dbpedia.org/resource/United_States_Courthouse_(Davenport)"
+      }, {
+        "label" : "United States Customhouse (Houston)",
+        "uri" : "http://dbpedia.org/resource/United_States_Customhouse_(Houston)"
+      }, {
+        "label" : "United States Customhouse (Portland, Oregon)",
+        "uri" : "http://dbpedia.org/resource/United_States_Customhouse_(Portland,_Oregon)"
+      }, {
+        "label" : "United States Post Office, Courthouse, and Federal Office Building (Oklahoma City)",
+        "uri" : "http://dbpedia.org/resource/United_States_Post_Office,_Courthouse,_and_Federal_Office_Building_(Oklahoma_City)"
+      }, {
+        "label" : "United States Post Office (Ballston Spa, New York)",
+        "uri" : "http://dbpedia.org/resource/United_States_Post_Office_(Ballston_Spa,_New_York)"
+      }, {
+        "label" : "United States Post Office (Hoosick Falls, New York)",
+        "uri" : "http://dbpedia.org/resource/United_States_Post_Office_(Hoosick_Falls,_New_York)"
+      }, {
+        "label" : "United States Post Office (Missoula, Montana)",
+        "uri" : "http://dbpedia.org/resource/United_States_Post_Office_(Missoula,_Montana)"
+      }, {
+        "label" : "Vanderbilt Lane Historic District",
+        "uri" : "http://dbpedia.org/resource/Vanderbilt_Lane_Historic_District"
+      }, {
+        "label" : "Verbeck House",
+        "uri" : "http://dbpedia.org/resource/Verbeck_House"
+      }, {
+        "label" : "West Point Rice Mill",
+        "uri" : "http://dbpedia.org/resource/West_Point_Rice_Mill"
+      }, {
+        "label" : "William Hartman Farmstead",
+        "uri" : "http://dbpedia.org/resource/William_Hartman_Farmstead"
+      }, {
+        "label" : "Woodman Institute Museum",
+        "uri" : "http://dbpedia.org/resource/Woodman_Institute_Museum"
+      }, {
+        "label" : "Civilization Phaze III",
+        "uri" : "http://dbpedia.org/resource/Civilization_Phaze_III"
+      }, {
+        "label" : "Academy Building (University of Southern Maine)",
+        "uri" : "http://dbpedia.org/resource/Academy_Building_(University_of_Southern_Maine)"
+      }, {
+        "label" : "Benjamin Shotwell House",
+        "uri" : "http://dbpedia.org/resource/Benjamin_Shotwell_House"
+      }, {
+        "label" : "Bowles–Cooley House",
+        "uri" : "http://dbpedia.org/resource/Bowles–Cooley_House"
+      } ]
+    },
+    "combination" : false
+  }, {
+    "id" : "9",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "COUNTRY",
+    "returnType" : "CITY",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the city of ($x | COUNTRY_NP)?", "Tell me the city of ($x | COUNTRY_NP)?", "What is the city of ($x | COUNTRY_NP)?", "What was the city of ($x | COUNTRY_NP)?", "Which city is the city of ($x | COUNTRY_NP)?", "Which city was the city of ($x | COUNTRY_NP)?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/city> ?objOfProp))\n",
+    "sentenceToSparqlParameterMapping" : {
+      "$x" : "subjOfProp"
+    },
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "$x",
+      "bindingList" : [ {
+        "label" : "2600: The Hacker Quarterly",
+        "uri" : "http://dbpedia.org/resource/2600:_The_Hacker_Quarterly"
+      }, {
+        "label" : "Labrador",
+        "uri" : "http://dbpedia.org/resource/Labrador"
+      }, {
+        "label" : "Los Angeles Xtreme",
+        "uri" : "http://dbpedia.org/resource/Los_Angeles_Xtreme"
+      }, {
+        "label" : "Time (magazine)",
+        "uri" : "http://dbpedia.org/resource/Time_(magazine)"
+      }, {
+        "label" : "University of Manchester Institute of Science and Technology",
+        "uri" : "http://dbpedia.org/resource/University_of_Manchester_Institute_of_Science_and_Technology"
+      }, {
+        "label" : "Wabash College",
+        "uri" : "http://dbpedia.org/resource/Wabash_College"
+      }, {
+        "label" : "Aksu Airport",
+        "uri" : "http://dbpedia.org/resource/Aksu_Airport"
+      }, {
+        "label" : "Albertus Magnus High School",
+        "uri" : "http://dbpedia.org/resource/Albertus_Magnus_High_School"
+      }, {
+        "label" : "Alexandria Monroe High School",
+        "uri" : "http://dbpedia.org/resource/Alexandria_Monroe_High_School"
+      }, {
+        "label" : "Along Airport",
+        "uri" : "http://dbpedia.org/resource/Along_Airport"
+      }, {
+        "label" : "Anadolu Airport",
+        "uri" : "http://dbpedia.org/resource/Anadolu_Airport"
+      }, {
+        "label" : "Anadolu Mecmuası",
+        "uri" : "http://dbpedia.org/resource/Anadolu_Mecmuası"
+      }, {
+        "label" : "Arabia Mountain High School",
+        "uri" : "http://dbpedia.org/resource/Arabia_Mountain_High_School"
+      }, {
+        "label" : "Archbishop Murphy High School",
+        "uri" : "http://dbpedia.org/resource/Archbishop_Murphy_High_School"
+      }, {
+        "label" : "Asia University (Taiwan)",
+        "uri" : "http://dbpedia.org/resource/Asia_University_(Taiwan)"
+      }, {
+        "label" : "Aspen University",
+        "uri" : "http://dbpedia.org/resource/Aspen_University"
+      }, {
+        "label" : "Auburn Mountainview High School",
+        "uri" : "http://dbpedia.org/resource/Auburn_Mountainview_High_School"
+      }, {
+        "label" : "August Martin High School",
+        "uri" : "http://dbpedia.org/resource/August_Martin_High_School"
+      }, {
+        "label" : "Augusta Preparatory Day School",
+        "uri" : "http://dbpedia.org/resource/Augusta_Preparatory_Day_School"
+      }, {
+        "label" : "Backwoods Home Magazine",
+        "uri" : "http://dbpedia.org/resource/Backwoods_Home_Magazine"
+      }, {
+        "label" : "Barry (radio)",
+        "uri" : "http://dbpedia.org/resource/Barry_(radio)"
+      }, {
+        "label" : "Brocklehurst Secondary School",
+        "uri" : "http://dbpedia.org/resource/Brocklehurst_Secondary_School"
+      }, {
+        "label" : "C. V. Raman College of Engineering, Bhubaneshwar",
+        "uri" : "http://dbpedia.org/resource/C._V._Raman_College_of_Engineering,_Bhubaneshwar"
+      }, {
+        "label" : "Cagayan River (Mindanao)",
+        "uri" : "http://dbpedia.org/resource/Cagayan_River_(Mindanao)"
+      }, {
+        "label" : "Cambridge High School (Cambridge, Ohio)",
+        "uri" : "http://dbpedia.org/resource/Cambridge_High_School_(Cambridge,_Ohio)"
+      }, {
+        "label" : "Cambridge High School (Illinois)",
+        "uri" : "http://dbpedia.org/resource/Cambridge_High_School_(Illinois)"
+      }, {
+        "label" : "Candido (magazine)",
+        "uri" : "http://dbpedia.org/resource/Candido_(magazine)"
+      }, {
+        "label" : "Carmi-White County High School",
+        "uri" : "http://dbpedia.org/resource/Carmi-White_County_High_School"
+      }, {
+        "label" : "Dale Bumpers College of Agricultural, Food and Life Sciences",
+        "uri" : "http://dbpedia.org/resource/Dale_Bumpers_College_of_Agricultural,_Food_and_Life_Sciences"
+      }, {
+        "label" : "Dalziel High School",
+        "uri" : "http://dbpedia.org/resource/Dalziel_High_School"
+      }, {
+        "label" : "Dr. C. V. Raman University",
+        "uri" : "http://dbpedia.org/resource/Dr._C._V._Raman_University"
+      }, {
+        "label" : "Eastern Montgomery High School",
+        "uri" : "http://dbpedia.org/resource/Eastern_Montgomery_High_School"
+      }, {
+        "label" : "Family Tree (magazine)",
+        "uri" : "http://dbpedia.org/resource/Family_Tree_(magazine)"
+      }, {
+        "label" : "Flash Wolves",
+        "uri" : "http://dbpedia.org/resource/Flash_Wolves"
+      }, {
+        "label" : "Hamilton High School (Anza, California)",
+        "uri" : "http://dbpedia.org/resource/Hamilton_High_School_(Anza,_California)"
+      }, {
+        "label" : "Hamilton High School (Bulawayo)",
+        "uri" : "http://dbpedia.org/resource/Hamilton_High_School_(Bulawayo)"
+      }, {
+        "label" : "Hamilton High School (Hamilton, Illinois)",
+        "uri" : "http://dbpedia.org/resource/Hamilton_High_School_(Hamilton,_Illinois)"
+      }, {
+        "label" : "Hamilton High School (Hamilton, Ohio)",
+        "uri" : "http://dbpedia.org/resource/Hamilton_High_School_(Hamilton,_Ohio)"
+      }, {
+        "label" : "Hamilton High School (Montana)",
+        "uri" : "http://dbpedia.org/resource/Hamilton_High_School_(Montana)"
+      }, {
+        "label" : "Hamilton High School (Texas)",
+        "uri" : "http://dbpedia.org/resource/Hamilton_High_School_(Texas)"
+      }, {
+        "label" : "Helen Bernstein High School",
+        "uri" : "http://dbpedia.org/resource/Helen_Bernstein_High_School"
+      }, {
+        "label" : "Henley College Coventry",
+        "uri" : "http://dbpedia.org/resource/Henley_College_Coventry"
+      }, {
+        "label" : "Hudson High School (Florida)",
+        "uri" : "http://dbpedia.org/resource/Hudson_High_School_(Florida)"
+      }, {
+        "label" : "Hudson High School (Massachusetts)",
+        "uri" : "http://dbpedia.org/resource/Hudson_High_School_(Massachusetts)"
+      }, {
+        "label" : "Hudson High School (Michigan)",
+        "uri" : "http://dbpedia.org/resource/Hudson_High_School_(Michigan)"
+      }, {
+        "label" : "Hudson High School (New York)",
+        "uri" : "http://dbpedia.org/resource/Hudson_High_School_(New_York)"
+      }, {
+        "label" : "Hudson High School (Texas)",
+        "uri" : "http://dbpedia.org/resource/Hudson_High_School_(Texas)"
+      }, {
+        "label" : "Jacobs Creek (Pennsylvania)",
+        "uri" : "http://dbpedia.org/resource/Jacobs_Creek_(Pennsylvania)"
+      }, {
+        "label" : "Jinwen University of Science and Technology",
+        "uri" : "http://dbpedia.org/resource/Jinwen_University_of_Science_and_Technology"
+      }, {
+        "label" : "KABI (AM)",
+        "uri" : "http://dbpedia.org/resource/KABI_(AM)"
+      }, {
+        "label" : "KABQ-FM",
+        "uri" : "http://dbpedia.org/resource/KABQ-FM"
+      }, {
+        "label" : "KABQ (AM)",
+        "uri" : "http://dbpedia.org/resource/KABQ_(AM)"
+      }, {
+        "label" : "KAHL-FM",
+        "uri" : "http://dbpedia.org/resource/KAHL-FM"
+      }, {
+        "label" : "KAHL (AM)",
+        "uri" : "http://dbpedia.org/resource/KAHL_(AM)"
+      }, {
+        "label" : "KSEA (FM)",
+        "uri" : "http://dbpedia.org/resource/KSEA_(FM)"
+      }, {
+        "label" : "KYKM (FM)",
+        "uri" : "http://dbpedia.org/resource/KYKM_(FM)"
+      }, {
+        "label" : "LIU Brooklyn Blackbirds",
+        "uri" : "http://dbpedia.org/resource/LIU_Brooklyn_Blackbirds"
+      }, {
+        "label" : "Lethbridge School",
+        "uri" : "http://dbpedia.org/resource/Lethbridge_School"
+      }, {
+        "label" : "Lucy Craft Laney High School",
+        "uri" : "http://dbpedia.org/resource/Lucy_Craft_Laney_High_School"
+      }, {
+        "label" : "Lush 99.5FM",
+        "uri" : "http://dbpedia.org/resource/Lush_99.5FM"
+      }, {
+        "label" : "Mary G. Montgomery High School",
+        "uri" : "http://dbpedia.org/resource/Mary_G._Montgomery_High_School"
+      }, {
+        "label" : "Melody (magazine)",
+        "uri" : "http://dbpedia.org/resource/Melody_(magazine)"
+      }, {
+        "label" : "Mix FM (Malaysia)",
+        "uri" : "http://dbpedia.org/resource/Mix_FM_(Malaysia)"
+      }, {
+        "label" : "Mix FM (Stepanakert)",
+        "uri" : "http://dbpedia.org/resource/Mix_FM_(Stepanakert)"
+      }, {
+        "label" : "Montgomery High School, Blackpool",
+        "uri" : "http://dbpedia.org/resource/Montgomery_High_School,_Blackpool"
+      }, {
+        "label" : "North Lake School",
+        "uri" : "http://dbpedia.org/resource/North_Lake_School"
+      }, {
+        "label" : "Northwest High School (Canal Fulton, Ohio)",
+        "uri" : "http://dbpedia.org/resource/Northwest_High_School_(Canal_Fulton,_Ohio)"
+      }, {
+        "label" : "Northwest High School (Texas)",
+        "uri" : "http://dbpedia.org/resource/Northwest_High_School_(Texas)"
+      }, {
+        "label" : "Oktyabrsky Airport",
+        "uri" : "http://dbpedia.org/resource/Oktyabrsky_Airport"
+      }, {
+        "label" : "Pacific College of Oriental Medicine",
+        "uri" : "http://dbpedia.org/resource/Pacific_College_of_Oriental_Medicine"
+      }, {
+        "label" : "Parry Sound High School",
+        "uri" : "http://dbpedia.org/resource/Parry_Sound_High_School"
+      }, {
+        "label" : "Quaid Road",
+        "uri" : "http://dbpedia.org/resource/Quaid_Road"
+      }, {
+        "label" : "Raman Munjal Vidya Mandir",
+        "uri" : "http://dbpedia.org/resource/Raman_Munjal_Vidya_Mandir"
+      }, {
+        "label" : "Raman School Bhopal",
+        "uri" : "http://dbpedia.org/resource/Raman_School_Bhopal"
+      }, {
+        "label" : "Redeemer Baptist School",
+        "uri" : "http://dbpedia.org/resource/Redeemer_Baptist_School"
+      }, {
+        "label" : "Sacré Cœur School",
+        "uri" : "http://dbpedia.org/resource/Sacré_Cœur_School"
+      }, {
+        "label" : "Scheidt (Saarbrücken)",
+        "uri" : "http://dbpedia.org/resource/Scheidt_(Saarbrücken)"
+      }, {
+        "label" : "Science World (magazine)",
+        "uri" : "http://dbpedia.org/resource/Science_World_(magazine)"
+      }, {
+        "label" : "Soka University of America",
+        "uri" : "http://dbpedia.org/resource/Soka_University_of_America"
+      }, {
+        "label" : "Sokoine University of Agriculture",
+        "uri" : "http://dbpedia.org/resource/Sokoine_University_of_Agriculture"
+      }, {
+        "label" : "St. John's High School (Harare)",
+        "uri" : "http://dbpedia.org/resource/St._John's_High_School_(Harare)"
+      }, {
+        "label" : "St. John's High School (Massachusetts)",
+        "uri" : "http://dbpedia.org/resource/St._John's_High_School_(Massachusetts)"
+      }, {
+        "label" : "The Martin High School, Anstey",
+        "uri" : "http://dbpedia.org/resource/The_Martin_High_School,_Anstey"
+      }, {
+        "label" : "The Reader Magazine",
+        "uri" : "http://dbpedia.org/resource/The_Reader_Magazine"
+      }, {
+        "label" : "The Tower Magazine",
+        "uri" : "http://dbpedia.org/resource/The_Tower_Magazine"
+      }, {
+        "label" : "Torque (magazine)",
+        "uri" : "http://dbpedia.org/resource/Torque_(magazine)"
+      }, {
+        "label" : "Universidade Municipal de São Caetano do Sul",
+        "uri" : "http://dbpedia.org/resource/Universidade_Municipal_de_São_Caetano_do_Sul"
+      }, {
+        "label" : "University of Dammam",
+        "uri" : "http://dbpedia.org/resource/University_of_Dammam"
+      }, {
+        "label" : "Wakulla County Airport",
+        "uri" : "http://dbpedia.org/resource/Wakulla_County_Airport"
+      }, {
+        "label" : "Western Freeway (Victoria)",
+        "uri" : "http://dbpedia.org/resource/Western_Freeway_(Victoria)"
+      }, {
+        "label" : "2GLF",
+        "uri" : "http://dbpedia.org/resource/2GLF"
+      }, {
+        "label" : "666 ABC Canberra",
+        "uri" : "http://dbpedia.org/resource/666_ABC_Canberra"
+      }, {
+        "label" : "Aberdeen High School (Idaho)",
+        "uri" : "http://dbpedia.org/resource/Aberdeen_High_School_(Idaho)"
+      }, {
+        "label" : "Abilene High School (Kansas)",
+        "uri" : "http://dbpedia.org/resource/Abilene_High_School_(Kansas)"
+      }, {
+        "label" : "Abilene High School (Texas)",
+        "uri" : "http://dbpedia.org/resource/Abilene_High_School_(Texas)"
+      }, {
+        "label" : "Aboisso Airport",
+        "uri" : "http://dbpedia.org/resource/Aboisso_Airport"
+      }, {
+        "label" : "Admiral Arthur W. Radford High School",
+        "uri" : "http://dbpedia.org/resource/Admiral_Arthur_W._Radford_High_School"
+      }, {
+        "label" : "Afon Clywedog",
+        "uri" : "http://dbpedia.org/resource/Afon_Clywedog"
+      }, {
+        "label" : "Aiglon College",
+        "uri" : "http://dbpedia.org/resource/Aiglon_College"
+      }, {
+        "label" : "Air War College",
+        "uri" : "http://dbpedia.org/resource/Air_War_College"
+      } ]
+    },
+    "combination" : false
+  }, {
+    "id" : "10",
+    "language" : "EN",
+    "type" : "NP",
+    "bindingType" : "COUNTRY",
+    "returnType" : "CITY",
+    "frameType" : "NPP",
+    "sentences" : [ "the city of $x" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/city> ?objOfProp))\n",
+    "sentenceToSparqlParameterMapping" : {
+      "$x" : "subjOfProp"
+    },
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "$x",
+      "bindingList" : [ {
+        "label" : "2600: The Hacker Quarterly",
+        "uri" : "http://dbpedia.org/resource/2600:_The_Hacker_Quarterly"
+      }, {
+        "label" : "Labrador",
+        "uri" : "http://dbpedia.org/resource/Labrador"
+      }, {
+        "label" : "Los Angeles Xtreme",
+        "uri" : "http://dbpedia.org/resource/Los_Angeles_Xtreme"
+      }, {
+        "label" : "Time (magazine)",
+        "uri" : "http://dbpedia.org/resource/Time_(magazine)"
+      }, {
+        "label" : "University of Manchester Institute of Science and Technology",
+        "uri" : "http://dbpedia.org/resource/University_of_Manchester_Institute_of_Science_and_Technology"
+      }, {
+        "label" : "Wabash College",
+        "uri" : "http://dbpedia.org/resource/Wabash_College"
+      }, {
+        "label" : "Aksu Airport",
+        "uri" : "http://dbpedia.org/resource/Aksu_Airport"
+      }, {
+        "label" : "Albertus Magnus High School",
+        "uri" : "http://dbpedia.org/resource/Albertus_Magnus_High_School"
+      }, {
+        "label" : "Alexandria Monroe High School",
+        "uri" : "http://dbpedia.org/resource/Alexandria_Monroe_High_School"
+      }, {
+        "label" : "Along Airport",
+        "uri" : "http://dbpedia.org/resource/Along_Airport"
+      }, {
+        "label" : "Anadolu Airport",
+        "uri" : "http://dbpedia.org/resource/Anadolu_Airport"
+      }, {
+        "label" : "Anadolu Mecmuası",
+        "uri" : "http://dbpedia.org/resource/Anadolu_Mecmuası"
+      }, {
+        "label" : "Arabia Mountain High School",
+        "uri" : "http://dbpedia.org/resource/Arabia_Mountain_High_School"
+      }, {
+        "label" : "Archbishop Murphy High School",
+        "uri" : "http://dbpedia.org/resource/Archbishop_Murphy_High_School"
+      }, {
+        "label" : "Asia University (Taiwan)",
+        "uri" : "http://dbpedia.org/resource/Asia_University_(Taiwan)"
+      }, {
+        "label" : "Aspen University",
+        "uri" : "http://dbpedia.org/resource/Aspen_University"
+      }, {
+        "label" : "Auburn Mountainview High School",
+        "uri" : "http://dbpedia.org/resource/Auburn_Mountainview_High_School"
+      }, {
+        "label" : "August Martin High School",
+        "uri" : "http://dbpedia.org/resource/August_Martin_High_School"
+      }, {
+        "label" : "Augusta Preparatory Day School",
+        "uri" : "http://dbpedia.org/resource/Augusta_Preparatory_Day_School"
+      }, {
+        "label" : "Backwoods Home Magazine",
+        "uri" : "http://dbpedia.org/resource/Backwoods_Home_Magazine"
+      }, {
+        "label" : "Barry (radio)",
+        "uri" : "http://dbpedia.org/resource/Barry_(radio)"
+      }, {
+        "label" : "Brocklehurst Secondary School",
+        "uri" : "http://dbpedia.org/resource/Brocklehurst_Secondary_School"
+      }, {
+        "label" : "C. V. Raman College of Engineering, Bhubaneshwar",
+        "uri" : "http://dbpedia.org/resource/C._V._Raman_College_of_Engineering,_Bhubaneshwar"
+      }, {
+        "label" : "Cagayan River (Mindanao)",
+        "uri" : "http://dbpedia.org/resource/Cagayan_River_(Mindanao)"
+      }, {
+        "label" : "Cambridge High School (Cambridge, Ohio)",
+        "uri" : "http://dbpedia.org/resource/Cambridge_High_School_(Cambridge,_Ohio)"
+      }, {
+        "label" : "Cambridge High School (Illinois)",
+        "uri" : "http://dbpedia.org/resource/Cambridge_High_School_(Illinois)"
+      }, {
+        "label" : "Candido (magazine)",
+        "uri" : "http://dbpedia.org/resource/Candido_(magazine)"
+      }, {
+        "label" : "Carmi-White County High School",
+        "uri" : "http://dbpedia.org/resource/Carmi-White_County_High_School"
+      }, {
+        "label" : "Dale Bumpers College of Agricultural, Food and Life Sciences",
+        "uri" : "http://dbpedia.org/resource/Dale_Bumpers_College_of_Agricultural,_Food_and_Life_Sciences"
+      }, {
+        "label" : "Dalziel High School",
+        "uri" : "http://dbpedia.org/resource/Dalziel_High_School"
+      }, {
+        "label" : "Dr. C. V. Raman University",
+        "uri" : "http://dbpedia.org/resource/Dr._C._V._Raman_University"
+      }, {
+        "label" : "Eastern Montgomery High School",
+        "uri" : "http://dbpedia.org/resource/Eastern_Montgomery_High_School"
+      }, {
+        "label" : "Family Tree (magazine)",
+        "uri" : "http://dbpedia.org/resource/Family_Tree_(magazine)"
+      }, {
+        "label" : "Flash Wolves",
+        "uri" : "http://dbpedia.org/resource/Flash_Wolves"
+      }, {
+        "label" : "Hamilton High School (Anza, California)",
+        "uri" : "http://dbpedia.org/resource/Hamilton_High_School_(Anza,_California)"
+      }, {
+        "label" : "Hamilton High School (Bulawayo)",
+        "uri" : "http://dbpedia.org/resource/Hamilton_High_School_(Bulawayo)"
+      }, {
+        "label" : "Hamilton High School (Hamilton, Illinois)",
+        "uri" : "http://dbpedia.org/resource/Hamilton_High_School_(Hamilton,_Illinois)"
+      }, {
+        "label" : "Hamilton High School (Hamilton, Ohio)",
+        "uri" : "http://dbpedia.org/resource/Hamilton_High_School_(Hamilton,_Ohio)"
+      }, {
+        "label" : "Hamilton High School (Montana)",
+        "uri" : "http://dbpedia.org/resource/Hamilton_High_School_(Montana)"
+      }, {
+        "label" : "Hamilton High School (Texas)",
+        "uri" : "http://dbpedia.org/resource/Hamilton_High_School_(Texas)"
+      }, {
+        "label" : "Helen Bernstein High School",
+        "uri" : "http://dbpedia.org/resource/Helen_Bernstein_High_School"
+      }, {
+        "label" : "Henley College Coventry",
+        "uri" : "http://dbpedia.org/resource/Henley_College_Coventry"
+      }, {
+        "label" : "Hudson High School (Florida)",
+        "uri" : "http://dbpedia.org/resource/Hudson_High_School_(Florida)"
+      }, {
+        "label" : "Hudson High School (Massachusetts)",
+        "uri" : "http://dbpedia.org/resource/Hudson_High_School_(Massachusetts)"
+      }, {
+        "label" : "Hudson High School (Michigan)",
+        "uri" : "http://dbpedia.org/resource/Hudson_High_School_(Michigan)"
+      }, {
+        "label" : "Hudson High School (New York)",
+        "uri" : "http://dbpedia.org/resource/Hudson_High_School_(New_York)"
+      }, {
+        "label" : "Hudson High School (Texas)",
+        "uri" : "http://dbpedia.org/resource/Hudson_High_School_(Texas)"
+      }, {
+        "label" : "Jacobs Creek (Pennsylvania)",
+        "uri" : "http://dbpedia.org/resource/Jacobs_Creek_(Pennsylvania)"
+      }, {
+        "label" : "Jinwen University of Science and Technology",
+        "uri" : "http://dbpedia.org/resource/Jinwen_University_of_Science_and_Technology"
+      }, {
+        "label" : "KABI (AM)",
+        "uri" : "http://dbpedia.org/resource/KABI_(AM)"
+      }, {
+        "label" : "KABQ-FM",
+        "uri" : "http://dbpedia.org/resource/KABQ-FM"
+      }, {
+        "label" : "KABQ (AM)",
+        "uri" : "http://dbpedia.org/resource/KABQ_(AM)"
+      }, {
+        "label" : "KAHL-FM",
+        "uri" : "http://dbpedia.org/resource/KAHL-FM"
+      }, {
+        "label" : "KAHL (AM)",
+        "uri" : "http://dbpedia.org/resource/KAHL_(AM)"
+      }, {
+        "label" : "KSEA (FM)",
+        "uri" : "http://dbpedia.org/resource/KSEA_(FM)"
+      }, {
+        "label" : "KYKM (FM)",
+        "uri" : "http://dbpedia.org/resource/KYKM_(FM)"
+      }, {
+        "label" : "LIU Brooklyn Blackbirds",
+        "uri" : "http://dbpedia.org/resource/LIU_Brooklyn_Blackbirds"
+      }, {
+        "label" : "Lethbridge School",
+        "uri" : "http://dbpedia.org/resource/Lethbridge_School"
+      }, {
+        "label" : "Lucy Craft Laney High School",
+        "uri" : "http://dbpedia.org/resource/Lucy_Craft_Laney_High_School"
+      }, {
+        "label" : "Lush 99.5FM",
+        "uri" : "http://dbpedia.org/resource/Lush_99.5FM"
+      }, {
+        "label" : "Mary G. Montgomery High School",
+        "uri" : "http://dbpedia.org/resource/Mary_G._Montgomery_High_School"
+      }, {
+        "label" : "Melody (magazine)",
+        "uri" : "http://dbpedia.org/resource/Melody_(magazine)"
+      }, {
+        "label" : "Mix FM (Malaysia)",
+        "uri" : "http://dbpedia.org/resource/Mix_FM_(Malaysia)"
+      }, {
+        "label" : "Mix FM (Stepanakert)",
+        "uri" : "http://dbpedia.org/resource/Mix_FM_(Stepanakert)"
+      }, {
+        "label" : "Montgomery High School, Blackpool",
+        "uri" : "http://dbpedia.org/resource/Montgomery_High_School,_Blackpool"
+      }, {
+        "label" : "North Lake School",
+        "uri" : "http://dbpedia.org/resource/North_Lake_School"
+      }, {
+        "label" : "Northwest High School (Canal Fulton, Ohio)",
+        "uri" : "http://dbpedia.org/resource/Northwest_High_School_(Canal_Fulton,_Ohio)"
+      }, {
+        "label" : "Northwest High School (Texas)",
+        "uri" : "http://dbpedia.org/resource/Northwest_High_School_(Texas)"
+      }, {
+        "label" : "Oktyabrsky Airport",
+        "uri" : "http://dbpedia.org/resource/Oktyabrsky_Airport"
+      }, {
+        "label" : "Pacific College of Oriental Medicine",
+        "uri" : "http://dbpedia.org/resource/Pacific_College_of_Oriental_Medicine"
+      }, {
+        "label" : "Parry Sound High School",
+        "uri" : "http://dbpedia.org/resource/Parry_Sound_High_School"
+      }, {
+        "label" : "Quaid Road",
+        "uri" : "http://dbpedia.org/resource/Quaid_Road"
+      }, {
+        "label" : "Raman Munjal Vidya Mandir",
+        "uri" : "http://dbpedia.org/resource/Raman_Munjal_Vidya_Mandir"
+      }, {
+        "label" : "Raman School Bhopal",
+        "uri" : "http://dbpedia.org/resource/Raman_School_Bhopal"
+      }, {
+        "label" : "Redeemer Baptist School",
+        "uri" : "http://dbpedia.org/resource/Redeemer_Baptist_School"
+      }, {
+        "label" : "Sacré Cœur School",
+        "uri" : "http://dbpedia.org/resource/Sacré_Cœur_School"
+      }, {
+        "label" : "Scheidt (Saarbrücken)",
+        "uri" : "http://dbpedia.org/resource/Scheidt_(Saarbrücken)"
+      }, {
+        "label" : "Science World (magazine)",
+        "uri" : "http://dbpedia.org/resource/Science_World_(magazine)"
+      }, {
+        "label" : "Soka University of America",
+        "uri" : "http://dbpedia.org/resource/Soka_University_of_America"
+      }, {
+        "label" : "Sokoine University of Agriculture",
+        "uri" : "http://dbpedia.org/resource/Sokoine_University_of_Agriculture"
+      }, {
+        "label" : "St. John's High School (Harare)",
+        "uri" : "http://dbpedia.org/resource/St._John's_High_School_(Harare)"
+      }, {
+        "label" : "St. John's High School (Massachusetts)",
+        "uri" : "http://dbpedia.org/resource/St._John's_High_School_(Massachusetts)"
+      }, {
+        "label" : "The Martin High School, Anstey",
+        "uri" : "http://dbpedia.org/resource/The_Martin_High_School,_Anstey"
+      }, {
+        "label" : "The Reader Magazine",
+        "uri" : "http://dbpedia.org/resource/The_Reader_Magazine"
+      }, {
+        "label" : "The Tower Magazine",
+        "uri" : "http://dbpedia.org/resource/The_Tower_Magazine"
+      }, {
+        "label" : "Torque (magazine)",
+        "uri" : "http://dbpedia.org/resource/Torque_(magazine)"
+      }, {
+        "label" : "Universidade Municipal de São Caetano do Sul",
+        "uri" : "http://dbpedia.org/resource/Universidade_Municipal_de_São_Caetano_do_Sul"
+      }, {
+        "label" : "University of Dammam",
+        "uri" : "http://dbpedia.org/resource/University_of_Dammam"
+      }, {
+        "label" : "Wakulla County Airport",
+        "uri" : "http://dbpedia.org/resource/Wakulla_County_Airport"
+      }, {
+        "label" : "Western Freeway (Victoria)",
+        "uri" : "http://dbpedia.org/resource/Western_Freeway_(Victoria)"
+      }, {
+        "label" : "2GLF",
+        "uri" : "http://dbpedia.org/resource/2GLF"
+      }, {
+        "label" : "666 ABC Canberra",
+        "uri" : "http://dbpedia.org/resource/666_ABC_Canberra"
+      }, {
+        "label" : "Aberdeen High School (Idaho)",
+        "uri" : "http://dbpedia.org/resource/Aberdeen_High_School_(Idaho)"
+      }, {
+        "label" : "Abilene High School (Kansas)",
+        "uri" : "http://dbpedia.org/resource/Abilene_High_School_(Kansas)"
+      }, {
+        "label" : "Abilene High School (Texas)",
+        "uri" : "http://dbpedia.org/resource/Abilene_High_School_(Texas)"
+      }, {
+        "label" : "Aboisso Airport",
+        "uri" : "http://dbpedia.org/resource/Aboisso_Airport"
+      }, {
+        "label" : "Admiral Arthur W. Radford High School",
+        "uri" : "http://dbpedia.org/resource/Admiral_Arthur_W._Radford_High_School"
+      }, {
+        "label" : "Afon Clywedog",
+        "uri" : "http://dbpedia.org/resource/Afon_Clywedog"
+      }, {
+        "label" : "Aiglon College",
+        "uri" : "http://dbpedia.org/resource/Aiglon_College"
+      }, {
+        "label" : "Air War College",
+        "uri" : "http://dbpedia.org/resource/Air_War_College"
+      } ]
+    },
+    "combination" : false
+  }, {
+    "id" : "11",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "PERSON",
+    "returnType" : "CITY",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the hometown of ($x | PERSON_NP)?", "Tell me the hometown of ($x | PERSON_NP)?", "What is the hometown of ($x | PERSON_NP)?", "What was the hometown of ($x | PERSON_NP)?", "Which settlement is the hometown of ($x | PERSON_NP)?", "Which settlement was the hometown of ($x | PERSON_NP)?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/hometown> ?objOfProp))\n",
+    "sentenceToSparqlParameterMapping" : {
+      "$x" : "subjOfProp"
+    },
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "$x",
+      "bindingList" : [ {
+        "label" : "W. C. Handy",
+        "uri" : "http://dbpedia.org/resource/W._C._Handy"
+      }, {
+        "label" : "Collin Raye",
+        "uri" : "http://dbpedia.org/resource/Collin_Raye"
+      }, {
+        "label" : "David Daniell (musician)",
+        "uri" : "http://dbpedia.org/resource/David_Daniell_(musician)"
+      }, {
+        "label" : "Chantelle Paige",
+        "uri" : "http://dbpedia.org/resource/Chantelle_Paige"
+      }, {
+        "label" : "Peter Wright (darts player)",
+        "uri" : "http://dbpedia.org/resource/Peter_Wright_(darts_player)"
+      }, {
+        "label" : "Scheer (band)",
+        "uri" : "http://dbpedia.org/resource/Scheer_(band)"
+      }, {
+        "label" : "The Impressions",
+        "uri" : "http://dbpedia.org/resource/The_Impressions"
+      }, {
+        "label" : "Woe, Is Me",
+        "uri" : "http://dbpedia.org/resource/Woe,_Is_Me"
+      }, {
+        "label" : "Gills and Wings",
+        "uri" : "http://dbpedia.org/resource/Gills_and_Wings"
+      }, {
+        "label" : "P$C",
+        "uri" : "http://dbpedia.org/resource/P$C"
+      }, {
+        "label" : "Andrew VanWyngarden",
+        "uri" : "http://dbpedia.org/resource/Andrew_VanWyngarden"
+      }, {
+        "label" : "Archgoat",
+        "uri" : "http://dbpedia.org/resource/Archgoat"
+      }, {
+        "label" : "Atari Blitzkrieg",
+        "uri" : "http://dbpedia.org/resource/Atari_Blitzkrieg"
+      }, {
+        "label" : "Beau Rials",
+        "uri" : "http://dbpedia.org/resource/Beau_Rials"
+      }, {
+        "label" : "Billie the Vision and the Dancers",
+        "uri" : "http://dbpedia.org/resource/Billie_the_Vision_and_the_Dancers"
+      }, {
+        "label" : "Claudio Lolli",
+        "uri" : "http://dbpedia.org/resource/Claudio_Lolli"
+      }, {
+        "label" : "Cowbois Rhos Botwnnog",
+        "uri" : "http://dbpedia.org/resource/Cowbois_Rhos_Botwnnog"
+      }, {
+        "label" : "Dave Matthews and Tim Reynolds",
+        "uri" : "http://dbpedia.org/resource/Dave_Matthews_and_Tim_Reynolds"
+      }, {
+        "label" : "Davisson Brothers Band",
+        "uri" : "http://dbpedia.org/resource/Davisson_Brothers_Band"
+      }, {
+        "label" : "Dean Brody",
+        "uri" : "http://dbpedia.org/resource/Dean_Brody"
+      }, {
+        "label" : "Deus Invictus",
+        "uri" : "http://dbpedia.org/resource/Deus_Invictus"
+      }, {
+        "label" : "Drew Holcomb and The Neighbors",
+        "uri" : "http://dbpedia.org/resource/Drew_Holcomb_and_The_Neighbors"
+      }, {
+        "label" : "Fee (band)",
+        "uri" : "http://dbpedia.org/resource/Fee_(band)"
+      }, {
+        "label" : "Iron Steel",
+        "uri" : "http://dbpedia.org/resource/Iron_Steel"
+      }, {
+        "label" : "Jan Robbe",
+        "uri" : "http://dbpedia.org/resource/Jan_Robbe"
+      }, {
+        "label" : "Jason Wisdom",
+        "uri" : "http://dbpedia.org/resource/Jason_Wisdom"
+      }, {
+        "label" : "Jonathan Allyn",
+        "uri" : "http://dbpedia.org/resource/Jonathan_Allyn"
+      }, {
+        "label" : "Keith Bryant",
+        "uri" : "http://dbpedia.org/resource/Keith_Bryant"
+      }, {
+        "label" : "Mandy Lauderdale",
+        "uri" : "http://dbpedia.org/resource/Mandy_Lauderdale"
+      }, {
+        "label" : "Massimo Volume",
+        "uri" : "http://dbpedia.org/resource/Massimo_Volume"
+      }, {
+        "label" : "Members of the Atlanta Rhythm Section",
+        "uri" : "http://dbpedia.org/resource/Members_of_the_Atlanta_Rhythm_Section"
+      }, {
+        "label" : "Mullage",
+        "uri" : "http://dbpedia.org/resource/Mullage"
+      }, {
+        "label" : "Nathan Pacheco",
+        "uri" : "http://dbpedia.org/resource/Nathan_Pacheco"
+      }, {
+        "label" : "Obsil",
+        "uri" : "http://dbpedia.org/resource/Obsil"
+      }, {
+        "label" : "Ocha la Rocha",
+        "uri" : "http://dbpedia.org/resource/Ocha_la_Rocha"
+      }, {
+        "label" : "Omar Souleyman",
+        "uri" : "http://dbpedia.org/resource/Omar_Souleyman"
+      }, {
+        "label" : "Pat Bergeson",
+        "uri" : "http://dbpedia.org/resource/Pat_Bergeson"
+      }, {
+        "label" : "Prydein (band)",
+        "uri" : "http://dbpedia.org/resource/Prydein_(band)"
+      }, {
+        "label" : "RichGirl",
+        "uri" : "http://dbpedia.org/resource/RichGirl"
+      }, {
+        "label" : "Rouwaida Attieh",
+        "uri" : "http://dbpedia.org/resource/Rouwaida_Attieh"
+      }, {
+        "label" : "Royal Bangs",
+        "uri" : "http://dbpedia.org/resource/Royal_Bangs"
+      }, {
+        "label" : "Ruth Dolores Weiss",
+        "uri" : "http://dbpedia.org/resource/Ruth_Dolores_Weiss"
+      }, {
+        "label" : "Supreeme",
+        "uri" : "http://dbpedia.org/resource/Supreeme"
+      }, {
+        "label" : "Tammy Rogers",
+        "uri" : "http://dbpedia.org/resource/Tammy_Rogers"
+      }, {
+        "label" : "The American Plague",
+        "uri" : "http://dbpedia.org/resource/The_American_Plague"
+      }, {
+        "label" : "The Brilliant Inventions",
+        "uri" : "http://dbpedia.org/resource/The_Brilliant_Inventions"
+      }, {
+        "label" : "The Dead Weather",
+        "uri" : "http://dbpedia.org/resource/The_Dead_Weather"
+      }, {
+        "label" : "The Heartbreaks",
+        "uri" : "http://dbpedia.org/resource/The_Heartbreaks"
+      }, {
+        "label" : "The Lilly Brothers",
+        "uri" : "http://dbpedia.org/resource/The_Lilly_Brothers"
+      }, {
+        "label" : "Tyler James (American musician)",
+        "uri" : "http://dbpedia.org/resource/Tyler_James_(American_musician)"
+      }, {
+        "label" : "Jeremy Ward (sound technician)",
+        "uri" : "http://dbpedia.org/resource/Jeremy_Ward_(sound_technician)"
+      }, {
+        "label" : "Pan Sonic",
+        "uri" : "http://dbpedia.org/resource/Pan_Sonic"
+      }, {
+        "label" : "Benjamin Smoke",
+        "uri" : "http://dbpedia.org/resource/Benjamin_Smoke"
+      }, {
+        "label" : "Danielle Kimmey",
+        "uri" : "http://dbpedia.org/resource/Danielle_Kimmey"
+      }, {
+        "label" : "American Bang",
+        "uri" : "http://dbpedia.org/resource/American_Bang"
+      }, {
+        "label" : "Freshman 15 (band)",
+        "uri" : "http://dbpedia.org/resource/Freshman_15_(band)"
+      }, {
+        "label" : "Lightning Love (band)",
+        "uri" : "http://dbpedia.org/resource/Lightning_Love_(band)"
+      }, {
+        "label" : "The Class of 98",
+        "uri" : "http://dbpedia.org/resource/The_Class_of_98"
+      }, {
+        "label" : "Brian Vander Ark",
+        "uri" : "http://dbpedia.org/resource/Brian_Vander_Ark"
+      }, {
+        "label" : "Dima Bilan",
+        "uri" : "http://dbpedia.org/resource/Dima_Bilan"
+      }, {
+        "label" : "Faakhir Mehmood",
+        "uri" : "http://dbpedia.org/resource/Faakhir_Mehmood"
+      }, {
+        "label" : "Grace Potter and the Nocturnals",
+        "uri" : "http://dbpedia.org/resource/Grace_Potter_and_the_Nocturnals"
+      }, {
+        "label" : "Isabelle Boulay",
+        "uri" : "http://dbpedia.org/resource/Isabelle_Boulay"
+      }, {
+        "label" : "Johnny Staats",
+        "uri" : "http://dbpedia.org/resource/Johnny_Staats"
+      }, {
+        "label" : "Keith Robinson (actor)",
+        "uri" : "http://dbpedia.org/resource/Keith_Robinson_(actor)"
+      }, {
+        "label" : "Leena Peisa",
+        "uri" : "http://dbpedia.org/resource/Leena_Peisa"
+      }, {
+        "label" : "Al Kapone",
+        "uri" : "http://dbpedia.org/resource/Al_Kapone"
+      }, {
+        "label" : "Arken Abdulla",
+        "uri" : "http://dbpedia.org/resource/Arken_Abdulla"
+      }, {
+        "label" : "Awaz",
+        "uri" : "http://dbpedia.org/resource/Awaz"
+      }, {
+        "label" : "Bobby Jones (singer)",
+        "uri" : "http://dbpedia.org/resource/Bobby_Jones_(singer)"
+      }, {
+        "label" : "Comes with the Fall",
+        "uri" : "http://dbpedia.org/resource/Comes_with_the_Fall"
+      }, {
+        "label" : "Dave Pomeroy",
+        "uri" : "http://dbpedia.org/resource/Dave_Pomeroy"
+      }, {
+        "label" : "David Fonseca",
+        "uri" : "http://dbpedia.org/resource/David_Fonseca"
+      }, {
+        "label" : "Emmet Swimming",
+        "uri" : "http://dbpedia.org/resource/Emmet_Swimming"
+      }, {
+        "label" : "Engine Down",
+        "uri" : "http://dbpedia.org/resource/Engine_Down"
+      }, {
+        "label" : "Hastang",
+        "uri" : "http://dbpedia.org/resource/Hastang"
+      }, {
+        "label" : "Jill Phillips",
+        "uri" : "http://dbpedia.org/resource/Jill_Phillips"
+      }, {
+        "label" : "Jim & Jesse",
+        "uri" : "http://dbpedia.org/resource/Jim_&_Jesse"
+      }, {
+        "label" : "Kilpi",
+        "uri" : "http://dbpedia.org/resource/Kilpi"
+      }, {
+        "label" : "Kingdom Heirs",
+        "uri" : "http://dbpedia.org/resource/Kingdom_Heirs"
+      }, {
+        "label" : "Kirk Talley",
+        "uri" : "http://dbpedia.org/resource/Kirk_Talley"
+      }, {
+        "label" : "Levi Kreis",
+        "uri" : "http://dbpedia.org/resource/Levi_Kreis"
+      }, {
+        "label" : "Lucid Nation",
+        "uri" : "http://dbpedia.org/resource/Lucid_Nation"
+      }, {
+        "label" : "Manchester Orchestra",
+        "uri" : "http://dbpedia.org/resource/Manchester_Orchestra"
+      }, {
+        "label" : "Max Surban",
+        "uri" : "http://dbpedia.org/resource/Max_Surban"
+      }, {
+        "label" : "Men's Recovery Project",
+        "uri" : "http://dbpedia.org/resource/Men's_Recovery_Project"
+      }, {
+        "label" : "Mão Morta",
+        "uri" : "http://dbpedia.org/resource/Mão_Morta"
+      }, {
+        "label" : "Nathan Fake",
+        "uri" : "http://dbpedia.org/resource/Nathan_Fake"
+      }, {
+        "label" : "Nights Like These",
+        "uri" : "http://dbpedia.org/resource/Nights_Like_These"
+      }, {
+        "label" : "Norma Jean (band)",
+        "uri" : "http://dbpedia.org/resource/Norma_Jean_(band)"
+      }, {
+        "label" : "Ocacia",
+        "uri" : "http://dbpedia.org/resource/Ocacia"
+      }, {
+        "label" : "Pnuma Trio",
+        "uri" : "http://dbpedia.org/resource/Pnuma_Trio"
+      }, {
+        "label" : "Sebastian (singer)",
+        "uri" : "http://dbpedia.org/resource/Sebastian_(singer)"
+      }, {
+        "label" : "Synical",
+        "uri" : "http://dbpedia.org/resource/Synical"
+      }, {
+        "label" : "The Alternate Routes",
+        "uri" : "http://dbpedia.org/resource/The_Alternate_Routes"
+      }, {
+        "label" : "The Codetalkers",
+        "uri" : "http://dbpedia.org/resource/The_Codetalkers"
+      }, {
+        "label" : "The Crash (band)",
+        "uri" : "http://dbpedia.org/resource/The_Crash_(band)"
+      }, {
+        "label" : "The McKameys",
+        "uri" : "http://dbpedia.org/resource/The_McKameys"
+      }, {
+        "label" : "The New Virginians",
+        "uri" : "http://dbpedia.org/resource/The_New_Virginians"
+      }, {
+        "label" : "The Static Age",
+        "uri" : "http://dbpedia.org/resource/The_Static_Age"
+      } ]
+    },
+    "combination" : false
+  }, {
+    "id" : "12",
+    "language" : "EN",
+    "type" : "NP",
+    "bindingType" : "PERSON",
+    "returnType" : "CITY",
+    "frameType" : "NPP",
+    "sentences" : [ "the hometown of $x" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/hometown> ?objOfProp))\n",
+    "sentenceToSparqlParameterMapping" : {
+      "$x" : "subjOfProp"
+    },
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "$x",
+      "bindingList" : [ {
+        "label" : "W. C. Handy",
+        "uri" : "http://dbpedia.org/resource/W._C._Handy"
+      }, {
+        "label" : "Collin Raye",
+        "uri" : "http://dbpedia.org/resource/Collin_Raye"
+      }, {
+        "label" : "David Daniell (musician)",
+        "uri" : "http://dbpedia.org/resource/David_Daniell_(musician)"
+      }, {
+        "label" : "Chantelle Paige",
+        "uri" : "http://dbpedia.org/resource/Chantelle_Paige"
+      }, {
+        "label" : "Peter Wright (darts player)",
+        "uri" : "http://dbpedia.org/resource/Peter_Wright_(darts_player)"
+      }, {
+        "label" : "Scheer (band)",
+        "uri" : "http://dbpedia.org/resource/Scheer_(band)"
+      }, {
+        "label" : "The Impressions",
+        "uri" : "http://dbpedia.org/resource/The_Impressions"
+      }, {
+        "label" : "Woe, Is Me",
+        "uri" : "http://dbpedia.org/resource/Woe,_Is_Me"
+      }, {
+        "label" : "Gills and Wings",
+        "uri" : "http://dbpedia.org/resource/Gills_and_Wings"
+      }, {
+        "label" : "P$C",
+        "uri" : "http://dbpedia.org/resource/P$C"
+      }, {
+        "label" : "Andrew VanWyngarden",
+        "uri" : "http://dbpedia.org/resource/Andrew_VanWyngarden"
+      }, {
+        "label" : "Archgoat",
+        "uri" : "http://dbpedia.org/resource/Archgoat"
+      }, {
+        "label" : "Atari Blitzkrieg",
+        "uri" : "http://dbpedia.org/resource/Atari_Blitzkrieg"
+      }, {
+        "label" : "Beau Rials",
+        "uri" : "http://dbpedia.org/resource/Beau_Rials"
+      }, {
+        "label" : "Billie the Vision and the Dancers",
+        "uri" : "http://dbpedia.org/resource/Billie_the_Vision_and_the_Dancers"
+      }, {
+        "label" : "Claudio Lolli",
+        "uri" : "http://dbpedia.org/resource/Claudio_Lolli"
+      }, {
+        "label" : "Cowbois Rhos Botwnnog",
+        "uri" : "http://dbpedia.org/resource/Cowbois_Rhos_Botwnnog"
+      }, {
+        "label" : "Dave Matthews and Tim Reynolds",
+        "uri" : "http://dbpedia.org/resource/Dave_Matthews_and_Tim_Reynolds"
+      }, {
+        "label" : "Davisson Brothers Band",
+        "uri" : "http://dbpedia.org/resource/Davisson_Brothers_Band"
+      }, {
+        "label" : "Dean Brody",
+        "uri" : "http://dbpedia.org/resource/Dean_Brody"
+      }, {
+        "label" : "Deus Invictus",
+        "uri" : "http://dbpedia.org/resource/Deus_Invictus"
+      }, {
+        "label" : "Drew Holcomb and The Neighbors",
+        "uri" : "http://dbpedia.org/resource/Drew_Holcomb_and_The_Neighbors"
+      }, {
+        "label" : "Fee (band)",
+        "uri" : "http://dbpedia.org/resource/Fee_(band)"
+      }, {
+        "label" : "Iron Steel",
+        "uri" : "http://dbpedia.org/resource/Iron_Steel"
+      }, {
+        "label" : "Jan Robbe",
+        "uri" : "http://dbpedia.org/resource/Jan_Robbe"
+      }, {
+        "label" : "Jason Wisdom",
+        "uri" : "http://dbpedia.org/resource/Jason_Wisdom"
+      }, {
+        "label" : "Jonathan Allyn",
+        "uri" : "http://dbpedia.org/resource/Jonathan_Allyn"
+      }, {
+        "label" : "Keith Bryant",
+        "uri" : "http://dbpedia.org/resource/Keith_Bryant"
+      }, {
+        "label" : "Mandy Lauderdale",
+        "uri" : "http://dbpedia.org/resource/Mandy_Lauderdale"
+      }, {
+        "label" : "Massimo Volume",
+        "uri" : "http://dbpedia.org/resource/Massimo_Volume"
+      }, {
+        "label" : "Members of the Atlanta Rhythm Section",
+        "uri" : "http://dbpedia.org/resource/Members_of_the_Atlanta_Rhythm_Section"
+      }, {
+        "label" : "Mullage",
+        "uri" : "http://dbpedia.org/resource/Mullage"
+      }, {
+        "label" : "Nathan Pacheco",
+        "uri" : "http://dbpedia.org/resource/Nathan_Pacheco"
+      }, {
+        "label" : "Obsil",
+        "uri" : "http://dbpedia.org/resource/Obsil"
+      }, {
+        "label" : "Ocha la Rocha",
+        "uri" : "http://dbpedia.org/resource/Ocha_la_Rocha"
+      }, {
+        "label" : "Omar Souleyman",
+        "uri" : "http://dbpedia.org/resource/Omar_Souleyman"
+      }, {
+        "label" : "Pat Bergeson",
+        "uri" : "http://dbpedia.org/resource/Pat_Bergeson"
+      }, {
+        "label" : "Prydein (band)",
+        "uri" : "http://dbpedia.org/resource/Prydein_(band)"
+      }, {
+        "label" : "RichGirl",
+        "uri" : "http://dbpedia.org/resource/RichGirl"
+      }, {
+        "label" : "Rouwaida Attieh",
+        "uri" : "http://dbpedia.org/resource/Rouwaida_Attieh"
+      }, {
+        "label" : "Royal Bangs",
+        "uri" : "http://dbpedia.org/resource/Royal_Bangs"
+      }, {
+        "label" : "Ruth Dolores Weiss",
+        "uri" : "http://dbpedia.org/resource/Ruth_Dolores_Weiss"
+      }, {
+        "label" : "Supreeme",
+        "uri" : "http://dbpedia.org/resource/Supreeme"
+      }, {
+        "label" : "Tammy Rogers",
+        "uri" : "http://dbpedia.org/resource/Tammy_Rogers"
+      }, {
+        "label" : "The American Plague",
+        "uri" : "http://dbpedia.org/resource/The_American_Plague"
+      }, {
+        "label" : "The Brilliant Inventions",
+        "uri" : "http://dbpedia.org/resource/The_Brilliant_Inventions"
+      }, {
+        "label" : "The Dead Weather",
+        "uri" : "http://dbpedia.org/resource/The_Dead_Weather"
+      }, {
+        "label" : "The Heartbreaks",
+        "uri" : "http://dbpedia.org/resource/The_Heartbreaks"
+      }, {
+        "label" : "The Lilly Brothers",
+        "uri" : "http://dbpedia.org/resource/The_Lilly_Brothers"
+      }, {
+        "label" : "Tyler James (American musician)",
+        "uri" : "http://dbpedia.org/resource/Tyler_James_(American_musician)"
+      }, {
+        "label" : "Jeremy Ward (sound technician)",
+        "uri" : "http://dbpedia.org/resource/Jeremy_Ward_(sound_technician)"
+      }, {
+        "label" : "Pan Sonic",
+        "uri" : "http://dbpedia.org/resource/Pan_Sonic"
+      }, {
+        "label" : "Benjamin Smoke",
+        "uri" : "http://dbpedia.org/resource/Benjamin_Smoke"
+      }, {
+        "label" : "Danielle Kimmey",
+        "uri" : "http://dbpedia.org/resource/Danielle_Kimmey"
+      }, {
+        "label" : "American Bang",
+        "uri" : "http://dbpedia.org/resource/American_Bang"
+      }, {
+        "label" : "Freshman 15 (band)",
+        "uri" : "http://dbpedia.org/resource/Freshman_15_(band)"
+      }, {
+        "label" : "Lightning Love (band)",
+        "uri" : "http://dbpedia.org/resource/Lightning_Love_(band)"
+      }, {
+        "label" : "The Class of 98",
+        "uri" : "http://dbpedia.org/resource/The_Class_of_98"
+      }, {
+        "label" : "Brian Vander Ark",
+        "uri" : "http://dbpedia.org/resource/Brian_Vander_Ark"
+      }, {
+        "label" : "Dima Bilan",
+        "uri" : "http://dbpedia.org/resource/Dima_Bilan"
+      }, {
+        "label" : "Faakhir Mehmood",
+        "uri" : "http://dbpedia.org/resource/Faakhir_Mehmood"
+      }, {
+        "label" : "Grace Potter and the Nocturnals",
+        "uri" : "http://dbpedia.org/resource/Grace_Potter_and_the_Nocturnals"
+      }, {
+        "label" : "Isabelle Boulay",
+        "uri" : "http://dbpedia.org/resource/Isabelle_Boulay"
+      }, {
+        "label" : "Johnny Staats",
+        "uri" : "http://dbpedia.org/resource/Johnny_Staats"
+      }, {
+        "label" : "Keith Robinson (actor)",
+        "uri" : "http://dbpedia.org/resource/Keith_Robinson_(actor)"
+      }, {
+        "label" : "Leena Peisa",
+        "uri" : "http://dbpedia.org/resource/Leena_Peisa"
+      }, {
+        "label" : "Al Kapone",
+        "uri" : "http://dbpedia.org/resource/Al_Kapone"
+      }, {
+        "label" : "Arken Abdulla",
+        "uri" : "http://dbpedia.org/resource/Arken_Abdulla"
+      }, {
+        "label" : "Awaz",
+        "uri" : "http://dbpedia.org/resource/Awaz"
+      }, {
+        "label" : "Bobby Jones (singer)",
+        "uri" : "http://dbpedia.org/resource/Bobby_Jones_(singer)"
+      }, {
+        "label" : "Comes with the Fall",
+        "uri" : "http://dbpedia.org/resource/Comes_with_the_Fall"
+      }, {
+        "label" : "Dave Pomeroy",
+        "uri" : "http://dbpedia.org/resource/Dave_Pomeroy"
+      }, {
+        "label" : "David Fonseca",
+        "uri" : "http://dbpedia.org/resource/David_Fonseca"
+      }, {
+        "label" : "Emmet Swimming",
+        "uri" : "http://dbpedia.org/resource/Emmet_Swimming"
+      }, {
+        "label" : "Engine Down",
+        "uri" : "http://dbpedia.org/resource/Engine_Down"
+      }, {
+        "label" : "Hastang",
+        "uri" : "http://dbpedia.org/resource/Hastang"
+      }, {
+        "label" : "Jill Phillips",
+        "uri" : "http://dbpedia.org/resource/Jill_Phillips"
+      }, {
+        "label" : "Jim & Jesse",
+        "uri" : "http://dbpedia.org/resource/Jim_&_Jesse"
+      }, {
+        "label" : "Kilpi",
+        "uri" : "http://dbpedia.org/resource/Kilpi"
+      }, {
+        "label" : "Kingdom Heirs",
+        "uri" : "http://dbpedia.org/resource/Kingdom_Heirs"
+      }, {
+        "label" : "Kirk Talley",
+        "uri" : "http://dbpedia.org/resource/Kirk_Talley"
+      }, {
+        "label" : "Levi Kreis",
+        "uri" : "http://dbpedia.org/resource/Levi_Kreis"
+      }, {
+        "label" : "Lucid Nation",
+        "uri" : "http://dbpedia.org/resource/Lucid_Nation"
+      }, {
+        "label" : "Manchester Orchestra",
+        "uri" : "http://dbpedia.org/resource/Manchester_Orchestra"
+      }, {
+        "label" : "Max Surban",
+        "uri" : "http://dbpedia.org/resource/Max_Surban"
+      }, {
+        "label" : "Men's Recovery Project",
+        "uri" : "http://dbpedia.org/resource/Men's_Recovery_Project"
+      }, {
+        "label" : "Mão Morta",
+        "uri" : "http://dbpedia.org/resource/Mão_Morta"
+      }, {
+        "label" : "Nathan Fake",
+        "uri" : "http://dbpedia.org/resource/Nathan_Fake"
+      }, {
+        "label" : "Nights Like These",
+        "uri" : "http://dbpedia.org/resource/Nights_Like_These"
+      }, {
+        "label" : "Norma Jean (band)",
+        "uri" : "http://dbpedia.org/resource/Norma_Jean_(band)"
+      }, {
+        "label" : "Ocacia",
+        "uri" : "http://dbpedia.org/resource/Ocacia"
+      }, {
+        "label" : "Pnuma Trio",
+        "uri" : "http://dbpedia.org/resource/Pnuma_Trio"
+      }, {
+        "label" : "Sebastian (singer)",
+        "uri" : "http://dbpedia.org/resource/Sebastian_(singer)"
+      }, {
+        "label" : "Synical",
+        "uri" : "http://dbpedia.org/resource/Synical"
+      }, {
+        "label" : "The Alternate Routes",
+        "uri" : "http://dbpedia.org/resource/The_Alternate_Routes"
+      }, {
+        "label" : "The Codetalkers",
+        "uri" : "http://dbpedia.org/resource/The_Codetalkers"
+      }, {
+        "label" : "The Crash (band)",
+        "uri" : "http://dbpedia.org/resource/The_Crash_(band)"
+      }, {
+        "label" : "The McKameys",
+        "uri" : "http://dbpedia.org/resource/The_McKameys"
+      }, {
+        "label" : "The New Virginians",
+        "uri" : "http://dbpedia.org/resource/The_New_Virginians"
+      }, {
+        "label" : "The Static Age",
+        "uri" : "http://dbpedia.org/resource/The_Static_Age"
+      } ]
+    },
+    "combination" : false
+  }, {
+    "id" : "13",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "FILM",
@@ -657,182 +3847,20 @@
         "label" : "12 Monkeys",
         "uri" : "http://dbpedia.org/resource/12_Monkeys"
       }, {
-        "label" : "American Beauty (1999 film)",
-        "uri" : "http://dbpedia.org/resource/American_Beauty_(1999_film)"
-      }, {
-        "label" : "Amélie",
-        "uri" : "http://dbpedia.org/resource/Amélie"
-      }, {
-        "label" : "Animal Crackers (1930 film)",
-        "uri" : "http://dbpedia.org/resource/Animal_Crackers_(1930_film)"
-      }, {
-        "label" : "Anne of the Thousand Days",
-        "uri" : "http://dbpedia.org/resource/Anne_of_the_Thousand_Days"
-      }, {
-        "label" : "Anywhere but Here (film)",
-        "uri" : "http://dbpedia.org/resource/Anywhere_but_Here_(film)"
-      }, {
-        "label" : "Armageddon (1998 film)",
-        "uri" : "http://dbpedia.org/resource/Armageddon_(1998_film)"
-      }, {
         "label" : "Beautiful Girls (film)",
         "uri" : "http://dbpedia.org/resource/Beautiful_Girls_(film)"
-      }, {
-        "label" : "Black Narcissus",
-        "uri" : "http://dbpedia.org/resource/Black_Narcissus"
       }, {
         "label" : "Breakfast at Tiffany's (film)",
         "uri" : "http://dbpedia.org/resource/Breakfast_at_Tiffany's_(film)"
       }, {
-        "label" : "Carry On (franchise)",
-        "uri" : "http://dbpedia.org/resource/Carry_On_(franchise)"
-      }, {
-        "label" : "Casablanca (film)",
-        "uri" : "http://dbpedia.org/resource/Casablanca_(film)"
-      }, {
-        "label" : "Cast Away",
-        "uri" : "http://dbpedia.org/resource/Cast_Away"
-      }, {
-        "label" : "Chang: A Drama of the Wilderness",
-        "uri" : "http://dbpedia.org/resource/Chang:_A_Drama_of_the_Wilderness"
-      }, {
-        "label" : "Coming to America",
-        "uri" : "http://dbpedia.org/resource/Coming_to_America"
-      }, {
-        "label" : "Crossfire (film)",
-        "uri" : "http://dbpedia.org/resource/Crossfire_(film)"
-      }, {
-        "label" : "Dinnerladies",
-        "uri" : "http://dbpedia.org/resource/Dinnerladies"
-      }, {
-        "label" : "Donnie Darko",
-        "uri" : "http://dbpedia.org/resource/Donnie_Darko"
-      }, {
-        "label" : "Dreams (TV series)",
-        "uri" : "http://dbpedia.org/resource/Dreams_(TV_series)"
-      }, {
-        "label" : "Earth: Final Conflict",
-        "uri" : "http://dbpedia.org/resource/Earth:_Final_Conflict"
-      }, {
-        "label" : "Everyone Says I Love You",
-        "uri" : "http://dbpedia.org/resource/Everyone_Says_I_Love_You"
-      }, {
-        "label" : "Eyeball (film)",
-        "uri" : "http://dbpedia.org/resource/Eyeball_(film)"
-      }, {
-        "label" : "Final Fantasy Adventure",
-        "uri" : "http://dbpedia.org/resource/Final_Fantasy_Adventure"
-      }, {
-        "label" : "Final Fantasy II",
-        "uri" : "http://dbpedia.org/resource/Final_Fantasy_II"
-      }, {
-        "label" : "Final Fantasy IV",
-        "uri" : "http://dbpedia.org/resource/Final_Fantasy_IV"
-      }, {
-        "label" : "Final Fantasy IX",
-        "uri" : "http://dbpedia.org/resource/Final_Fantasy_IX"
-      }, {
-        "label" : "Final Fantasy Tactics",
-        "uri" : "http://dbpedia.org/resource/Final_Fantasy_Tactics"
-      }, {
-        "label" : "Final Fantasy V",
-        "uri" : "http://dbpedia.org/resource/Final_Fantasy_V"
-      }, {
-        "label" : "Final Fantasy VI",
-        "uri" : "http://dbpedia.org/resource/Final_Fantasy_VI"
-      }, {
-        "label" : "Final Fantasy VII",
-        "uri" : "http://dbpedia.org/resource/Final_Fantasy_VII"
-      }, {
-        "label" : "Final Fantasy VIII",
-        "uri" : "http://dbpedia.org/resource/Final_Fantasy_VIII"
-      }, {
-        "label" : "Final Fantasy X",
-        "uri" : "http://dbpedia.org/resource/Final_Fantasy_X"
-      }, {
-        "label" : "Forbidden Planet",
-        "uri" : "http://dbpedia.org/resource/Forbidden_Planet"
-      }, {
-        "label" : "Forrest Gump",
-        "uri" : "http://dbpedia.org/resource/Forrest_Gump"
-      }, {
-        "label" : "French Kiss (1995 film)",
-        "uri" : "http://dbpedia.org/resource/French_Kiss_(1995_film)"
-      }, {
-        "label" : "From Here to Eternity",
-        "uri" : "http://dbpedia.org/resource/From_Here_to_Eternity"
-      }, {
-        "label" : "Gattaca",
-        "uri" : "http://dbpedia.org/resource/Gattaca"
-      }, {
         "label" : "Gentleman's Agreement",
         "uri" : "http://dbpedia.org/resource/Gentleman's_Agreement"
-      }, {
-        "label" : "Going My Way",
-        "uri" : "http://dbpedia.org/resource/Going_My_Way"
-      }, {
-        "label" : "Grand Hotel (1932 film)",
-        "uri" : "http://dbpedia.org/resource/Grand_Hotel_(1932_film)"
       }, {
         "label" : "Green Card (film)",
         "uri" : "http://dbpedia.org/resource/Green_Card_(film)"
       }, {
-        "label" : "Heat (1995 film)",
-        "uri" : "http://dbpedia.org/resource/Heat_(1995_film)"
-      }, {
-        "label" : "In Old Arizona",
-        "uri" : "http://dbpedia.org/resource/In_Old_Arizona"
-      }, {
-        "label" : "In the Bedroom",
-        "uri" : "http://dbpedia.org/resource/In_the_Bedroom"
-      }, {
-        "label" : "Independence Day (1996 film)",
-        "uri" : "http://dbpedia.org/resource/Independence_Day_(1996_film)"
-      }, {
-        "label" : "Indiana Jones and the Last Crusade",
-        "uri" : "http://dbpedia.org/resource/Indiana_Jones_and_the_Last_Crusade"
-      }, {
-        "label" : "It Happened One Night",
-        "uri" : "http://dbpedia.org/resource/It_Happened_One_Night"
-      }, {
-        "label" : "K-19: The Widowmaker",
-        "uri" : "http://dbpedia.org/resource/K-19:_The_Widowmaker"
-      }, {
-        "label" : "Lara Croft: Tomb Raider",
-        "uri" : "http://dbpedia.org/resource/Lara_Croft:_Tomb_Raider"
-      }, {
-        "label" : "Leaving Las Vegas",
-        "uri" : "http://dbpedia.org/resource/Leaving_Las_Vegas"
-      }, {
-        "label" : "Looney Tunes",
-        "uri" : "http://dbpedia.org/resource/Looney_Tunes"
-      }, {
         "label" : "Léon: The Professional",
         "uri" : "http://dbpedia.org/resource/Léon:_The_Professional"
-      }, {
-        "label" : "Mars Needs Women",
-        "uri" : "http://dbpedia.org/resource/Mars_Needs_Women"
-      }, {
-        "label" : "Marty (teleplay)",
-        "uri" : "http://dbpedia.org/resource/Marty_(teleplay)"
-      }, {
-        "label" : "Metropolis (1927 film)",
-        "uri" : "http://dbpedia.org/resource/Metropolis_(1927_film)"
-      }, {
-        "label" : "Midnight Cowboy",
-        "uri" : "http://dbpedia.org/resource/Midnight_Cowboy"
-      }, {
-        "label" : "Miller's Crossing",
-        "uri" : "http://dbpedia.org/resource/Miller's_Crossing"
-      }, {
-        "label" : "Mulan (1998 film)",
-        "uri" : "http://dbpedia.org/resource/Mulan_(1998_film)"
-      }, {
-        "label" : "Night of the Living Dead",
-        "uri" : "http://dbpedia.org/resource/Night_of_the_Living_Dead"
-      }, {
-        "label" : "Noir (anime)",
-        "uri" : "http://dbpedia.org/resource/Noir_(anime)"
       }, {
         "label" : "On the Waterfront",
         "uri" : "http://dbpedia.org/resource/On_the_Waterfront"
@@ -840,124 +3868,286 @@
         "label" : "Powaqqatsi",
         "uri" : "http://dbpedia.org/resource/Powaqqatsi"
       }, {
-        "label" : "Pulp Fiction",
-        "uri" : "http://dbpedia.org/resource/Pulp_Fiction"
-      }, {
-        "label" : "Radiant Silvergun",
-        "uri" : "http://dbpedia.org/resource/Radiant_Silvergun"
-      }, {
-        "label" : "Raiders of the Lost Ark",
-        "uri" : "http://dbpedia.org/resource/Raiders_of_the_Lost_Ark"
-      }, {
-        "label" : "Reds (film)",
-        "uri" : "http://dbpedia.org/resource/Reds_(film)"
-      }, {
-        "label" : "Return of the Jedi",
-        "uri" : "http://dbpedia.org/resource/Return_of_the_Jedi"
-      }, {
-        "label" : "Rocky",
-        "uri" : "http://dbpedia.org/resource/Rocky"
-      }, {
-        "label" : "Salò, or the 120 Days of Sodom",
-        "uri" : "http://dbpedia.org/resource/Salò,_or_the_120_Days_of_Sodom"
-      }, {
-        "label" : "San Francisco (1936 film)",
-        "uri" : "http://dbpedia.org/resource/San_Francisco_(1936_film)"
-      }, {
-        "label" : "Saturday Night Fever",
-        "uri" : "http://dbpedia.org/resource/Saturday_Night_Fever"
-      }, {
-        "label" : "Scared to Death",
-        "uri" : "http://dbpedia.org/resource/Scared_to_Death"
-      }, {
-        "label" : "Seven Samurai",
-        "uri" : "http://dbpedia.org/resource/Seven_Samurai"
-      }, {
-        "label" : "Soylent Green",
-        "uri" : "http://dbpedia.org/resource/Soylent_Green"
-      }, {
-        "label" : "Space Battleship Yamato",
-        "uri" : "http://dbpedia.org/resource/Space_Battleship_Yamato"
-      }, {
-        "label" : "Star Wars: Episode II – Attack of the Clones",
-        "uri" : "http://dbpedia.org/resource/Star_Wars:_Episode_II_–_Attack_of_the_Clones"
-      }, {
-        "label" : "Star Wars: Episode I – The Phantom Menace",
-        "uri" : "http://dbpedia.org/resource/Star_Wars:_Episode_I_–_The_Phantom_Menace"
-      }, {
-        "label" : "Star Wars (film)",
-        "uri" : "http://dbpedia.org/resource/Star_Wars_(film)"
-      }, {
-        "label" : "System Shock",
-        "uri" : "http://dbpedia.org/resource/System_Shock"
-      }, {
-        "label" : "THX 1138",
-        "uri" : "http://dbpedia.org/resource/THX_1138"
-      }, {
-        "label" : "Taxi Driver",
-        "uri" : "http://dbpedia.org/resource/Taxi_Driver"
-      }, {
         "label" : "The Apartment",
         "uri" : "http://dbpedia.org/resource/The_Apartment"
       }, {
-        "label" : "The Best Years of Our Lives",
-        "uri" : "http://dbpedia.org/resource/The_Best_Years_of_Our_Lives"
-      }, {
-        "label" : "The Big Country",
-        "uri" : "http://dbpedia.org/resource/The_Big_Country"
-      }, {
-        "label" : "The Big Fisherman",
-        "uri" : "http://dbpedia.org/resource/The_Big_Fisherman"
-      }, {
-        "label" : "The Big Lebowski",
-        "uri" : "http://dbpedia.org/resource/The_Big_Lebowski"
-      }, {
-        "label" : "The Brady Bunch",
-        "uri" : "http://dbpedia.org/resource/The_Brady_Bunch"
-      }, {
-        "label" : "The Breakfast Club",
-        "uri" : "http://dbpedia.org/resource/The_Breakfast_Club"
-      }, {
-        "label" : "The Crying Game",
-        "uri" : "http://dbpedia.org/resource/The_Crying_Game"
-      }, {
-        "label" : "The Day After",
-        "uri" : "http://dbpedia.org/resource/The_Day_After"
-      }, {
-        "label" : "The Empire Strikes Back",
-        "uri" : "http://dbpedia.org/resource/The_Empire_Strikes_Back"
-      }, {
-        "label" : "The Graduate",
-        "uri" : "http://dbpedia.org/resource/The_Graduate"
-      }, {
-        "label" : "The Great Ziegfeld",
-        "uri" : "http://dbpedia.org/resource/The_Great_Ziegfeld"
-      }, {
-        "label" : "The Greatest Show on Earth (film)",
-        "uri" : "http://dbpedia.org/resource/The_Greatest_Show_on_Earth_(film)"
-      }, {
-        "label" : "The Hollywood Revue of 1929",
-        "uri" : "http://dbpedia.org/resource/The_Hollywood_Revue_of_1929"
-      }, {
-        "label" : "The Incredible Shrinking Man",
-        "uri" : "http://dbpedia.org/resource/The_Incredible_Shrinking_Man"
-      }, {
-        "label" : "The Last Laugh",
-        "uri" : "http://dbpedia.org/resource/The_Last_Laugh"
-      }, {
-        "label" : "The Life of Emile Zola",
-        "uri" : "http://dbpedia.org/resource/The_Life_of_Emile_Zola"
-      }, {
-        "label" : "The Little Girl Who Lives Down the Lane",
-        "uri" : "http://dbpedia.org/resource/The_Little_Girl_Who_Lives_Down_the_Lane"
-      }, {
         "label" : "The Lost Weekend (film)",
         "uri" : "http://dbpedia.org/resource/The_Lost_Weekend_(film)"
+      }, {
+        "label" : "The Thing (1982 film)",
+        "uri" : "http://dbpedia.org/resource/The_Thing_(1982_film)"
+      }, {
+        "label" : "The Year of Living Dangerously (film)",
+        "uri" : "http://dbpedia.org/resource/The_Year_of_Living_Dangerously_(film)"
+      }, {
+        "label" : "Sanctuary (1961 film)",
+        "uri" : "http://dbpedia.org/resource/Sanctuary_(1961_film)"
+      }, {
+        "label" : "The Blackbird",
+        "uri" : "http://dbpedia.org/resource/The_Blackbird"
+      }, {
+        "label" : "A Generation",
+        "uri" : "http://dbpedia.org/resource/A_Generation"
+      }, {
+        "label" : "Boccaccio '70",
+        "uri" : "http://dbpedia.org/resource/Boccaccio_'70"
+      }, {
+        "label" : "Death in Venice (film)",
+        "uri" : "http://dbpedia.org/resource/Death_in_Venice_(film)"
+      }, {
+        "label" : "Fool for Love (film)",
+        "uri" : "http://dbpedia.org/resource/Fool_for_Love_(film)"
+      }, {
+        "label" : "Hell's Bells (1929 film)",
+        "uri" : "http://dbpedia.org/resource/Hell's_Bells_(1929_film)"
+      }, {
+        "label" : "Jinxed! (1982 film)",
+        "uri" : "http://dbpedia.org/resource/Jinxed!_(1982_film)"
+      }, {
+        "label" : "L'Amore (film)",
+        "uri" : "http://dbpedia.org/resource/L'Amore_(film)"
+      }, {
+        "label" : "Moulin Rouge (1952 film)",
+        "uri" : "http://dbpedia.org/resource/Moulin_Rouge_(1952_film)"
+      }, {
+        "label" : "Mystic River (film)",
+        "uri" : "http://dbpedia.org/resource/Mystic_River_(film)"
+      }, {
+        "label" : "Once Upon a Time in the West",
+        "uri" : "http://dbpedia.org/resource/Once_Upon_a_Time_in_the_West"
+      }, {
+        "label" : "Picnic at Hanging Rock",
+        "uri" : "http://dbpedia.org/resource/Picnic_at_Hanging_Rock"
+      }, {
+        "label" : "Space Cowboys",
+        "uri" : "http://dbpedia.org/resource/Space_Cowboys"
+      }, {
+        "label" : "Sudden Impact",
+        "uri" : "http://dbpedia.org/resource/Sudden_Impact"
+      }, {
+        "label" : "The Fog",
+        "uri" : "http://dbpedia.org/resource/The_Fog"
+      }, {
+        "label" : "The Human Factor (1979 film)",
+        "uri" : "http://dbpedia.org/resource/The_Human_Factor_(1979_film)"
+      }, {
+        "label" : "The Long Goodbye (film)",
+        "uri" : "http://dbpedia.org/resource/The_Long_Goodbye_(film)"
+      }, {
+        "label" : "The Navigator (1924 film)",
+        "uri" : "http://dbpedia.org/resource/The_Navigator_(1924_film)"
+      }, {
+        "label" : "The Ref",
+        "uri" : "http://dbpedia.org/resource/The_Ref"
+      }, {
+        "label" : "The Road to Mandalay (1926 film)",
+        "uri" : "http://dbpedia.org/resource/The_Road_to_Mandalay_(1926_film)"
+      }, {
+        "label" : "The Show (1927 film)",
+        "uri" : "http://dbpedia.org/resource/The_Show_(1927_film)"
+      }, {
+        "label" : "The Unholy Three (1925 film)",
+        "uri" : "http://dbpedia.org/resource/The_Unholy_Three_(1925_film)"
+      }, {
+        "label" : "The Winner (1996 film)",
+        "uri" : "http://dbpedia.org/resource/The_Winner_(1996_film)"
+      }, {
+        "label" : "White Tiger (1923 film)",
+        "uri" : "http://dbpedia.org/resource/White_Tiger_(1923_film)"
+      }, {
+        "label" : "Drag Me to Hell",
+        "uri" : "http://dbpedia.org/resource/Drag_Me_to_Hell"
+      }, {
+        "label" : "Dark Shadows (film)",
+        "uri" : "http://dbpedia.org/resource/Dark_Shadows_(film)"
+      }, {
+        "label" : "Miss Nobody (1996 film)",
+        "uri" : "http://dbpedia.org/resource/Miss_Nobody_(1996_film)"
+      }, {
+        "label" : "Sleigh Bells (film)",
+        "uri" : "http://dbpedia.org/resource/Sleigh_Bells_(film)"
+      }, {
+        "label" : "Telefon (film)",
+        "uri" : "http://dbpedia.org/resource/Telefon_(film)"
+      }, {
+        "label" : "The Colossus of Rhodes (film)",
+        "uri" : "http://dbpedia.org/resource/The_Colossus_of_Rhodes_(film)"
+      }, {
+        "label" : "Towards the Sun (film)",
+        "uri" : "http://dbpedia.org/resource/Towards_the_Sun_(film)"
+      }, {
+        "label" : "Zabriskie Point (film)",
+        "uri" : "http://dbpedia.org/resource/Zabriskie_Point_(film)"
+      }, {
+        "label" : "Mark of the Vampire",
+        "uri" : "http://dbpedia.org/resource/Mark_of_the_Vampire"
+      }, {
+        "label" : "The Pillow Book (film)",
+        "uri" : "http://dbpedia.org/resource/The_Pillow_Book_(film)"
+      }, {
+        "label" : "Three Men and a Baby",
+        "uri" : "http://dbpedia.org/resource/Three_Men_and_a_Baby"
+      }, {
+        "label" : "Big Eyes",
+        "uri" : "http://dbpedia.org/resource/Big_Eyes"
+      }, {
+        "label" : "Espoir: Sierra de Teruel",
+        "uri" : "http://dbpedia.org/resource/Espoir:_Sierra_de_Teruel"
+      }, {
+        "label" : "N.U. (film)",
+        "uri" : "http://dbpedia.org/resource/N.U._(film)"
+      }, {
+        "label" : "Anna of Brooklyn",
+        "uri" : "http://dbpedia.org/resource/Anna_of_Brooklyn"
+      }, {
+        "label" : "Centennial Summer",
+        "uri" : "http://dbpedia.org/resource/Centennial_Summer"
+      }, {
+        "label" : "Identification of a Woman",
+        "uri" : "http://dbpedia.org/resource/Identification_of_a_Woman"
+      }, {
+        "label" : "Illegally Yours",
+        "uri" : "http://dbpedia.org/resource/Illegally_Yours"
+      }, {
+        "label" : "Innocent Sorcerers",
+        "uri" : "http://dbpedia.org/resource/Innocent_Sorcerers"
+      }, {
+        "label" : "It Happened in the Park",
+        "uri" : "http://dbpedia.org/resource/It_Happened_in_the_Park"
+      }, {
+        "label" : "La Traviata (1983 film)",
+        "uri" : "http://dbpedia.org/resource/La_Traviata_(1983_film)"
+      }, {
+        "label" : "Otello (1986 film)",
+        "uri" : "http://dbpedia.org/resource/Otello_(1986_film)"
+      }, {
+        "label" : "Goltzius and the Pelican Company",
+        "uri" : "http://dbpedia.org/resource/Goltzius_and_the_Pelican_Company"
+      }, {
+        "label" : "Red Roses (1940 film)",
+        "uri" : "http://dbpedia.org/resource/Red_Roses_(1940_film)"
+      }, {
+        "label" : "The Condemned of Altona (film)",
+        "uri" : "http://dbpedia.org/resource/The_Condemned_of_Altona_(film)"
+      }, {
+        "label" : "The Gates of Heaven",
+        "uri" : "http://dbpedia.org/resource/The_Gates_of_Heaven"
+      }, {
+        "label" : "Un garibaldino al convento",
+        "uri" : "http://dbpedia.org/resource/Un_garibaldino_al_convento"
+      }, {
+        "label" : "Un monde nouveau",
+        "uri" : "http://dbpedia.org/resource/Un_monde_nouveau"
+      }, {
+        "label" : "Doom RPG",
+        "uri" : "http://dbpedia.org/resource/Doom_RPG"
+      }, {
+        "label" : "Prêt-à-Porter (film)",
+        "uri" : "http://dbpedia.org/resource/Prêt-à-Porter_(film)"
+      }, {
+        "label" : "Days of Wine and Roses (film)",
+        "uri" : "http://dbpedia.org/resource/Days_of_Wine_and_Roses_(film)"
+      }, {
+        "label" : "Last Tango in Paris",
+        "uri" : "http://dbpedia.org/resource/Last_Tango_in_Paris"
+      }, {
+        "label" : "The Coastline",
+        "uri" : "http://dbpedia.org/resource/The_Coastline"
+      }, {
+        "label" : "Tideland (film)",
+        "uri" : "http://dbpedia.org/resource/Tideland_(film)"
+      }, {
+        "label" : "Heaven Knows, Mr. Allison",
+        "uri" : "http://dbpedia.org/resource/Heaven_Knows,_Mr._Allison"
+      }, {
+        "label" : "Huntley-Brinkley Report",
+        "uri" : "http://dbpedia.org/resource/Huntley-Brinkley_Report"
+      }, {
+        "label" : "The Adventures of Baron Munchausen",
+        "uri" : "http://dbpedia.org/resource/The_Adventures_of_Baron_Munchausen"
+      }, {
+        "label" : "The Fisher King",
+        "uri" : "http://dbpedia.org/resource/The_Fisher_King"
+      }, {
+        "label" : "The Man with the Golden Arm",
+        "uri" : "http://dbpedia.org/resource/The_Man_with_the_Golden_Arm"
+      }, {
+        "label" : "The Moon Is Blue",
+        "uri" : "http://dbpedia.org/resource/The_Moon_Is_Blue"
+      }, {
+        "label" : "The People vs. Larry Flynt",
+        "uri" : "http://dbpedia.org/resource/The_People_vs._Larry_Flynt"
+      }, {
+        "label" : "Two Women",
+        "uri" : "http://dbpedia.org/resource/Two_Women"
+      }, {
+        "label" : "Wild River (film)",
+        "uri" : "http://dbpedia.org/resource/Wild_River_(film)"
+      }, {
+        "label" : "Deadly Games",
+        "uri" : "http://dbpedia.org/resource/Deadly_Games"
+      }, {
+        "label" : "Magnum Force",
+        "uri" : "http://dbpedia.org/resource/Magnum_Force"
+      }, {
+        "label" : "10 (film)",
+        "uri" : "http://dbpedia.org/resource/10_(film)"
+      }, {
+        "label" : "Death and the Compass (film)",
+        "uri" : "http://dbpedia.org/resource/Death_and_the_Compass_(film)"
+      }, {
+        "label" : "El Patrullero",
+        "uri" : "http://dbpedia.org/resource/El_Patrullero"
+      }, {
+        "label" : "Three Businessmen",
+        "uri" : "http://dbpedia.org/resource/Three_Businessmen"
+      }, {
+        "label" : "Operation Petticoat",
+        "uri" : "http://dbpedia.org/resource/Operation_Petticoat"
+      }, {
+        "label" : "Tea with Mussolini",
+        "uri" : "http://dbpedia.org/resource/Tea_with_Mussolini"
+      }, {
+        "label" : "Absolutely Anything",
+        "uri" : "http://dbpedia.org/resource/Absolutely_Anything"
+      }, {
+        "label" : "Day Dreams (1922 film)",
+        "uri" : "http://dbpedia.org/resource/Day_Dreams_(1922_film)"
+      }, {
+        "label" : "My Wife's Relations",
+        "uri" : "http://dbpedia.org/resource/My_Wife's_Relations"
+      }, {
+        "label" : "She's Funny That Way",
+        "uri" : "http://dbpedia.org/resource/She's_Funny_That_Way"
+      }, {
+        "label" : "The Balloonatic",
+        "uri" : "http://dbpedia.org/resource/The_Balloonatic"
+      }, {
+        "label" : "The Electric House",
+        "uri" : "http://dbpedia.org/resource/The_Electric_House"
+      }, {
+        "label" : "The Frozen North",
+        "uri" : "http://dbpedia.org/resource/The_Frozen_North"
+      }, {
+        "label" : "Daisy Miller (film)",
+        "uri" : "http://dbpedia.org/resource/Daisy_Miller_(film)"
+      }, {
+        "label" : "Slightly Dangerous",
+        "uri" : "http://dbpedia.org/resource/Slightly_Dangerous"
+      }, {
+        "label" : "Doctor Glas (film)",
+        "uri" : "http://dbpedia.org/resource/Doctor_Glas_(film)"
+      }, {
+        "label" : "The Age of the Medici",
+        "uri" : "http://dbpedia.org/resource/The_Age_of_the_Medici"
+      }, {
+        "label" : "Visions of Eight",
+        "uri" : "http://dbpedia.org/resource/Visions_of_Eight"
       } ]
     },
     "combination" : false
   }, {
-    "id" : "4",
+    "id" : "14",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -974,7 +4164,7 @@
     },
     "combination" : false
   }, {
-    "id" : "5",
+    "id" : "15",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -991,7 +4181,7 @@
     },
     "combination" : false
   }, {
-    "id" : "6",
+    "id" : "16",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -1008,7 +4198,7 @@
     },
     "combination" : false
   }, {
-    "id" : "7",
+    "id" : "17",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -1025,7 +4215,7 @@
     },
     "combination" : false
   }, {
-    "id" : "8",
+    "id" : "18",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -1042,7 +4232,7 @@
     },
     "combination" : false
   }, {
-    "id" : "9",
+    "id" : "19",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -1059,7 +4249,7 @@
     },
     "combination" : false
   }, {
-    "id" : "10",
+    "id" : "20",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -1076,7 +4266,7 @@
     },
     "combination" : false
   }, {
-    "id" : "11",
+    "id" : "21",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -1093,7 +4283,7 @@
     },
     "combination" : false
   }, {
-    "id" : "12",
+    "id" : "22",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -1110,7 +4300,7 @@
     },
     "combination" : false
   }, {
-    "id" : "13",
+    "id" : "23",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -1127,7 +4317,7 @@
     },
     "combination" : false
   }, {
-    "id" : "14",
+    "id" : "24",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -1144,7 +4334,7 @@
     },
     "combination" : false
   }, {
-    "id" : "15",
+    "id" : "25",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -1161,7 +4351,7 @@
     },
     "combination" : false
   }, {
-    "id" : "16",
+    "id" : "26",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -1178,7 +4368,7 @@
     },
     "combination" : false
   }, {
-    "id" : "17",
+    "id" : "27",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -1195,7 +4385,7 @@
     },
     "combination" : false
   }, {
-    "id" : "18",
+    "id" : "28",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -1212,7 +4402,7 @@
     },
     "combination" : false
   }, {
-    "id" : "19",
+    "id" : "29",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -1229,7 +4419,7 @@
     },
     "combination" : false
   }, {
-    "id" : "20",
+    "id" : "30",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -1246,7 +4436,7 @@
     },
     "combination" : false
   }, {
-    "id" : "21",
+    "id" : "31",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -1263,7 +4453,7 @@
     },
     "combination" : false
   }, {
-    "id" : "22",
+    "id" : "32",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -1280,7 +4470,7 @@
     },
     "combination" : false
   }, {
-    "id" : "23",
+    "id" : "33",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -1297,7 +4487,7 @@
     },
     "combination" : false
   }, {
-    "id" : "24",
+    "id" : "34",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -1314,7 +4504,7 @@
     },
     "combination" : false
   }, {
-    "id" : "25",
+    "id" : "35",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -1331,7 +4521,7 @@
     },
     "combination" : false
   }, {
-    "id" : "26",
+    "id" : "36",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -1348,7 +4538,7 @@
     },
     "combination" : false
   }, {
-    "id" : "27",
+    "id" : "37",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -1365,7 +4555,7 @@
     },
     "combination" : false
   }, {
-    "id" : "28",
+    "id" : "38",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -1382,7 +4572,7 @@
     },
     "combination" : false
   }, {
-    "id" : "29",
+    "id" : "39",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -1399,7 +4589,7 @@
     },
     "combination" : false
   }, {
-    "id" : "30",
+    "id" : "40",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -1416,7 +4606,7 @@
     },
     "combination" : false
   }, {
-    "id" : "31",
+    "id" : "41",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -1433,7 +4623,7 @@
     },
     "combination" : false
   }, {
-    "id" : "32",
+    "id" : "42",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -1450,7 +4640,7 @@
     },
     "combination" : false
   }, {
-    "id" : "33",
+    "id" : "43",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -1467,7 +4657,7 @@
     },
     "combination" : false
   }, {
-    "id" : "34",
+    "id" : "44",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -1484,7 +4674,7 @@
     },
     "combination" : false
   }, {
-    "id" : "35",
+    "id" : "45",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -1501,7 +4691,7 @@
     },
     "combination" : false
   }, {
-    "id" : "36",
+    "id" : "46",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -1518,7 +4708,7 @@
     },
     "combination" : false
   }, {
-    "id" : "37",
+    "id" : "47",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -1535,7 +4725,7 @@
     },
     "combination" : false
   }, {
-    "id" : "38",
+    "id" : "48",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -1552,7 +4742,7 @@
     },
     "combination" : false
   }, {
-    "id" : "39",
+    "id" : "49",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -1569,7 +4759,7 @@
     },
     "combination" : false
   }, {
-    "id" : "40",
+    "id" : "50",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -1586,7 +4776,7 @@
     },
     "combination" : false
   }, {
-    "id" : "41",
+    "id" : "51",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -1603,7 +4793,7 @@
     },
     "combination" : false
   }, {
-    "id" : "42",
+    "id" : "52",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -1620,7 +4810,7 @@
     },
     "combination" : false
   }, {
-    "id" : "43",
+    "id" : "53",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -1637,7 +4827,7 @@
     },
     "combination" : false
   }, {
-    "id" : "44",
+    "id" : "54",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -1654,7 +4844,7 @@
     },
     "combination" : false
   }, {
-    "id" : "45",
+    "id" : "55",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -1671,7 +4861,7 @@
     },
     "combination" : false
   }, {
-    "id" : "46",
+    "id" : "56",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -1688,7 +4878,7 @@
     },
     "combination" : false
   }, {
-    "id" : "47",
+    "id" : "57",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -1705,7 +4895,7 @@
     },
     "combination" : false
   }, {
-    "id" : "48",
+    "id" : "58",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "PERSON",
@@ -2024,7 +5214,7 @@
     },
     "combination" : false
   }, {
-    "id" : "49",
+    "id" : "59",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "PERSON",
@@ -2343,7 +5533,7 @@
     },
     "combination" : false
   }, {
-    "id" : "50",
+    "id" : "60",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",

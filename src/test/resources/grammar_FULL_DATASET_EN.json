@@ -16,17 +16,182 @@
     "sentenceBindings" : {
       "bindingVariableName" : "$x",
       "bindingList" : [ {
+        "label" : "Abbasid Caliphate",
+        "uri" : "http://dbpedia.org/resource/Abbasid_Caliphate"
+      }, {
+        "label" : "Almohad Caliphate",
+        "uri" : "http://dbpedia.org/resource/Almohad_Caliphate"
+      }, {
+        "label" : "Cape Colony",
+        "uri" : "http://dbpedia.org/resource/Cape_Colony"
+      }, {
+        "label" : "Dacia",
+        "uri" : "http://dbpedia.org/resource/Dacia"
+      }, {
+        "label" : "Democratic Republic of Afghanistan",
+        "uri" : "http://dbpedia.org/resource/Democratic_Republic_of_Afghanistan"
+      }, {
+        "label" : "Fatimid Caliphate",
+        "uri" : "http://dbpedia.org/resource/Fatimid_Caliphate"
+      }, {
+        "label" : "History of Portugal (1415–1578)",
+        "uri" : "http://dbpedia.org/resource/History_of_Portugal_(1415–1578)"
+      }, {
+        "label" : "Macedonia (ancient kingdom)",
+        "uri" : "http://dbpedia.org/resource/Macedonia_(ancient_kingdom)"
+      }, {
+        "label" : "Moldavia",
+        "uri" : "http://dbpedia.org/resource/Moldavia"
+      }, {
+        "label" : "Sindh",
+        "uri" : "http://dbpedia.org/resource/Sindh"
+      }, {
+        "label" : "Syldavia",
+        "uri" : "http://dbpedia.org/resource/Syldavia"
+      }, {
+        "label" : "Umayyad Caliphate",
+        "uri" : "http://dbpedia.org/resource/Umayyad_Caliphate"
+      }, {
+        "label" : "United Kingdom of the Netherlands",
+        "uri" : "http://dbpedia.org/resource/United_Kingdom_of_the_Netherlands"
+      }, {
         "label" : "Zhou dynasty",
         "uri" : "http://dbpedia.org/resource/Zhou_dynasty"
+      }, {
+        "label" : "Beidou, Changhua",
+        "uri" : "http://dbpedia.org/resource/Beidou,_Changhua"
+      }, {
+        "label" : "Dutch East Indies",
+        "uri" : "http://dbpedia.org/resource/Dutch_East_Indies"
+      }, {
+        "label" : "Half Moon Lake, Alberta",
+        "uri" : "http://dbpedia.org/resource/Half_Moon_Lake,_Alberta"
+      }, {
+        "label" : "Loon Lake, Alberta",
+        "uri" : "http://dbpedia.org/resource/Loon_Lake,_Alberta"
+      }, {
+        "label" : "Padma, Hazaribagh (community development block)",
+        "uri" : "http://dbpedia.org/resource/Padma,_Hazaribagh_(community_development_block)"
+      }, {
+        "label" : "Rajahnate of Cebu",
+        "uri" : "http://dbpedia.org/resource/Rajahnate_of_Cebu"
+      }, {
+        "label" : "Republic of Zamboanga",
+        "uri" : "http://dbpedia.org/resource/Republic_of_Zamboanga"
+      }, {
+        "label" : "Zamboanga City",
+        "uri" : "http://dbpedia.org/resource/Zamboanga_City"
+      }, {
+        "label" : "Akala, Bhulath",
+        "uri" : "http://dbpedia.org/resource/Akala,_Bhulath"
+      }, {
+        "label" : "Arauco, Chile",
+        "uri" : "http://dbpedia.org/resource/Arauco,_Chile"
+      }, {
+        "label" : "Bilaspur, Gautam Buddh Nagar",
+        "uri" : "http://dbpedia.org/resource/Bilaspur,_Gautam_Buddh_Nagar"
+      }, {
+        "label" : "Carpenter Township, Jasper County, Indiana",
+        "uri" : "http://dbpedia.org/resource/Carpenter_Township,_Jasper_County,_Indiana"
+      }, {
+        "label" : "Casablanca, Chile",
+        "uri" : "http://dbpedia.org/resource/Casablanca,_Chile"
+      }, {
+        "label" : "Copenhagen Municipality",
+        "uri" : "http://dbpedia.org/resource/Copenhagen_Municipality"
+      }, {
+        "label" : "County of Blankenburg",
+        "uri" : "http://dbpedia.org/resource/County_of_Blankenburg"
       }, {
         "label" : "County of Stolberg",
         "uri" : "http://dbpedia.org/resource/County_of_Stolberg"
       }, {
+        "label" : "Crown of Aragon",
+        "uri" : "http://dbpedia.org/resource/Crown_of_Aragon"
+      }, {
+        "label" : "Delhi Sultanate",
+        "uri" : "http://dbpedia.org/resource/Delhi_Sultanate"
+      }, {
+        "label" : "Dominion of Ceylon",
+        "uri" : "http://dbpedia.org/resource/Dominion_of_Ceylon"
+      }, {
+        "label" : "Eel Township, Cass County, Indiana",
+        "uri" : "http://dbpedia.org/resource/Eel_Township,_Cass_County,_Indiana"
+      }, {
+        "label" : "Faraday, Ontario",
+        "uri" : "http://dbpedia.org/resource/Faraday,_Ontario"
+      }, {
+        "label" : "Gauthier, Ontario",
+        "uri" : "http://dbpedia.org/resource/Gauthier,_Ontario"
+      }, {
+        "label" : "Gavan, Karnataka",
+        "uri" : "http://dbpedia.org/resource/Gavan,_Karnataka"
+      }, {
+        "label" : "Goole Fields",
+        "uri" : "http://dbpedia.org/resource/Goole_Fields"
+      }, {
+        "label" : "Kazakh Soviet Socialist Republic",
+        "uri" : "http://dbpedia.org/resource/Kazakh_Soviet_Socialist_Republic"
+      }, {
+        "label" : "Kirghiz Soviet Socialist Republic",
+        "uri" : "http://dbpedia.org/resource/Kirghiz_Soviet_Socialist_Republic"
+      }, {
+        "label" : "Krishnanagar, Karnataka",
+        "uri" : "http://dbpedia.org/resource/Krishnanagar,_Karnataka"
+      }, {
+        "label" : "Millcreek Township, Fountain County, Indiana",
+        "uri" : "http://dbpedia.org/resource/Millcreek_Township,_Fountain_County,_Indiana"
+      }, {
         "label" : "Mutawakkilite Kingdom of Yemen",
         "uri" : "http://dbpedia.org/resource/Mutawakkilite_Kingdom_of_Yemen"
       }, {
+        "label" : "Nevins Township, Vigo County, Indiana",
+        "uri" : "http://dbpedia.org/resource/Nevins_Township,_Vigo_County,_Indiana"
+      }, {
+        "label" : "Paine, Chile",
+        "uri" : "http://dbpedia.org/resource/Paine,_Chile"
+      }, {
+        "label" : "Pepperell, Massachusetts",
+        "uri" : "http://dbpedia.org/resource/Pepperell,_Massachusetts"
+      }, {
+        "label" : "Piripiri, Piauí",
+        "uri" : "http://dbpedia.org/resource/Piripiri,_Piauí"
+      }, {
+        "label" : "Pleasant Township, Allen County, Indiana",
+        "uri" : "http://dbpedia.org/resource/Pleasant_Township,_Allen_County,_Indiana"
+      }, {
+        "label" : "Pleasant Township, Grant County, Indiana",
+        "uri" : "http://dbpedia.org/resource/Pleasant_Township,_Grant_County,_Indiana"
+      }, {
+        "label" : "Pleasant Township, Johnson County, Indiana",
+        "uri" : "http://dbpedia.org/resource/Pleasant_Township,_Johnson_County,_Indiana"
+      }, {
+        "label" : "Pleasant Township, LaPorte County, Indiana",
+        "uri" : "http://dbpedia.org/resource/Pleasant_Township,_LaPorte_County,_Indiana"
+      }, {
+        "label" : "Pleasant Township, Porter County, Indiana",
+        "uri" : "http://dbpedia.org/resource/Pleasant_Township,_Porter_County,_Indiana"
+      }, {
+        "label" : "Pleasant Township, Steuben County, Indiana",
+        "uri" : "http://dbpedia.org/resource/Pleasant_Township,_Steuben_County,_Indiana"
+      }, {
+        "label" : "Pleasant Township, Switzerland County, Indiana",
+        "uri" : "http://dbpedia.org/resource/Pleasant_Township,_Switzerland_County,_Indiana"
+      }, {
+        "label" : "Pleasant Township, Wabash County, Indiana",
+        "uri" : "http://dbpedia.org/resource/Pleasant_Township,_Wabash_County,_Indiana"
+      }, {
+        "label" : "Rajdhani, Kotli",
+        "uri" : "http://dbpedia.org/resource/Rajdhani,_Kotli"
+      }, {
+        "label" : "Reuss-Lobenstein",
+        "uri" : "http://dbpedia.org/resource/Reuss-Lobenstein"
+      }, {
         "label" : "Stolberg-Wernigerode",
         "uri" : "http://dbpedia.org/resource/Stolberg-Wernigerode"
+      }, {
+        "label" : "Subprefecture of Ermelino Matarazzo",
+        "uri" : "http://dbpedia.org/resource/Subprefecture_of_Ermelino_Matarazzo"
       }, {
         "label" : "Syria",
         "uri" : "http://dbpedia.org/resource/Syria"
@@ -34,287 +199,122 @@
         "label" : "Syrian Republic (1930–58)",
         "uri" : "http://dbpedia.org/resource/Syrian_Republic_(1930–58)"
       }, {
-        "label" : "Bagbaguin, Bulacan",
-        "uri" : "http://dbpedia.org/resource/Bagbaguin,_Bulacan"
+        "label" : "Tari Mangal",
+        "uri" : "http://dbpedia.org/resource/Tari_Mangal"
       }, {
-        "label" : "Bridgeport, Connecticut",
-        "uri" : "http://dbpedia.org/resource/Bridgeport,_Connecticut"
+        "label" : "Thibault, New Brunswick",
+        "uri" : "http://dbpedia.org/resource/Thibault,_New_Brunswick"
       }, {
-        "label" : "Caypombo, Bulacan",
-        "uri" : "http://dbpedia.org/resource/Caypombo,_Bulacan"
+        "label" : "Tibet (1912–51)",
+        "uri" : "http://dbpedia.org/resource/Tibet_(1912–51)"
       }, {
-        "label" : "Grand Rapids, Michigan",
-        "uri" : "http://dbpedia.org/resource/Grand_Rapids,_Michigan"
+        "label" : "Tibetan Empire",
+        "uri" : "http://dbpedia.org/resource/Tibetan_Empire"
       }, {
-        "label" : "Guyong, Bulacan",
-        "uri" : "http://dbpedia.org/resource/Guyong,_Bulacan"
+        "label" : "Tonghua",
+        "uri" : "http://dbpedia.org/resource/Tonghua"
       }, {
-        "label" : "Huejúcar",
-        "uri" : "http://dbpedia.org/resource/Huejúcar"
+        "label" : "Vichy France",
+        "uri" : "http://dbpedia.org/resource/Vichy_France"
       }, {
-        "label" : "Kheri Jalab",
-        "uri" : "http://dbpedia.org/resource/Kheri_Jalab"
+        "label" : "Vila Nova dos Martírios",
+        "uri" : "http://dbpedia.org/resource/Vila_Nova_dos_Martírios"
       }, {
-        "label" : "Kwikwetlem First Nation",
-        "uri" : "http://dbpedia.org/resource/Kwikwetlem_First_Nation"
+        "label" : "Waltz Township, Wabash County, Indiana",
+        "uri" : "http://dbpedia.org/resource/Waltz_Township,_Wabash_County,_Indiana"
       }, {
-        "label" : "Lalakhan, Bulacan",
-        "uri" : "http://dbpedia.org/resource/Lalakhan,_Bulacan"
+        "label" : "Westborough, Massachusetts",
+        "uri" : "http://dbpedia.org/resource/Westborough,_Massachusetts"
       }, {
-        "label" : "Look 1st, Malolos",
-        "uri" : "http://dbpedia.org/resource/Look_1st,_Malolos"
+        "label" : "Yungay, Chile",
+        "uri" : "http://dbpedia.org/resource/Yungay,_Chile"
       }, {
-        "label" : "Tungkong Mangga",
-        "uri" : "http://dbpedia.org/resource/Tungkong_Mangga"
+        "label" : "Zug, Western Sahara",
+        "uri" : "http://dbpedia.org/resource/Zug,_Western_Sahara"
       }, {
-        "label" : "Åland Islands",
-        "uri" : "http://dbpedia.org/resource/Åland_Islands"
+        "label" : "Mahishadal (community development block)",
+        "uri" : "http://dbpedia.org/resource/Mahishadal_(community_development_block)"
       }, {
-        "label" : "Altman, Colorado",
-        "uri" : "http://dbpedia.org/resource/Altman,_Colorado"
+        "label" : "Patharchapuri",
+        "uri" : "http://dbpedia.org/resource/Patharchapuri"
       }, {
-        "label" : "Chanda Nagar",
-        "uri" : "http://dbpedia.org/resource/Chanda_Nagar"
+        "label" : "Sutahata (community development block)",
+        "uri" : "http://dbpedia.org/resource/Sutahata_(community_development_block)"
       }, {
-        "label" : "Ciudad Nezahualcóyotl",
-        "uri" : "http://dbpedia.org/resource/Ciudad_Nezahualcóyotl"
+        "label" : "Tengnoupal",
+        "uri" : "http://dbpedia.org/resource/Tengnoupal"
       }, {
-        "label" : "Eskdaleside cum Ugglebarnby",
-        "uri" : "http://dbpedia.org/resource/Eskdaleside_cum_Ugglebarnby"
+        "label" : "A. Devarahalli",
+        "uri" : "http://dbpedia.org/resource/A._Devarahalli"
       }, {
-        "label" : "Miyapur",
-        "uri" : "http://dbpedia.org/resource/Miyapur"
+        "label" : "A. Timmasagar",
+        "uri" : "http://dbpedia.org/resource/A._Timmasagar"
       }, {
-        "label" : "Suffield-cum-Everley",
-        "uri" : "http://dbpedia.org/resource/Suffield-cum-Everley"
+        "label" : "Abanali",
+        "uri" : "http://dbpedia.org/resource/Abanali"
       }, {
-        "label" : "Thornbrough",
-        "uri" : "http://dbpedia.org/resource/Thornbrough"
+        "label" : "Abbalathi",
+        "uri" : "http://dbpedia.org/resource/Abbalathi"
       }, {
-        "label" : "Singkamas, Makati",
-        "uri" : "http://dbpedia.org/resource/Singkamas,_Makati"
+        "label" : "Abbihal, Muddebihal",
+        "uri" : "http://dbpedia.org/resource/Abbihal,_Muddebihal"
       }, {
-        "label" : "Ciudad López Mateos",
-        "uri" : "http://dbpedia.org/resource/Ciudad_López_Mateos"
+        "label" : "Abbur",
+        "uri" : "http://dbpedia.org/resource/Abbur"
       }, {
-        "label" : "Gadarwara",
-        "uri" : "http://dbpedia.org/resource/Gadarwara"
+        "label" : "Abburu, Hunsur taluk",
+        "uri" : "http://dbpedia.org/resource/Abburu,_Hunsur_taluk"
       }, {
-        "label" : "Ixtapaluca",
-        "uri" : "http://dbpedia.org/resource/Ixtapaluca"
+        "label" : "Achamatti",
+        "uri" : "http://dbpedia.org/resource/Achamatti"
       }, {
-        "label" : "Jalostotitlán",
-        "uri" : "http://dbpedia.org/resource/Jalostotitlán"
+        "label" : "Achola",
+        "uri" : "http://dbpedia.org/resource/Achola"
       }, {
-        "label" : "Kallissery",
-        "uri" : "http://dbpedia.org/resource/Kallissery"
+        "label" : "Adalatti",
+        "uri" : "http://dbpedia.org/resource/Adalatti"
       }, {
-        "label" : "Safavid dynasty",
-        "uri" : "http://dbpedia.org/resource/Safavid_dynasty"
+        "label" : "Adargunchi",
+        "uri" : "http://dbpedia.org/resource/Adargunchi"
       }, {
-        "label" : "Valle de Chalco",
-        "uri" : "http://dbpedia.org/resource/Valle_de_Chalco"
+        "label" : "Adibatti",
+        "uri" : "http://dbpedia.org/resource/Adibatti"
       }, {
-        "label" : "Tanganyika",
-        "uri" : "http://dbpedia.org/resource/Tanganyika"
+        "label" : "Adnur",
+        "uri" : "http://dbpedia.org/resource/Adnur"
       }, {
-        "label" : "Provisional Government of Hawaii",
-        "uri" : "http://dbpedia.org/resource/Provisional_Government_of_Hawaii"
+        "label" : "Adwadgi",
+        "uri" : "http://dbpedia.org/resource/Adwadgi"
       }, {
-        "label" : "Clapham cum Newby",
-        "uri" : "http://dbpedia.org/resource/Clapham_cum_Newby"
+        "label" : "Agadi, Dharwad",
+        "uri" : "http://dbpedia.org/resource/Agadi,_Dharwad"
       }, {
-        "label" : "Exelby, Leeming and Newton",
-        "uri" : "http://dbpedia.org/resource/Exelby,_Leeming_and_Newton"
+        "label" : "Agasage",
+        "uri" : "http://dbpedia.org/resource/Agasage"
       }, {
-        "label" : "Hazlewood with Storiths",
-        "uri" : "http://dbpedia.org/resource/Hazlewood_with_Storiths"
+        "label" : "Agasanahalli (Dharwad)",
+        "uri" : "http://dbpedia.org/resource/Agasanahalli_(Dharwad)"
       }, {
-        "label" : "Kettlewell with Starbotton",
-        "uri" : "http://dbpedia.org/resource/Kettlewell_with_Starbotton"
+        "label" : "Agastihal",
+        "uri" : "http://dbpedia.org/resource/Agastihal"
       }, {
-        "label" : "Kirkby Fleetham with Fencote",
-        "uri" : "http://dbpedia.org/resource/Kirkby_Fleetham_with_Fencote"
+        "label" : "Agnihal",
+        "uri" : "http://dbpedia.org/resource/Agnihal"
       }, {
-        "label" : "Kirklington cum Upsland",
-        "uri" : "http://dbpedia.org/resource/Kirklington_cum_Upsland"
+        "label" : "Agthirth",
+        "uri" : "http://dbpedia.org/resource/Agthirth"
       }, {
-        "label" : "Malham Moor",
-        "uri" : "http://dbpedia.org/resource/Malham_Moor"
+        "label" : "Aheri, Karnataka",
+        "uri" : "http://dbpedia.org/resource/Aheri,_Karnataka"
       }, {
-        "label" : "Rand Grange",
-        "uri" : "http://dbpedia.org/resource/Rand_Grange"
+        "label" : "Ahetti",
+        "uri" : "http://dbpedia.org/resource/Ahetti"
       }, {
-        "label" : "Scosthrop",
-        "uri" : "http://dbpedia.org/resource/Scosthrop"
+        "label" : "Ainapur, Shorapur",
+        "uri" : "http://dbpedia.org/resource/Ainapur,_Shorapur"
       }, {
-        "label" : "Sowerby-under-Cotcliffe",
-        "uri" : "http://dbpedia.org/resource/Sowerby-under-Cotcliffe"
-      }, {
-        "label" : "Swainby with Allerthorpe",
-        "uri" : "http://dbpedia.org/resource/Swainby_with_Allerthorpe"
-      }, {
-        "label" : "Tecámac",
-        "uri" : "http://dbpedia.org/resource/Tecámac"
-      }, {
-        "label" : "Wildon Grange",
-        "uri" : "http://dbpedia.org/resource/Wildon_Grange"
-      }, {
-        "label" : "Winton, Stank and Hallikeld",
-        "uri" : "http://dbpedia.org/resource/Winton,_Stank_and_Hallikeld"
-      }, {
-        "label" : "Provisional Administration of South Ossetia",
-        "uri" : "http://dbpedia.org/resource/Provisional_Administration_of_South_Ossetia"
-      }, {
-        "label" : "Colony of Niger",
-        "uri" : "http://dbpedia.org/resource/Colony_of_Niger"
-      }, {
-        "label" : "Republic of Noli",
-        "uri" : "http://dbpedia.org/resource/Republic_of_Noli"
-      }, {
-        "label" : "County of Álava",
-        "uri" : "http://dbpedia.org/resource/County_of_Álava"
-      }, {
-        "label" : "Ciudad de Nueva Cáceres",
-        "uri" : "http://dbpedia.org/resource/Ciudad_de_Nueva_Cáceres"
-      }, {
-        "label" : "Egypt Eyalet",
-        "uri" : "http://dbpedia.org/resource/Egypt_Eyalet"
-      }, {
-        "label" : "Harrington Park, New Jersey",
-        "uri" : "http://dbpedia.org/resource/Harrington_Park,_New_Jersey"
-      }, {
-        "label" : "Kingdom of Egypt",
-        "uri" : "http://dbpedia.org/resource/Kingdom_of_Egypt"
-      }, {
-        "label" : "Kingdom of Greece",
-        "uri" : "http://dbpedia.org/resource/Kingdom_of_Greece"
-      }, {
-        "label" : "San Fernando, Romblon",
-        "uri" : "http://dbpedia.org/resource/San_Fernando,_Romblon"
-      }, {
-        "label" : "Azerbaijan Democratic Republic",
-        "uri" : "http://dbpedia.org/resource/Azerbaijan_Democratic_Republic"
-      }, {
-        "label" : "Regional District of Central Okanagan",
-        "uri" : "http://dbpedia.org/resource/Regional_District_of_Central_Okanagan"
-      }, {
-        "label" : "Balearic Islands",
-        "uri" : "http://dbpedia.org/resource/Balearic_Islands"
-      }, {
-        "label" : "Clinton, Connecticut",
-        "uri" : "http://dbpedia.org/resource/Clinton,_Connecticut"
-      }, {
-        "label" : "Manzana, San Jose",
-        "uri" : "http://dbpedia.org/resource/Manzana,_San_Jose"
-      }, {
-        "label" : "Upper Bicutan",
-        "uri" : "http://dbpedia.org/resource/Upper_Bicutan"
-      }, {
-        "label" : "Warsill",
-        "uri" : "http://dbpedia.org/resource/Warsill"
-      }, {
-        "label" : "Seludong",
-        "uri" : "http://dbpedia.org/resource/Seludong"
-      }, {
-        "label" : "County of East Frisia",
-        "uri" : "http://dbpedia.org/resource/County_of_East_Frisia"
-      }, {
-        "label" : "Albania",
-        "uri" : "http://dbpedia.org/resource/Albania"
-      }, {
-        "label" : "Andorra",
-        "uri" : "http://dbpedia.org/resource/Andorra"
-      }, {
-        "label" : "Anguilla",
-        "uri" : "http://dbpedia.org/resource/Anguilla"
-      }, {
-        "label" : "Ann Arbor, Michigan",
-        "uri" : "http://dbpedia.org/resource/Ann_Arbor,_Michigan"
-      }, {
-        "label" : "Antigua and Barbuda",
-        "uri" : "http://dbpedia.org/resource/Antigua_and_Barbuda"
-      }, {
-        "label" : "Azad Kashmir",
-        "uri" : "http://dbpedia.org/resource/Azad_Kashmir"
-      }, {
-        "label" : "Azerbaijan",
-        "uri" : "http://dbpedia.org/resource/Azerbaijan"
-      }, {
-        "label" : "Bermuda",
-        "uri" : "http://dbpedia.org/resource/Bermuda"
-      }, {
-        "label" : "Bosnia and Herzegovina",
-        "uri" : "http://dbpedia.org/resource/Bosnia_and_Herzegovina"
-      }, {
-        "label" : "British Virgin Islands",
-        "uri" : "http://dbpedia.org/resource/British_Virgin_Islands"
-      }, {
-        "label" : "Cadillac, Michigan",
-        "uri" : "http://dbpedia.org/resource/Cadillac,_Michigan"
-      }, {
-        "label" : "Cayman Islands",
-        "uri" : "http://dbpedia.org/resource/Cayman_Islands"
-      }, {
-        "label" : "Chad",
-        "uri" : "http://dbpedia.org/resource/Chad"
-      }, {
-        "label" : "County Mayo",
-        "uri" : "http://dbpedia.org/resource/County_Mayo"
-      }, {
-        "label" : "Czech Republic",
-        "uri" : "http://dbpedia.org/resource/Czech_Republic"
-      }, {
-        "label" : "Equatorial Guinea",
-        "uri" : "http://dbpedia.org/resource/Equatorial_Guinea"
-      }, {
-        "label" : "Gabon",
-        "uri" : "http://dbpedia.org/resource/Gabon"
-      }, {
-        "label" : "Galicia (Spain)",
-        "uri" : "http://dbpedia.org/resource/Galicia_(Spain)"
-      }, {
-        "label" : "Greece",
-        "uri" : "http://dbpedia.org/resource/Greece"
-      }, {
-        "label" : "Greenland",
-        "uri" : "http://dbpedia.org/resource/Greenland"
-      }, {
-        "label" : "Hungary",
-        "uri" : "http://dbpedia.org/resource/Hungary"
-      }, {
-        "label" : "Huns",
-        "uri" : "http://dbpedia.org/resource/Huns"
-      }, {
-        "label" : "Iceland",
-        "uri" : "http://dbpedia.org/resource/Iceland"
-      }, {
-        "label" : "India",
-        "uri" : "http://dbpedia.org/resource/India"
-      }, {
-        "label" : "Iran",
-        "uri" : "http://dbpedia.org/resource/Iran"
-      }, {
-        "label" : "Isle of Man",
-        "uri" : "http://dbpedia.org/resource/Isle_of_Man"
-      }, {
-        "label" : "Jackson, Michigan",
-        "uri" : "http://dbpedia.org/resource/Jackson,_Michigan"
-      }, {
-        "label" : "Jamaica",
-        "uri" : "http://dbpedia.org/resource/Jamaica"
-      }, {
-        "label" : "Lebanon",
-        "uri" : "http://dbpedia.org/resource/Lebanon"
-      }, {
-        "label" : "Libya",
-        "uri" : "http://dbpedia.org/resource/Libya"
-      }, {
-        "label" : "Liechtenstein",
-        "uri" : "http://dbpedia.org/resource/Liechtenstein"
-      }, {
-        "label" : "Marquette, Michigan",
-        "uri" : "http://dbpedia.org/resource/Marquette,_Michigan"
+        "label" : "Ajur",
+        "uri" : "http://dbpedia.org/resource/Ajur"
       } ]
     },
     "combination" : false
@@ -335,17 +335,182 @@
     "sentenceBindings" : {
       "bindingVariableName" : "$x",
       "bindingList" : [ {
+        "label" : "Abbasid Caliphate",
+        "uri" : "http://dbpedia.org/resource/Abbasid_Caliphate"
+      }, {
+        "label" : "Almohad Caliphate",
+        "uri" : "http://dbpedia.org/resource/Almohad_Caliphate"
+      }, {
+        "label" : "Cape Colony",
+        "uri" : "http://dbpedia.org/resource/Cape_Colony"
+      }, {
+        "label" : "Dacia",
+        "uri" : "http://dbpedia.org/resource/Dacia"
+      }, {
+        "label" : "Democratic Republic of Afghanistan",
+        "uri" : "http://dbpedia.org/resource/Democratic_Republic_of_Afghanistan"
+      }, {
+        "label" : "Fatimid Caliphate",
+        "uri" : "http://dbpedia.org/resource/Fatimid_Caliphate"
+      }, {
+        "label" : "History of Portugal (1415–1578)",
+        "uri" : "http://dbpedia.org/resource/History_of_Portugal_(1415–1578)"
+      }, {
+        "label" : "Macedonia (ancient kingdom)",
+        "uri" : "http://dbpedia.org/resource/Macedonia_(ancient_kingdom)"
+      }, {
+        "label" : "Moldavia",
+        "uri" : "http://dbpedia.org/resource/Moldavia"
+      }, {
+        "label" : "Sindh",
+        "uri" : "http://dbpedia.org/resource/Sindh"
+      }, {
+        "label" : "Syldavia",
+        "uri" : "http://dbpedia.org/resource/Syldavia"
+      }, {
+        "label" : "Umayyad Caliphate",
+        "uri" : "http://dbpedia.org/resource/Umayyad_Caliphate"
+      }, {
+        "label" : "United Kingdom of the Netherlands",
+        "uri" : "http://dbpedia.org/resource/United_Kingdom_of_the_Netherlands"
+      }, {
         "label" : "Zhou dynasty",
         "uri" : "http://dbpedia.org/resource/Zhou_dynasty"
+      }, {
+        "label" : "Beidou, Changhua",
+        "uri" : "http://dbpedia.org/resource/Beidou,_Changhua"
+      }, {
+        "label" : "Dutch East Indies",
+        "uri" : "http://dbpedia.org/resource/Dutch_East_Indies"
+      }, {
+        "label" : "Half Moon Lake, Alberta",
+        "uri" : "http://dbpedia.org/resource/Half_Moon_Lake,_Alberta"
+      }, {
+        "label" : "Loon Lake, Alberta",
+        "uri" : "http://dbpedia.org/resource/Loon_Lake,_Alberta"
+      }, {
+        "label" : "Padma, Hazaribagh (community development block)",
+        "uri" : "http://dbpedia.org/resource/Padma,_Hazaribagh_(community_development_block)"
+      }, {
+        "label" : "Rajahnate of Cebu",
+        "uri" : "http://dbpedia.org/resource/Rajahnate_of_Cebu"
+      }, {
+        "label" : "Republic of Zamboanga",
+        "uri" : "http://dbpedia.org/resource/Republic_of_Zamboanga"
+      }, {
+        "label" : "Zamboanga City",
+        "uri" : "http://dbpedia.org/resource/Zamboanga_City"
+      }, {
+        "label" : "Akala, Bhulath",
+        "uri" : "http://dbpedia.org/resource/Akala,_Bhulath"
+      }, {
+        "label" : "Arauco, Chile",
+        "uri" : "http://dbpedia.org/resource/Arauco,_Chile"
+      }, {
+        "label" : "Bilaspur, Gautam Buddh Nagar",
+        "uri" : "http://dbpedia.org/resource/Bilaspur,_Gautam_Buddh_Nagar"
+      }, {
+        "label" : "Carpenter Township, Jasper County, Indiana",
+        "uri" : "http://dbpedia.org/resource/Carpenter_Township,_Jasper_County,_Indiana"
+      }, {
+        "label" : "Casablanca, Chile",
+        "uri" : "http://dbpedia.org/resource/Casablanca,_Chile"
+      }, {
+        "label" : "Copenhagen Municipality",
+        "uri" : "http://dbpedia.org/resource/Copenhagen_Municipality"
+      }, {
+        "label" : "County of Blankenburg",
+        "uri" : "http://dbpedia.org/resource/County_of_Blankenburg"
       }, {
         "label" : "County of Stolberg",
         "uri" : "http://dbpedia.org/resource/County_of_Stolberg"
       }, {
+        "label" : "Crown of Aragon",
+        "uri" : "http://dbpedia.org/resource/Crown_of_Aragon"
+      }, {
+        "label" : "Delhi Sultanate",
+        "uri" : "http://dbpedia.org/resource/Delhi_Sultanate"
+      }, {
+        "label" : "Dominion of Ceylon",
+        "uri" : "http://dbpedia.org/resource/Dominion_of_Ceylon"
+      }, {
+        "label" : "Eel Township, Cass County, Indiana",
+        "uri" : "http://dbpedia.org/resource/Eel_Township,_Cass_County,_Indiana"
+      }, {
+        "label" : "Faraday, Ontario",
+        "uri" : "http://dbpedia.org/resource/Faraday,_Ontario"
+      }, {
+        "label" : "Gauthier, Ontario",
+        "uri" : "http://dbpedia.org/resource/Gauthier,_Ontario"
+      }, {
+        "label" : "Gavan, Karnataka",
+        "uri" : "http://dbpedia.org/resource/Gavan,_Karnataka"
+      }, {
+        "label" : "Goole Fields",
+        "uri" : "http://dbpedia.org/resource/Goole_Fields"
+      }, {
+        "label" : "Kazakh Soviet Socialist Republic",
+        "uri" : "http://dbpedia.org/resource/Kazakh_Soviet_Socialist_Republic"
+      }, {
+        "label" : "Kirghiz Soviet Socialist Republic",
+        "uri" : "http://dbpedia.org/resource/Kirghiz_Soviet_Socialist_Republic"
+      }, {
+        "label" : "Krishnanagar, Karnataka",
+        "uri" : "http://dbpedia.org/resource/Krishnanagar,_Karnataka"
+      }, {
+        "label" : "Millcreek Township, Fountain County, Indiana",
+        "uri" : "http://dbpedia.org/resource/Millcreek_Township,_Fountain_County,_Indiana"
+      }, {
         "label" : "Mutawakkilite Kingdom of Yemen",
         "uri" : "http://dbpedia.org/resource/Mutawakkilite_Kingdom_of_Yemen"
       }, {
+        "label" : "Nevins Township, Vigo County, Indiana",
+        "uri" : "http://dbpedia.org/resource/Nevins_Township,_Vigo_County,_Indiana"
+      }, {
+        "label" : "Paine, Chile",
+        "uri" : "http://dbpedia.org/resource/Paine,_Chile"
+      }, {
+        "label" : "Pepperell, Massachusetts",
+        "uri" : "http://dbpedia.org/resource/Pepperell,_Massachusetts"
+      }, {
+        "label" : "Piripiri, Piauí",
+        "uri" : "http://dbpedia.org/resource/Piripiri,_Piauí"
+      }, {
+        "label" : "Pleasant Township, Allen County, Indiana",
+        "uri" : "http://dbpedia.org/resource/Pleasant_Township,_Allen_County,_Indiana"
+      }, {
+        "label" : "Pleasant Township, Grant County, Indiana",
+        "uri" : "http://dbpedia.org/resource/Pleasant_Township,_Grant_County,_Indiana"
+      }, {
+        "label" : "Pleasant Township, Johnson County, Indiana",
+        "uri" : "http://dbpedia.org/resource/Pleasant_Township,_Johnson_County,_Indiana"
+      }, {
+        "label" : "Pleasant Township, LaPorte County, Indiana",
+        "uri" : "http://dbpedia.org/resource/Pleasant_Township,_LaPorte_County,_Indiana"
+      }, {
+        "label" : "Pleasant Township, Porter County, Indiana",
+        "uri" : "http://dbpedia.org/resource/Pleasant_Township,_Porter_County,_Indiana"
+      }, {
+        "label" : "Pleasant Township, Steuben County, Indiana",
+        "uri" : "http://dbpedia.org/resource/Pleasant_Township,_Steuben_County,_Indiana"
+      }, {
+        "label" : "Pleasant Township, Switzerland County, Indiana",
+        "uri" : "http://dbpedia.org/resource/Pleasant_Township,_Switzerland_County,_Indiana"
+      }, {
+        "label" : "Pleasant Township, Wabash County, Indiana",
+        "uri" : "http://dbpedia.org/resource/Pleasant_Township,_Wabash_County,_Indiana"
+      }, {
+        "label" : "Rajdhani, Kotli",
+        "uri" : "http://dbpedia.org/resource/Rajdhani,_Kotli"
+      }, {
+        "label" : "Reuss-Lobenstein",
+        "uri" : "http://dbpedia.org/resource/Reuss-Lobenstein"
+      }, {
         "label" : "Stolberg-Wernigerode",
         "uri" : "http://dbpedia.org/resource/Stolberg-Wernigerode"
+      }, {
+        "label" : "Subprefecture of Ermelino Matarazzo",
+        "uri" : "http://dbpedia.org/resource/Subprefecture_of_Ermelino_Matarazzo"
       }, {
         "label" : "Syria",
         "uri" : "http://dbpedia.org/resource/Syria"
@@ -353,287 +518,122 @@
         "label" : "Syrian Republic (1930–58)",
         "uri" : "http://dbpedia.org/resource/Syrian_Republic_(1930–58)"
       }, {
-        "label" : "Bagbaguin, Bulacan",
-        "uri" : "http://dbpedia.org/resource/Bagbaguin,_Bulacan"
+        "label" : "Tari Mangal",
+        "uri" : "http://dbpedia.org/resource/Tari_Mangal"
       }, {
-        "label" : "Bridgeport, Connecticut",
-        "uri" : "http://dbpedia.org/resource/Bridgeport,_Connecticut"
+        "label" : "Thibault, New Brunswick",
+        "uri" : "http://dbpedia.org/resource/Thibault,_New_Brunswick"
       }, {
-        "label" : "Caypombo, Bulacan",
-        "uri" : "http://dbpedia.org/resource/Caypombo,_Bulacan"
+        "label" : "Tibet (1912–51)",
+        "uri" : "http://dbpedia.org/resource/Tibet_(1912–51)"
       }, {
-        "label" : "Grand Rapids, Michigan",
-        "uri" : "http://dbpedia.org/resource/Grand_Rapids,_Michigan"
+        "label" : "Tibetan Empire",
+        "uri" : "http://dbpedia.org/resource/Tibetan_Empire"
       }, {
-        "label" : "Guyong, Bulacan",
-        "uri" : "http://dbpedia.org/resource/Guyong,_Bulacan"
+        "label" : "Tonghua",
+        "uri" : "http://dbpedia.org/resource/Tonghua"
       }, {
-        "label" : "Huejúcar",
-        "uri" : "http://dbpedia.org/resource/Huejúcar"
+        "label" : "Vichy France",
+        "uri" : "http://dbpedia.org/resource/Vichy_France"
       }, {
-        "label" : "Kheri Jalab",
-        "uri" : "http://dbpedia.org/resource/Kheri_Jalab"
+        "label" : "Vila Nova dos Martírios",
+        "uri" : "http://dbpedia.org/resource/Vila_Nova_dos_Martírios"
       }, {
-        "label" : "Kwikwetlem First Nation",
-        "uri" : "http://dbpedia.org/resource/Kwikwetlem_First_Nation"
+        "label" : "Waltz Township, Wabash County, Indiana",
+        "uri" : "http://dbpedia.org/resource/Waltz_Township,_Wabash_County,_Indiana"
       }, {
-        "label" : "Lalakhan, Bulacan",
-        "uri" : "http://dbpedia.org/resource/Lalakhan,_Bulacan"
+        "label" : "Westborough, Massachusetts",
+        "uri" : "http://dbpedia.org/resource/Westborough,_Massachusetts"
       }, {
-        "label" : "Look 1st, Malolos",
-        "uri" : "http://dbpedia.org/resource/Look_1st,_Malolos"
+        "label" : "Yungay, Chile",
+        "uri" : "http://dbpedia.org/resource/Yungay,_Chile"
       }, {
-        "label" : "Tungkong Mangga",
-        "uri" : "http://dbpedia.org/resource/Tungkong_Mangga"
+        "label" : "Zug, Western Sahara",
+        "uri" : "http://dbpedia.org/resource/Zug,_Western_Sahara"
       }, {
-        "label" : "Åland Islands",
-        "uri" : "http://dbpedia.org/resource/Åland_Islands"
+        "label" : "Mahishadal (community development block)",
+        "uri" : "http://dbpedia.org/resource/Mahishadal_(community_development_block)"
       }, {
-        "label" : "Altman, Colorado",
-        "uri" : "http://dbpedia.org/resource/Altman,_Colorado"
+        "label" : "Patharchapuri",
+        "uri" : "http://dbpedia.org/resource/Patharchapuri"
       }, {
-        "label" : "Chanda Nagar",
-        "uri" : "http://dbpedia.org/resource/Chanda_Nagar"
+        "label" : "Sutahata (community development block)",
+        "uri" : "http://dbpedia.org/resource/Sutahata_(community_development_block)"
       }, {
-        "label" : "Ciudad Nezahualcóyotl",
-        "uri" : "http://dbpedia.org/resource/Ciudad_Nezahualcóyotl"
+        "label" : "Tengnoupal",
+        "uri" : "http://dbpedia.org/resource/Tengnoupal"
       }, {
-        "label" : "Eskdaleside cum Ugglebarnby",
-        "uri" : "http://dbpedia.org/resource/Eskdaleside_cum_Ugglebarnby"
+        "label" : "A. Devarahalli",
+        "uri" : "http://dbpedia.org/resource/A._Devarahalli"
       }, {
-        "label" : "Miyapur",
-        "uri" : "http://dbpedia.org/resource/Miyapur"
+        "label" : "A. Timmasagar",
+        "uri" : "http://dbpedia.org/resource/A._Timmasagar"
       }, {
-        "label" : "Suffield-cum-Everley",
-        "uri" : "http://dbpedia.org/resource/Suffield-cum-Everley"
+        "label" : "Abanali",
+        "uri" : "http://dbpedia.org/resource/Abanali"
       }, {
-        "label" : "Thornbrough",
-        "uri" : "http://dbpedia.org/resource/Thornbrough"
+        "label" : "Abbalathi",
+        "uri" : "http://dbpedia.org/resource/Abbalathi"
       }, {
-        "label" : "Singkamas, Makati",
-        "uri" : "http://dbpedia.org/resource/Singkamas,_Makati"
+        "label" : "Abbihal, Muddebihal",
+        "uri" : "http://dbpedia.org/resource/Abbihal,_Muddebihal"
       }, {
-        "label" : "Ciudad López Mateos",
-        "uri" : "http://dbpedia.org/resource/Ciudad_López_Mateos"
+        "label" : "Abbur",
+        "uri" : "http://dbpedia.org/resource/Abbur"
       }, {
-        "label" : "Gadarwara",
-        "uri" : "http://dbpedia.org/resource/Gadarwara"
+        "label" : "Abburu, Hunsur taluk",
+        "uri" : "http://dbpedia.org/resource/Abburu,_Hunsur_taluk"
       }, {
-        "label" : "Ixtapaluca",
-        "uri" : "http://dbpedia.org/resource/Ixtapaluca"
+        "label" : "Achamatti",
+        "uri" : "http://dbpedia.org/resource/Achamatti"
       }, {
-        "label" : "Jalostotitlán",
-        "uri" : "http://dbpedia.org/resource/Jalostotitlán"
+        "label" : "Achola",
+        "uri" : "http://dbpedia.org/resource/Achola"
       }, {
-        "label" : "Kallissery",
-        "uri" : "http://dbpedia.org/resource/Kallissery"
+        "label" : "Adalatti",
+        "uri" : "http://dbpedia.org/resource/Adalatti"
       }, {
-        "label" : "Safavid dynasty",
-        "uri" : "http://dbpedia.org/resource/Safavid_dynasty"
+        "label" : "Adargunchi",
+        "uri" : "http://dbpedia.org/resource/Adargunchi"
       }, {
-        "label" : "Valle de Chalco",
-        "uri" : "http://dbpedia.org/resource/Valle_de_Chalco"
+        "label" : "Adibatti",
+        "uri" : "http://dbpedia.org/resource/Adibatti"
       }, {
-        "label" : "Tanganyika",
-        "uri" : "http://dbpedia.org/resource/Tanganyika"
+        "label" : "Adnur",
+        "uri" : "http://dbpedia.org/resource/Adnur"
       }, {
-        "label" : "Provisional Government of Hawaii",
-        "uri" : "http://dbpedia.org/resource/Provisional_Government_of_Hawaii"
+        "label" : "Adwadgi",
+        "uri" : "http://dbpedia.org/resource/Adwadgi"
       }, {
-        "label" : "Clapham cum Newby",
-        "uri" : "http://dbpedia.org/resource/Clapham_cum_Newby"
+        "label" : "Agadi, Dharwad",
+        "uri" : "http://dbpedia.org/resource/Agadi,_Dharwad"
       }, {
-        "label" : "Exelby, Leeming and Newton",
-        "uri" : "http://dbpedia.org/resource/Exelby,_Leeming_and_Newton"
+        "label" : "Agasage",
+        "uri" : "http://dbpedia.org/resource/Agasage"
       }, {
-        "label" : "Hazlewood with Storiths",
-        "uri" : "http://dbpedia.org/resource/Hazlewood_with_Storiths"
+        "label" : "Agasanahalli (Dharwad)",
+        "uri" : "http://dbpedia.org/resource/Agasanahalli_(Dharwad)"
       }, {
-        "label" : "Kettlewell with Starbotton",
-        "uri" : "http://dbpedia.org/resource/Kettlewell_with_Starbotton"
+        "label" : "Agastihal",
+        "uri" : "http://dbpedia.org/resource/Agastihal"
       }, {
-        "label" : "Kirkby Fleetham with Fencote",
-        "uri" : "http://dbpedia.org/resource/Kirkby_Fleetham_with_Fencote"
+        "label" : "Agnihal",
+        "uri" : "http://dbpedia.org/resource/Agnihal"
       }, {
-        "label" : "Kirklington cum Upsland",
-        "uri" : "http://dbpedia.org/resource/Kirklington_cum_Upsland"
+        "label" : "Agthirth",
+        "uri" : "http://dbpedia.org/resource/Agthirth"
       }, {
-        "label" : "Malham Moor",
-        "uri" : "http://dbpedia.org/resource/Malham_Moor"
+        "label" : "Aheri, Karnataka",
+        "uri" : "http://dbpedia.org/resource/Aheri,_Karnataka"
       }, {
-        "label" : "Rand Grange",
-        "uri" : "http://dbpedia.org/resource/Rand_Grange"
+        "label" : "Ahetti",
+        "uri" : "http://dbpedia.org/resource/Ahetti"
       }, {
-        "label" : "Scosthrop",
-        "uri" : "http://dbpedia.org/resource/Scosthrop"
+        "label" : "Ainapur, Shorapur",
+        "uri" : "http://dbpedia.org/resource/Ainapur,_Shorapur"
       }, {
-        "label" : "Sowerby-under-Cotcliffe",
-        "uri" : "http://dbpedia.org/resource/Sowerby-under-Cotcliffe"
-      }, {
-        "label" : "Swainby with Allerthorpe",
-        "uri" : "http://dbpedia.org/resource/Swainby_with_Allerthorpe"
-      }, {
-        "label" : "Tecámac",
-        "uri" : "http://dbpedia.org/resource/Tecámac"
-      }, {
-        "label" : "Wildon Grange",
-        "uri" : "http://dbpedia.org/resource/Wildon_Grange"
-      }, {
-        "label" : "Winton, Stank and Hallikeld",
-        "uri" : "http://dbpedia.org/resource/Winton,_Stank_and_Hallikeld"
-      }, {
-        "label" : "Provisional Administration of South Ossetia",
-        "uri" : "http://dbpedia.org/resource/Provisional_Administration_of_South_Ossetia"
-      }, {
-        "label" : "Colony of Niger",
-        "uri" : "http://dbpedia.org/resource/Colony_of_Niger"
-      }, {
-        "label" : "Republic of Noli",
-        "uri" : "http://dbpedia.org/resource/Republic_of_Noli"
-      }, {
-        "label" : "County of Álava",
-        "uri" : "http://dbpedia.org/resource/County_of_Álava"
-      }, {
-        "label" : "Ciudad de Nueva Cáceres",
-        "uri" : "http://dbpedia.org/resource/Ciudad_de_Nueva_Cáceres"
-      }, {
-        "label" : "Egypt Eyalet",
-        "uri" : "http://dbpedia.org/resource/Egypt_Eyalet"
-      }, {
-        "label" : "Harrington Park, New Jersey",
-        "uri" : "http://dbpedia.org/resource/Harrington_Park,_New_Jersey"
-      }, {
-        "label" : "Kingdom of Egypt",
-        "uri" : "http://dbpedia.org/resource/Kingdom_of_Egypt"
-      }, {
-        "label" : "Kingdom of Greece",
-        "uri" : "http://dbpedia.org/resource/Kingdom_of_Greece"
-      }, {
-        "label" : "San Fernando, Romblon",
-        "uri" : "http://dbpedia.org/resource/San_Fernando,_Romblon"
-      }, {
-        "label" : "Azerbaijan Democratic Republic",
-        "uri" : "http://dbpedia.org/resource/Azerbaijan_Democratic_Republic"
-      }, {
-        "label" : "Regional District of Central Okanagan",
-        "uri" : "http://dbpedia.org/resource/Regional_District_of_Central_Okanagan"
-      }, {
-        "label" : "Balearic Islands",
-        "uri" : "http://dbpedia.org/resource/Balearic_Islands"
-      }, {
-        "label" : "Clinton, Connecticut",
-        "uri" : "http://dbpedia.org/resource/Clinton,_Connecticut"
-      }, {
-        "label" : "Manzana, San Jose",
-        "uri" : "http://dbpedia.org/resource/Manzana,_San_Jose"
-      }, {
-        "label" : "Upper Bicutan",
-        "uri" : "http://dbpedia.org/resource/Upper_Bicutan"
-      }, {
-        "label" : "Warsill",
-        "uri" : "http://dbpedia.org/resource/Warsill"
-      }, {
-        "label" : "Seludong",
-        "uri" : "http://dbpedia.org/resource/Seludong"
-      }, {
-        "label" : "County of East Frisia",
-        "uri" : "http://dbpedia.org/resource/County_of_East_Frisia"
-      }, {
-        "label" : "Albania",
-        "uri" : "http://dbpedia.org/resource/Albania"
-      }, {
-        "label" : "Andorra",
-        "uri" : "http://dbpedia.org/resource/Andorra"
-      }, {
-        "label" : "Anguilla",
-        "uri" : "http://dbpedia.org/resource/Anguilla"
-      }, {
-        "label" : "Ann Arbor, Michigan",
-        "uri" : "http://dbpedia.org/resource/Ann_Arbor,_Michigan"
-      }, {
-        "label" : "Antigua and Barbuda",
-        "uri" : "http://dbpedia.org/resource/Antigua_and_Barbuda"
-      }, {
-        "label" : "Azad Kashmir",
-        "uri" : "http://dbpedia.org/resource/Azad_Kashmir"
-      }, {
-        "label" : "Azerbaijan",
-        "uri" : "http://dbpedia.org/resource/Azerbaijan"
-      }, {
-        "label" : "Bermuda",
-        "uri" : "http://dbpedia.org/resource/Bermuda"
-      }, {
-        "label" : "Bosnia and Herzegovina",
-        "uri" : "http://dbpedia.org/resource/Bosnia_and_Herzegovina"
-      }, {
-        "label" : "British Virgin Islands",
-        "uri" : "http://dbpedia.org/resource/British_Virgin_Islands"
-      }, {
-        "label" : "Cadillac, Michigan",
-        "uri" : "http://dbpedia.org/resource/Cadillac,_Michigan"
-      }, {
-        "label" : "Cayman Islands",
-        "uri" : "http://dbpedia.org/resource/Cayman_Islands"
-      }, {
-        "label" : "Chad",
-        "uri" : "http://dbpedia.org/resource/Chad"
-      }, {
-        "label" : "County Mayo",
-        "uri" : "http://dbpedia.org/resource/County_Mayo"
-      }, {
-        "label" : "Czech Republic",
-        "uri" : "http://dbpedia.org/resource/Czech_Republic"
-      }, {
-        "label" : "Equatorial Guinea",
-        "uri" : "http://dbpedia.org/resource/Equatorial_Guinea"
-      }, {
-        "label" : "Gabon",
-        "uri" : "http://dbpedia.org/resource/Gabon"
-      }, {
-        "label" : "Galicia (Spain)",
-        "uri" : "http://dbpedia.org/resource/Galicia_(Spain)"
-      }, {
-        "label" : "Greece",
-        "uri" : "http://dbpedia.org/resource/Greece"
-      }, {
-        "label" : "Greenland",
-        "uri" : "http://dbpedia.org/resource/Greenland"
-      }, {
-        "label" : "Hungary",
-        "uri" : "http://dbpedia.org/resource/Hungary"
-      }, {
-        "label" : "Huns",
-        "uri" : "http://dbpedia.org/resource/Huns"
-      }, {
-        "label" : "Iceland",
-        "uri" : "http://dbpedia.org/resource/Iceland"
-      }, {
-        "label" : "India",
-        "uri" : "http://dbpedia.org/resource/India"
-      }, {
-        "label" : "Iran",
-        "uri" : "http://dbpedia.org/resource/Iran"
-      }, {
-        "label" : "Isle of Man",
-        "uri" : "http://dbpedia.org/resource/Isle_of_Man"
-      }, {
-        "label" : "Jackson, Michigan",
-        "uri" : "http://dbpedia.org/resource/Jackson,_Michigan"
-      }, {
-        "label" : "Jamaica",
-        "uri" : "http://dbpedia.org/resource/Jamaica"
-      }, {
-        "label" : "Lebanon",
-        "uri" : "http://dbpedia.org/resource/Lebanon"
-      }, {
-        "label" : "Libya",
-        "uri" : "http://dbpedia.org/resource/Libya"
-      }, {
-        "label" : "Liechtenstein",
-        "uri" : "http://dbpedia.org/resource/Liechtenstein"
-      }, {
-        "label" : "Marquette, Michigan",
-        "uri" : "http://dbpedia.org/resource/Marquette,_Michigan"
+        "label" : "Ajur",
+        "uri" : "http://dbpedia.org/resource/Ajur"
       } ]
     },
     "combination" : false

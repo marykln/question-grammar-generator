@@ -98,3 +98,103 @@ WHERE
 [INFO ] 2020-12-01 15:13:21.424 [main] - QALD coverage: 2.33%
 [INFO ] 2020-12-01 15:13:21.426 [main] - Evaluation was completed in 0min 3s
 [INFO ] 2020-12-01 15:13:21.426 [main] - Results are available here: QALD-QueGG-Comparison_2020-12-01_03-13.csv
+[INFO ] 2020-12-08 12:37:51.714 [main] - No match for Are there any castles in the United States?
+[INFO ] 2020-12-08 12:37:51.716 [main] - tp: 0.0, fp: 0.0, fn: 0.0
+[INFO ] 2020-12-08 12:37:51.946 [main] - No match for Can you find frescoes in Crete?
+[INFO ] 2020-12-08 12:37:51.946 [main] - tp: 0.0, fp: 0.0, fn: 0.0
+[INFO ] 2020-12-08 12:37:51.980 [main] - No match for Do Urdu and Persian have a common root?
+[INFO ] 2020-12-08 12:37:51.980 [main] - tp: 0.0, fp: 0.0, fn: 0.0
+[INFO ] 2020-12-08 12:37:52.008 [main] - No match for Does the Ford Motor Company have a manufacturing plant in Malaysia?
+[INFO ] 2020-12-08 12:37:52.009 [main] - tp: 0.0, fp: 0.0, fn: 0.0
+[INFO ] 2020-12-08 12:37:52.070 [main] - No match for How many years was the Ford Model T manufactured?
+[INFO ] 2020-12-08 12:37:52.070 [main] - tp: 0.0, fp: 0.0, fn: 1.0
+[INFO ] 2020-12-08 12:37:52.110 [main] - No match for Give me all American presidents in the last 20 years.
+[INFO ] 2020-12-08 12:37:52.110 [main] - tp: 0.0, fp: 0.0, fn: 0.0
+[INFO ] 2020-12-08 12:37:52.146 [main] - No match for Give me all gangsters from the prohibition era.
+[INFO ] 2020-12-08 12:37:52.146 [main] - tp: 0.0, fp: 0.0, fn: 22.0
+[INFO ] 2020-12-08 12:37:52.187 [main] - No match for Give me all Seven Wonders of the Ancient World.
+[INFO ] 2020-12-08 12:37:52.188 [main] - tp: 0.0, fp: 0.0, fn: 8.0
+[INFO ] 2020-12-08 12:37:52.226 [main] - No match for Give me all chemical elements.
+[INFO ] 2020-12-08 12:37:52.227 [main] - tp: 0.0, fp: 0.0, fn: 119.0
+[INFO ] 2020-12-08 12:37:52.267 [main] - No match for How many rivers and lakes are in South Carolina?
+[INFO ] 2020-12-08 12:37:52.267 [main] - tp: 0.0, fp: 0.0, fn: 1.0
+[INFO ] 2020-12-08 12:37:52.299 [main] - No match for How many states are in Mexico?
+[INFO ] 2020-12-08 12:37:52.299 [main] - tp: 0.0, fp: 0.0, fn: 1.0
+[INFO ] 2020-12-08 12:37:52.329 [main] - No match for How many theories did Albert Einstein come up with?
+[INFO ] 2020-12-08 12:37:52.329 [main] - tp: 0.0, fp: 0.0, fn: 1.0
+[INFO ] 2020-12-08 12:37:52.363 [main] - No match for Is horse racing a sport?
+[INFO ] 2020-12-08 12:37:52.363 [main] - tp: 0.0, fp: 0.0, fn: 0.0
+[INFO ] 2020-12-08 12:37:52.393 [main] - No match for Is Pluto really a planet?
+[INFO ] 2020-12-08 12:37:52.393 [main] - tp: 0.0, fp: 0.0, fn: 0.0
+[INFO ] 2020-12-08 12:37:52.424 [main] - No match for Was Sigmund Freud married?
+[INFO ] 2020-12-08 12:37:52.425 [main] - tp: 0.0, fp: 0.0, fn: 0.0
+[INFO ] 2020-12-08 12:37:52.458 [main] - Match found with pattern '^what is the form of government of ([\w\s\d-,.']+)\?$'
+[INFO ] 2020-12-08 12:37:52.460 [main] - Executing QueGG SPARQL Query:
+SELECT  ?objOfProp
+WHERE
+  { <http://dbpedia.org/resource/South_Africa>  <http://dbpedia.org/ontology/governmentType>  ?objOfProp }
+
+[INFO ] 2020-12-08 12:37:52.489 [main] - QueGG Query results: [http://dbpedia.org/resource/Unitary_state]
+[INFO ] 2020-12-08 12:37:52.489 [main] - QALD Query results: [http://dbpedia.org/resource/Unitary_state]
+[INFO ] 2020-12-08 12:37:52.489 [main] - tp: 1.0, fp: 0.0, fn: 0.0
+[INFO ] 2020-12-08 12:37:52.519 [main] - No match for What is the largest state in the United States?
+[INFO ] 2020-12-08 12:37:52.519 [main] - tp: 0.0, fp: 0.0, fn: 1.0
+[INFO ] 2020-12-08 12:37:52.674 [main] - No match for What is the longest river in the world?
+[INFO ] 2020-12-08 12:37:52.675 [main] - tp: 0.0, fp: 0.0, fn: 1.0
+[INFO ] 2020-12-08 12:37:52.775 [main] - No match for Which building after the Burj Khalifa has the most floors?
+[INFO ] 2020-12-08 12:37:52.775 [main] - tp: 0.0, fp: 0.0, fn: 1.0
+[INFO ] 2020-12-08 12:37:52.806 [main] - No match for What is the wavelength of indigo?
+[INFO ] 2020-12-08 12:37:52.806 [main] - tp: 0.0, fp: 0.0, fn: 1.0
+[INFO ] 2020-12-08 12:37:52.842 [main] - No match for What was the name of the famous battle in 1836?
+[INFO ] 2020-12-08 12:37:52.842 [main] - tp: 0.0, fp: 0.0, fn: 1.0
+[INFO ] 2020-12-08 12:37:52.874 [main] - No match for What were the names of the three ships used by Columbus?
+[INFO ] 2020-12-08 12:37:52.875 [main] - tp: 0.0, fp: 0.0, fn: 3.0
+[INFO ] 2020-12-08 12:37:52.907 [main] - No match for What were the original 13 British colonies?
+[INFO ] 2020-12-08 12:37:52.907 [main] - tp: 0.0, fp: 0.0, fn: 0.0
+[INFO ] 2020-12-08 12:37:52.942 [main] - No match for When did Muhammad die?
+[INFO ] 2020-12-08 12:37:52.942 [main] - tp: 0.0, fp: 0.0, fn: 2.0
+[INFO ] 2020-12-08 12:37:52.973 [main] - No match for When was the De Beers company founded?
+[INFO ] 2020-12-08 12:37:52.973 [main] - tp: 0.0, fp: 0.0, fn: 1.0
+[INFO ] 2020-12-08 12:37:53.004 [main] - No match for When was John Adams born?
+[INFO ] 2020-12-08 12:37:53.004 [main] - tp: 0.0, fp: 0.0, fn: 2.0
+[INFO ] 2020-12-08 12:37:53.036 [main] - No match for Which American presidents were in office during the Vietnam War?
+[INFO ] 2020-12-08 12:37:53.036 [main] - tp: 0.0, fp: 0.0, fn: 3.0
+[INFO ] 2020-12-08 12:37:53.079 [main] - No match for Which city has the oldest running metro?
+[INFO ] 2020-12-08 12:37:53.079 [main] - tp: 0.0, fp: 0.0, fn: 1.0
+[INFO ] 2020-12-08 12:37:53.370 [main] - No match for Which holidays are celebrated around the world?
+[INFO ] 2020-12-08 12:37:53.370 [main] - tp: 0.0, fp: 0.0, fn: 2150.0
+[INFO ] 2020-12-08 12:37:53.399 [main] - No match for Who assassinated President McKinley?
+[INFO ] 2020-12-08 12:37:53.399 [main] - tp: 0.0, fp: 0.0, fn: 1.0
+[INFO ] 2020-12-08 12:37:53.433 [main] - No match for Who discovered Pluto?
+[INFO ] 2020-12-08 12:37:53.434 [main] - tp: 0.0, fp: 0.0, fn: 1.0
+[INFO ] 2020-12-08 12:37:53.466 [main] - No match for Who killed Caesar?
+[INFO ] 2020-12-08 12:37:53.466 [main] - tp: 0.0, fp: 0.0, fn: 9.0
+[INFO ] 2020-12-08 12:37:53.498 [main] - No match for Who was buried in the Great Pyramid of Giza?
+[INFO ] 2020-12-08 12:37:53.499 [main] - tp: 0.0, fp: 0.0, fn: 2.0
+[INFO ] 2020-12-08 12:37:53.532 [main] - No match for Who was the first King of England?
+[INFO ] 2020-12-08 12:37:53.532 [main] - tp: 0.0, fp: 0.0, fn: 1.0
+[INFO ] 2020-12-08 12:37:53.563 [main] - No match for What was the final result of the War of the Roses?
+[INFO ] 2020-12-08 12:37:53.563 [main] - tp: 0.0, fp: 0.0, fn: 1.0
+[INFO ] 2020-12-08 12:37:53.592 [main] - No match for Who writes the Farmers' Almanac?
+[INFO ] 2020-12-08 12:37:53.592 [main] - tp: 0.0, fp: 0.0, fn: 2.0
+[INFO ] 2020-12-08 12:37:53.622 [main] - No match for How big is the earth's diameter?
+[INFO ] 2020-12-08 12:37:53.623 [main] - tp: 0.0, fp: 0.0, fn: 1.0
+[INFO ] 2020-12-08 12:37:53.654 [main] - No match for When did Paraguay proclaim its independence?
+[INFO ] 2020-12-08 12:37:53.655 [main] - tp: 0.0, fp: 0.0, fn: 0.0
+[INFO ] 2020-12-08 12:37:53.684 [main] - No match for How many people live in Eurasia?
+[INFO ] 2020-12-08 12:37:53.685 [main] - tp: 0.0, fp: 0.0, fn: 1.0
+[INFO ] 2020-12-08 12:37:53.714 [main] - No match for Give me the runtime of Toy Story.
+[INFO ] 2020-12-08 12:37:53.714 [main] - tp: 0.0, fp: 0.0, fn: 1.0
+[INFO ] 2020-12-08 12:37:53.744 [main] - No match for What is the other name of the band Queens of the Stone Age?
+[INFO ] 2020-12-08 12:37:53.744 [main] - tp: 0.0, fp: 0.0, fn: 1.0
+[INFO ] 2020-12-08 12:37:53.773 [main] - No match for Give me the birth place of Frank Sinatra.
+[INFO ] 2020-12-08 12:37:53.774 [main] - tp: 0.0, fp: 0.0, fn: 1.0
+[INFO ] 2020-12-08 12:37:53.803 [main] - No match for Which university did Angela Merkel attend?
+[INFO ] 2020-12-08 12:37:53.803 [main] - tp: 0.0, fp: 0.0, fn: 1.0
+[INFO ] 2020-12-08 12:37:53.804 [main] - --------------------------------------------------
+[INFO ] 2020-12-08 12:37:53.804 [main] - tp_global: 1.0, fp_global: 0.0, fn_global: 2343.0
+[INFO ] 2020-12-08 12:37:53.804 [main] - precision_global: 1.0, recall_global: 4.2662115E-4, f_measure_global: 8.5287844E-4
+[INFO ] 2020-12-08 12:37:53.807 [main] - Total matches: 1
+[INFO ] 2020-12-08 12:37:53.808 [main] - QALD coverage: 2.33%
+[INFO ] 2020-12-08 12:37:53.809 [main] - Evaluation was completed in 0min 3s
+[INFO ] 2020-12-08 12:37:53.809 [main] - Results are available here: QALD-QueGG-Comparison_2020-12-08_12-37.csv

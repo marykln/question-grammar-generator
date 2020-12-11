@@ -1,6 +1,74 @@
 {
   "grammarEntries" : [ {
-    "id" : "51",
+    "id" : "61",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "LOCATION",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the destination of a Belgian human?", "Give me the destination of Belgian humans?", "Tell me the destination of a Belgian human?", "Tell me the destination of Belgian humans?", "What is the destination of a Belgian human?", "What is the destination of Belgian humans?", "What was the destination of a Belgian human?", "What was the destination of Belgian humans?", "Which populated place is the destination of a Belgian human?", "Which populated place is the destination of Belgian humans?", "Which populated place was the destination of a Belgian human?", "Which populated place was the destination of Belgian humans?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/destination> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.wikidata.org/entity/Q5>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : true
+  }, {
+    "id" : "62",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "LOCATION",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the destination of a Belgian golfer?", "Give me the destination of Belgian golfers?", "Tell me the destination of a Belgian golfer?", "Tell me the destination of Belgian golfers?", "What is the destination of a Belgian golfer?", "What is the destination of Belgian golfers?", "What was the destination of a Belgian golfer?", "What was the destination of Belgian golfers?", "Which populated place is the destination of a Belgian golfer?", "Which populated place is the destination of Belgian golfers?", "Which populated place was the destination of a Belgian golfer?", "Which populated place was the destination of Belgian golfers?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/destination> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.wikidata.org/entity/Q13156709>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : true
+  }, {
+    "id" : "63",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "LOCATION",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the destination of a Belgian human?", "Give me the destination of Belgian humans?", "Tell me the destination of a Belgian human?", "Tell me the destination of Belgian humans?", "What is the destination of a Belgian human?", "What is the destination of Belgian humans?", "What was the destination of a Belgian human?", "What was the destination of Belgian humans?", "Which populated place is the destination of a Belgian human?", "Which populated place is the destination of Belgian humans?", "Which populated place was the destination of a Belgian human?", "Which populated place was the destination of Belgian humans?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/destination> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.wikidata.org/entity/Q5>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : true
+  }, {
+    "id" : "64",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "LOCATION",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the destination of a Belgian golfer?", "Give me the destination of Belgian golfers?", "Tell me the destination of a Belgian golfer?", "Tell me the destination of Belgian golfers?", "What is the destination of a Belgian golfer?", "What is the destination of Belgian golfers?", "What was the destination of a Belgian golfer?", "What was the destination of Belgian golfers?", "Which populated place is the destination of a Belgian golfer?", "Which populated place is the destination of Belgian golfers?", "Which populated place was the destination of a Belgian golfer?", "Which populated place was the destination of Belgian golfers?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/destination> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.wikidata.org/entity/Q13156709>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : true
+  }, {
+    "id" : "65",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -17,7 +85,7 @@
     },
     "combination" : true
   }, {
-    "id" : "52",
+    "id" : "66",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -34,7 +102,7 @@
     },
     "combination" : true
   }, {
-    "id" : "53",
+    "id" : "67",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -51,7 +119,7 @@
     },
     "combination" : true
   }, {
-    "id" : "54",
+    "id" : "68",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -68,7 +136,7 @@
     },
     "combination" : true
   }, {
-    "id" : "55",
+    "id" : "69",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -85,7 +153,7 @@
     },
     "combination" : true
   }, {
-    "id" : "56",
+    "id" : "70",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -102,7 +170,7 @@
     },
     "combination" : true
   }, {
-    "id" : "57",
+    "id" : "71",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -119,7 +187,7 @@
     },
     "combination" : true
   }, {
-    "id" : "58",
+    "id" : "72",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -136,7 +204,7 @@
     },
     "combination" : true
   }, {
-    "id" : "59",
+    "id" : "73",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -153,7 +221,7 @@
     },
     "combination" : true
   }, {
-    "id" : "60",
+    "id" : "74",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -170,7 +238,7 @@
     },
     "combination" : true
   }, {
-    "id" : "61",
+    "id" : "75",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -187,7 +255,7 @@
     },
     "combination" : true
   }, {
-    "id" : "62",
+    "id" : "76",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -204,7 +272,7 @@
     },
     "combination" : true
   }, {
-    "id" : "63",
+    "id" : "77",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -221,7 +289,7 @@
     },
     "combination" : true
   }, {
-    "id" : "64",
+    "id" : "78",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -238,7 +306,7 @@
     },
     "combination" : true
   }, {
-    "id" : "65",
+    "id" : "79",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -255,7 +323,7 @@
     },
     "combination" : true
   }, {
-    "id" : "66",
+    "id" : "80",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -272,7 +340,7 @@
     },
     "combination" : true
   }, {
-    "id" : "67",
+    "id" : "81",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -289,7 +357,7 @@
     },
     "combination" : true
   }, {
-    "id" : "68",
+    "id" : "82",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -306,7 +374,7 @@
     },
     "combination" : true
   }, {
-    "id" : "69",
+    "id" : "83",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -323,7 +391,7 @@
     },
     "combination" : true
   }, {
-    "id" : "70",
+    "id" : "84",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -340,7 +408,927 @@
     },
     "combination" : true
   }, {
-    "id" : "71",
+    "id" : "85",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "OWNEDTHING",
+    "returnType" : "OWNEDTHING",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the picture of the picture of $x?", "Tell me the picture of the picture of $x?", "What is the picture of the picture of $x?", "What was the picture of the picture of $x?", "Which is the picture of the picture of $x?", "Which was the picture of the picture of $x?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/picture> ?objOfProp)\n  (triple ?subjOfPropx <http://dbpedia.org/ontology/picture> ?subjOfProp)\n)\n",
+    "sentenceToSparqlParameterMapping" : {
+      "$x" : "subjOfPropx"
+    },
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "$x",
+      "bindingList" : [ {
+        "label" : "Bowery Theatre",
+        "uri" : "http://dbpedia.org/resource/Bowery_Theatre"
+      }, {
+        "label" : "Bittersweet July",
+        "uri" : "http://dbpedia.org/resource/Bittersweet_July"
+      }, {
+        "label" : "Glenville Historic District",
+        "uri" : "http://dbpedia.org/resource/Glenville_Historic_District"
+      }, {
+        "label" : "King's Highway Historic District (New Jersey)",
+        "uri" : "http://dbpedia.org/resource/King's_Highway_Historic_District_(New_Jersey)"
+      }, {
+        "label" : "Georgetown College Historic Buildings",
+        "uri" : "http://dbpedia.org/resource/Georgetown_College_Historic_Buildings"
+      }, {
+        "label" : "Sunset Blvd. (Yancey Boys album)",
+        "uri" : "http://dbpedia.org/resource/Sunset_Blvd._(Yancey_Boys_album)"
+      }, {
+        "label" : "David Kipiani",
+        "uri" : "http://dbpedia.org/resource/David_Kipiani"
+      }, {
+        "label" : "Aleksandre Chivadze",
+        "uri" : "http://dbpedia.org/resource/Aleksandre_Chivadze"
+      } ]
+    },
+    "combination" : true
+  }, {
+    "id" : "86",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "CITY",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the city of the destination of $x?", "Tell me the city of the destination of $x?", "What is the city of the destination of $x?", "What was the city of the destination of $x?", "Which city is the city of the destination of $x?", "Which city was the city of the destination of $x?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/city> ?objOfProp)\n  (triple ?subjOfPropx <http://dbpedia.org/ontology/destination> ?subjOfProp)\n)\n",
+    "sentenceToSparqlParameterMapping" : {
+      "$x" : "subjOfPropx"
+    },
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "$x",
+      "bindingList" : [ {
+        "label" : "Ontario Central Airlines",
+        "uri" : "http://dbpedia.org/resource/Ontario_Central_Airlines"
+      }, {
+        "label" : "Société Générale des Transports Aériens",
+        "uri" : "http://dbpedia.org/resource/Société_Générale_des_Transports_Aériens"
+      }, {
+        "label" : "Arizona Airways",
+        "uri" : "http://dbpedia.org/resource/Arizona_Airways"
+      }, {
+        "label" : "EAS Europe Airlines",
+        "uri" : "http://dbpedia.org/resource/EAS_Europe_Airlines"
+      }, {
+        "label" : "Ecoair International",
+        "uri" : "http://dbpedia.org/resource/Ecoair_International"
+      }, {
+        "label" : "Yanda Airlines",
+        "uri" : "http://dbpedia.org/resource/Yanda_Airlines"
+      }, {
+        "label" : "Guy-America Airways",
+        "uri" : "http://dbpedia.org/resource/Guy-America_Airways"
+      }, {
+        "label" : "Eurodirect",
+        "uri" : "http://dbpedia.org/resource/Eurodirect"
+      }, {
+        "label" : "Oasis Hong Kong Airlines",
+        "uri" : "http://dbpedia.org/resource/Oasis_Hong_Kong_Airlines"
+      }, {
+        "label" : "Airlink (helicopter shuttle service)",
+        "uri" : "http://dbpedia.org/resource/Airlink_(helicopter_shuttle_service)"
+      }, {
+        "label" : "Air Union",
+        "uri" : "http://dbpedia.org/resource/Air_Union"
+      }, {
+        "label" : "Compagnie des Messageries Aériennes",
+        "uri" : "http://dbpedia.org/resource/Compagnie_des_Messageries_Aériennes"
+      }, {
+        "label" : "Culebra Air Services",
+        "uri" : "http://dbpedia.org/resource/Culebra_Air_Services"
+      }, {
+        "label" : "Aero Asia International",
+        "uri" : "http://dbpedia.org/resource/Aero_Asia_International"
+      }, {
+        "label" : "Air Hokkaido",
+        "uri" : "http://dbpedia.org/resource/Air_Hokkaido"
+      }, {
+        "label" : "Medavia",
+        "uri" : "http://dbpedia.org/resource/Medavia"
+      }, {
+        "label" : "Sunshine Express Airlines",
+        "uri" : "http://dbpedia.org/resource/Sunshine_Express_Airlines"
+      }, {
+        "label" : "Haïti Ambassador Airlines",
+        "uri" : "http://dbpedia.org/resource/Haïti_Ambassador_Airlines"
+      }, {
+        "label" : "Highland Express Airways",
+        "uri" : "http://dbpedia.org/resource/Highland_Express_Airways"
+      }, {
+        "label" : "Instone Air Line",
+        "uri" : "http://dbpedia.org/resource/Instone_Air_Line"
+      }, {
+        "label" : "American Airlines Shuttle",
+        "uri" : "http://dbpedia.org/resource/American_Airlines_Shuttle"
+      }, {
+        "label" : "McClain Airlines",
+        "uri" : "http://dbpedia.org/resource/McClain_Airlines"
+      }, {
+        "label" : "Paramount Airlines",
+        "uri" : "http://dbpedia.org/resource/Paramount_Airlines"
+      }, {
+        "label" : "Freelandia",
+        "uri" : "http://dbpedia.org/resource/Freelandia"
+      }, {
+        "label" : "KD Air",
+        "uri" : "http://dbpedia.org/resource/KD_Air"
+      }, {
+        "label" : "Galaxy Airlines (Japan)",
+        "uri" : "http://dbpedia.org/resource/Galaxy_Airlines_(Japan)"
+      }, {
+        "label" : "Oceanair",
+        "uri" : "http://dbpedia.org/resource/Oceanair"
+      }, {
+        "label" : "Halisa Air",
+        "uri" : "http://dbpedia.org/resource/Halisa_Air"
+      }, {
+        "label" : "Laker Airways (Bahamas)",
+        "uri" : "http://dbpedia.org/resource/Laker_Airways_(Bahamas)"
+      }, {
+        "label" : "Norfolk Island Airlines",
+        "uri" : "http://dbpedia.org/resource/Norfolk_Island_Airlines"
+      } ]
+    },
+    "combination" : true
+  }, {
+    "id" : "87",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "CITY",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the city of the destination of $x?", "Tell me the city of the destination of $x?", "What is the city of the destination of $x?", "What was the city of the destination of $x?", "Which city is the city of the destination of $x?", "Which city was the city of the destination of $x?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/city> ?objOfProp)\n  (triple ?subjOfPropx <http://dbpedia.org/ontology/destination> ?subjOfProp)\n)\n",
+    "sentenceToSparqlParameterMapping" : {
+      "$x" : "subjOfPropx"
+    },
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "$x",
+      "bindingList" : [ {
+        "label" : "Ontario Central Airlines",
+        "uri" : "http://dbpedia.org/resource/Ontario_Central_Airlines"
+      }, {
+        "label" : "Société Générale des Transports Aériens",
+        "uri" : "http://dbpedia.org/resource/Société_Générale_des_Transports_Aériens"
+      }, {
+        "label" : "Arizona Airways",
+        "uri" : "http://dbpedia.org/resource/Arizona_Airways"
+      }, {
+        "label" : "EAS Europe Airlines",
+        "uri" : "http://dbpedia.org/resource/EAS_Europe_Airlines"
+      }, {
+        "label" : "Ecoair International",
+        "uri" : "http://dbpedia.org/resource/Ecoair_International"
+      }, {
+        "label" : "Yanda Airlines",
+        "uri" : "http://dbpedia.org/resource/Yanda_Airlines"
+      }, {
+        "label" : "Guy-America Airways",
+        "uri" : "http://dbpedia.org/resource/Guy-America_Airways"
+      }, {
+        "label" : "Eurodirect",
+        "uri" : "http://dbpedia.org/resource/Eurodirect"
+      }, {
+        "label" : "Oasis Hong Kong Airlines",
+        "uri" : "http://dbpedia.org/resource/Oasis_Hong_Kong_Airlines"
+      }, {
+        "label" : "Airlink (helicopter shuttle service)",
+        "uri" : "http://dbpedia.org/resource/Airlink_(helicopter_shuttle_service)"
+      }, {
+        "label" : "Air Union",
+        "uri" : "http://dbpedia.org/resource/Air_Union"
+      }, {
+        "label" : "Compagnie des Messageries Aériennes",
+        "uri" : "http://dbpedia.org/resource/Compagnie_des_Messageries_Aériennes"
+      }, {
+        "label" : "Culebra Air Services",
+        "uri" : "http://dbpedia.org/resource/Culebra_Air_Services"
+      }, {
+        "label" : "Aero Asia International",
+        "uri" : "http://dbpedia.org/resource/Aero_Asia_International"
+      }, {
+        "label" : "Air Hokkaido",
+        "uri" : "http://dbpedia.org/resource/Air_Hokkaido"
+      }, {
+        "label" : "Medavia",
+        "uri" : "http://dbpedia.org/resource/Medavia"
+      }, {
+        "label" : "Sunshine Express Airlines",
+        "uri" : "http://dbpedia.org/resource/Sunshine_Express_Airlines"
+      }, {
+        "label" : "Haïti Ambassador Airlines",
+        "uri" : "http://dbpedia.org/resource/Haïti_Ambassador_Airlines"
+      }, {
+        "label" : "Highland Express Airways",
+        "uri" : "http://dbpedia.org/resource/Highland_Express_Airways"
+      }, {
+        "label" : "Instone Air Line",
+        "uri" : "http://dbpedia.org/resource/Instone_Air_Line"
+      }, {
+        "label" : "American Airlines Shuttle",
+        "uri" : "http://dbpedia.org/resource/American_Airlines_Shuttle"
+      }, {
+        "label" : "McClain Airlines",
+        "uri" : "http://dbpedia.org/resource/McClain_Airlines"
+      }, {
+        "label" : "Paramount Airlines",
+        "uri" : "http://dbpedia.org/resource/Paramount_Airlines"
+      }, {
+        "label" : "Freelandia",
+        "uri" : "http://dbpedia.org/resource/Freelandia"
+      }, {
+        "label" : "KD Air",
+        "uri" : "http://dbpedia.org/resource/KD_Air"
+      }, {
+        "label" : "Galaxy Airlines (Japan)",
+        "uri" : "http://dbpedia.org/resource/Galaxy_Airlines_(Japan)"
+      }, {
+        "label" : "Oceanair",
+        "uri" : "http://dbpedia.org/resource/Oceanair"
+      }, {
+        "label" : "Halisa Air",
+        "uri" : "http://dbpedia.org/resource/Halisa_Air"
+      }, {
+        "label" : "Laker Airways (Bahamas)",
+        "uri" : "http://dbpedia.org/resource/Laker_Airways_(Bahamas)"
+      }, {
+        "label" : "Norfolk Island Airlines",
+        "uri" : "http://dbpedia.org/resource/Norfolk_Island_Airlines"
+      } ]
+    },
+    "combination" : true
+  }, {
+    "id" : "88",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "PERSON",
+    "returnType" : "CITY",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the city of the birth place of $x?", "Tell me the city of the birth place of $x?", "What is the city of the birth place of $x?", "What was the city of the birth place of $x?", "Which city is the city of the birth place of $x?", "Which city was the city of the birth place of $x?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/city> ?objOfProp)\n  (triple ?subjOfPropx <http://dbpedia.org/ontology/birthPlace> ?subjOfProp)\n)\n",
+    "sentenceToSparqlParameterMapping" : {
+      "$x" : "subjOfPropx"
+    },
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "$x",
+      "bindingList" : [ {
+        "label" : "Michael Crummey",
+        "uri" : "http://dbpedia.org/resource/Michael_Crummey"
+      }, {
+        "label" : "Miles Meadows",
+        "uri" : "http://dbpedia.org/resource/Miles_Meadows"
+      }, {
+        "label" : "Brigitte Horney",
+        "uri" : "http://dbpedia.org/resource/Brigitte_Horney"
+      }, {
+        "label" : "Johann Georg Albinus",
+        "uri" : "http://dbpedia.org/resource/Johann_Georg_Albinus"
+      }, {
+        "label" : "Susan Einzig",
+        "uri" : "http://dbpedia.org/resource/Susan_Einzig"
+      }, {
+        "label" : "Daniel Friedrich Hecht",
+        "uri" : "http://dbpedia.org/resource/Daniel_Friedrich_Hecht"
+      }, {
+        "label" : "Jamie-Lee Kriewitz",
+        "uri" : "http://dbpedia.org/resource/Jamie-Lee_Kriewitz"
+      }, {
+        "label" : "William Anthony Paddon",
+        "uri" : "http://dbpedia.org/resource/William_Anthony_Paddon"
+      }, {
+        "label" : "Kurt Diebner",
+        "uri" : "http://dbpedia.org/resource/Kurt_Diebner"
+      }, {
+        "label" : "Karl-Eduard von Schnitzler",
+        "uri" : "http://dbpedia.org/resource/Karl-Eduard_von_Schnitzler"
+      }, {
+        "label" : "Florent Vollant",
+        "uri" : "http://dbpedia.org/resource/Florent_Vollant"
+      }, {
+        "label" : "Klaus Dierks",
+        "uri" : "http://dbpedia.org/resource/Klaus_Dierks"
+      }, {
+        "label" : "George Rice Carpenter",
+        "uri" : "http://dbpedia.org/resource/George_Rice_Carpenter"
+      }, {
+        "label" : "Kirkina Mucko",
+        "uri" : "http://dbpedia.org/resource/Kirkina_Mucko"
+      }, {
+        "label" : "John Mattes (politician)",
+        "uri" : "http://dbpedia.org/resource/John_Mattes_(politician)"
+      }, {
+        "label" : "Caspar Joseph Brambach",
+        "uri" : "http://dbpedia.org/resource/Caspar_Joseph_Brambach"
+      }, {
+        "label" : "Erich Baumgartl",
+        "uri" : "http://dbpedia.org/resource/Erich_Baumgartl"
+      }, {
+        "label" : "Eberhard Zeidler",
+        "uri" : "http://dbpedia.org/resource/Eberhard_Zeidler"
+      }, {
+        "label" : "Kurt Student",
+        "uri" : "http://dbpedia.org/resource/Kurt_Student"
+      }, {
+        "label" : "Christian August Friedrich Garcke",
+        "uri" : "http://dbpedia.org/resource/Christian_August_Friedrich_Garcke"
+      }, {
+        "label" : "Adolf Gutknecht",
+        "uri" : "http://dbpedia.org/resource/Adolf_Gutknecht"
+      }, {
+        "label" : "Gerhard Michalski",
+        "uri" : "http://dbpedia.org/resource/Gerhard_Michalski"
+      }, {
+        "label" : "Hans-Georg Moldenhauer",
+        "uri" : "http://dbpedia.org/resource/Hans-Georg_Moldenhauer"
+      }, {
+        "label" : "Gottfried August Bürger",
+        "uri" : "http://dbpedia.org/resource/Gottfried_August_Bürger"
+      }, {
+        "label" : "Herms Niel",
+        "uri" : "http://dbpedia.org/resource/Herms_Niel"
+      }, {
+        "label" : "Franz Krüger",
+        "uri" : "http://dbpedia.org/resource/Franz_Krüger"
+      }, {
+        "label" : "August Hahn",
+        "uri" : "http://dbpedia.org/resource/August_Hahn"
+      }, {
+        "label" : "Philipp von Zesen",
+        "uri" : "http://dbpedia.org/resource/Philipp_von_Zesen"
+      }, {
+        "label" : "Johann Gottlieb Siegel",
+        "uri" : "http://dbpedia.org/resource/Johann_Gottlieb_Siegel"
+      }, {
+        "label" : "Karl August Senff",
+        "uri" : "http://dbpedia.org/resource/Karl_August_Senff"
+      }, {
+        "label" : "Matthias Christian Rabbethge",
+        "uri" : "http://dbpedia.org/resource/Matthias_Christian_Rabbethge"
+      }, {
+        "label" : "Robert Benecke",
+        "uri" : "http://dbpedia.org/resource/Robert_Benecke"
+      }, {
+        "label" : "Werner Keller (writer)",
+        "uri" : "http://dbpedia.org/resource/Werner_Keller_(writer)"
+      }, {
+        "label" : "Max Syring",
+        "uri" : "http://dbpedia.org/resource/Max_Syring"
+      }, {
+        "label" : "Otto Weckerling",
+        "uri" : "http://dbpedia.org/resource/Otto_Weckerling"
+      }, {
+        "label" : "Ansgar Bethge",
+        "uri" : "http://dbpedia.org/resource/Ansgar_Bethge"
+      }, {
+        "label" : "Hellmut Bunge",
+        "uri" : "http://dbpedia.org/resource/Hellmut_Bunge"
+      }, {
+        "label" : "Wolfgang Hanisch",
+        "uri" : "http://dbpedia.org/resource/Wolfgang_Hanisch"
+      }, {
+        "label" : "Joachim Marscheider",
+        "uri" : "http://dbpedia.org/resource/Joachim_Marscheider"
+      }, {
+        "label" : "Johann Gottfried Seume",
+        "uri" : "http://dbpedia.org/resource/Johann_Gottfried_Seume"
+      }, {
+        "label" : "Emil Riebeck",
+        "uri" : "http://dbpedia.org/resource/Emil_Riebeck"
+      }, {
+        "label" : "Hans Joachim Störig",
+        "uri" : "http://dbpedia.org/resource/Hans_Joachim_Störig"
+      }, {
+        "label" : "Bobo (singer)",
+        "uri" : "http://dbpedia.org/resource/Bobo_(singer)"
+      }, {
+        "label" : "Hans-Joachim Heyer",
+        "uri" : "http://dbpedia.org/resource/Hans-Joachim_Heyer"
+      }, {
+        "label" : "Axel Peschel",
+        "uri" : "http://dbpedia.org/resource/Axel_Peschel"
+      }, {
+        "label" : "Kurt Bühligen",
+        "uri" : "http://dbpedia.org/resource/Kurt_Bühligen"
+      }, {
+        "label" : "Richard Kotz",
+        "uri" : "http://dbpedia.org/resource/Richard_Kotz"
+      }, {
+        "label" : "Andreas Gottlieb Hoffmann",
+        "uri" : "http://dbpedia.org/resource/Andreas_Gottlieb_Hoffmann"
+      }, {
+        "label" : "Gustav Queck",
+        "uri" : "http://dbpedia.org/resource/Gustav_Queck"
+      }, {
+        "label" : "Theodor Poesche",
+        "uri" : "http://dbpedia.org/resource/Theodor_Poesche"
+      }, {
+        "label" : "Viktor Brack",
+        "uri" : "http://dbpedia.org/resource/Viktor_Brack"
+      }, {
+        "label" : "Erdmann Neumeister",
+        "uri" : "http://dbpedia.org/resource/Erdmann_Neumeister"
+      }, {
+        "label" : "Georg Dieck",
+        "uri" : "http://dbpedia.org/resource/Georg_Dieck"
+      }, {
+        "label" : "Eduard Pechuël-Loesche",
+        "uri" : "http://dbpedia.org/resource/Eduard_Pechuël-Loesche"
+      }, {
+        "label" : "Ernst Voß",
+        "uri" : "http://dbpedia.org/resource/Ernst_Voß"
+      }, {
+        "label" : "Abhishek Banerjee",
+        "uri" : "http://dbpedia.org/resource/Abhishek_Banerjee"
+      }, {
+        "label" : "Paul Ernst (German writer)",
+        "uri" : "http://dbpedia.org/resource/Paul_Ernst_(German_writer)"
+      }, {
+        "label" : "Heymann Steinthal",
+        "uri" : "http://dbpedia.org/resource/Heymann_Steinthal"
+      }, {
+        "label" : "Gerhard Zucker",
+        "uri" : "http://dbpedia.org/resource/Gerhard_Zucker"
+      }, {
+        "label" : "Kerstin Mohring",
+        "uri" : "http://dbpedia.org/resource/Kerstin_Mohring"
+      }, {
+        "label" : "Jost Andreas von Randow",
+        "uri" : "http://dbpedia.org/resource/Jost_Andreas_von_Randow"
+      }, {
+        "label" : "Christian Georg Kohlrausch",
+        "uri" : "http://dbpedia.org/resource/Christian_Georg_Kohlrausch"
+      }, {
+        "label" : "Jörg Damme",
+        "uri" : "http://dbpedia.org/resource/Jörg_Damme"
+      }, {
+        "label" : "Dieter Bakeloh",
+        "uri" : "http://dbpedia.org/resource/Dieter_Bakeloh"
+      }, {
+        "label" : "Carl Loewe",
+        "uri" : "http://dbpedia.org/resource/Carl_Loewe"
+      }, {
+        "label" : "Andreas Werckmeister",
+        "uri" : "http://dbpedia.org/resource/Andreas_Werckmeister"
+      }, {
+        "label" : "Martin Bangemann",
+        "uri" : "http://dbpedia.org/resource/Martin_Bangemann"
+      }, {
+        "label" : "Werner Peter",
+        "uri" : "http://dbpedia.org/resource/Werner_Peter"
+      }, {
+        "label" : "Ulrich Hahn",
+        "uri" : "http://dbpedia.org/resource/Ulrich_Hahn"
+      }, {
+        "label" : "Johann Gottfried Schnabel",
+        "uri" : "http://dbpedia.org/resource/Johann_Gottfried_Schnabel"
+      }, {
+        "label" : "Johann Gottfried Galle",
+        "uri" : "http://dbpedia.org/resource/Johann_Gottfried_Galle"
+      }, {
+        "label" : "Norbert Hahn",
+        "uri" : "http://dbpedia.org/resource/Norbert_Hahn"
+      }, {
+        "label" : "Ferdinand Tiemann",
+        "uri" : "http://dbpedia.org/resource/Ferdinand_Tiemann"
+      }, {
+        "label" : "Friedrich Wieck",
+        "uri" : "http://dbpedia.org/resource/Friedrich_Wieck"
+      }, {
+        "label" : "Otto Körting",
+        "uri" : "http://dbpedia.org/resource/Otto_Körting"
+      }, {
+        "label" : "Hermann Blumenau",
+        "uri" : "http://dbpedia.org/resource/Hermann_Blumenau"
+      }, {
+        "label" : "Wilhelm Traugott Krug",
+        "uri" : "http://dbpedia.org/resource/Wilhelm_Traugott_Krug"
+      }, {
+        "label" : "Franz Ernst Heinrich Spitzner",
+        "uri" : "http://dbpedia.org/resource/Franz_Ernst_Heinrich_Spitzner"
+      }, {
+        "label" : "Johann Friedrich August Göttling",
+        "uri" : "http://dbpedia.org/resource/Johann_Friedrich_August_Göttling"
+      }, {
+        "label" : "Peter Groeger",
+        "uri" : "http://dbpedia.org/resource/Peter_Groeger"
+      }, {
+        "label" : "Bernd Hahn",
+        "uri" : "http://dbpedia.org/resource/Bernd_Hahn"
+      }, {
+        "label" : "Hans-Georg Aschenbach",
+        "uri" : "http://dbpedia.org/resource/Hans-Georg_Aschenbach"
+      }, {
+        "label" : "Uwe Dassler",
+        "uri" : "http://dbpedia.org/resource/Uwe_Dassler"
+      }, {
+        "label" : "Willy Simke",
+        "uri" : "http://dbpedia.org/resource/Willy_Simke"
+      }, {
+        "label" : "Carl Bergmann (musician)",
+        "uri" : "http://dbpedia.org/resource/Carl_Bergmann_(musician)"
+      }, {
+        "label" : "Ingo Lesser",
+        "uri" : "http://dbpedia.org/resource/Ingo_Lesser"
+      }, {
+        "label" : "Reiner Goldberg",
+        "uri" : "http://dbpedia.org/resource/Reiner_Goldberg"
+      }, {
+        "label" : "Rolf Jobst",
+        "uri" : "http://dbpedia.org/resource/Rolf_Jobst"
+      }, {
+        "label" : "Axel Lesser",
+        "uri" : "http://dbpedia.org/resource/Axel_Lesser"
+      }, {
+        "label" : "Otto Lesser",
+        "uri" : "http://dbpedia.org/resource/Otto_Lesser"
+      }, {
+        "label" : "Tony Hendrik",
+        "uri" : "http://dbpedia.org/resource/Tony_Hendrik"
+      }, {
+        "label" : "Antye Greie",
+        "uri" : "http://dbpedia.org/resource/Antye_Greie"
+      }, {
+        "label" : "Johann Kuhnau",
+        "uri" : "http://dbpedia.org/resource/Johann_Kuhnau"
+      }, {
+        "label" : "Johann Schelle",
+        "uri" : "http://dbpedia.org/resource/Johann_Schelle"
+      }, {
+        "label" : "Dieter Voigt",
+        "uri" : "http://dbpedia.org/resource/Dieter_Voigt"
+      }, {
+        "label" : "Hansjörg Knauthe",
+        "uri" : "http://dbpedia.org/resource/Hansjörg_Knauthe"
+      }, {
+        "label" : "Ewald Hering",
+        "uri" : "http://dbpedia.org/resource/Ewald_Hering"
+      }, {
+        "label" : "Fritz Mackensen",
+        "uri" : "http://dbpedia.org/resource/Fritz_Mackensen"
+      }, {
+        "label" : "Johann Georg Abicht",
+        "uri" : "http://dbpedia.org/resource/Johann_Georg_Abicht"
+      }, {
+        "label" : "Gerhard Kauffmann",
+        "uri" : "http://dbpedia.org/resource/Gerhard_Kauffmann"
+      } ]
+    },
+    "combination" : true
+  }, {
+    "id" : "89",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "CITY",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the hometown of a Belgian cleric?", "Give me the hometown of Belgian clerics?", "Tell me the hometown of a Belgian cleric?", "Tell me the hometown of Belgian clerics?", "What is the hometown of a Belgian cleric?", "What is the hometown of Belgian clerics?", "What was the hometown of a Belgian cleric?", "What was the hometown of Belgian clerics?", "Which settlement is the hometown of a Belgian cleric?", "Which settlement is the hometown of Belgian clerics?", "Which settlement was the hometown of a Belgian cleric?", "Which settlement was the hometown of Belgian clerics?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/hometown> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Cleric>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : true
+  }, {
+    "id" : "90",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "CITY",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the hometown of a Belgian office holder?", "Give me the hometown of Belgian office holders?", "Tell me the hometown of a Belgian office holder?", "Tell me the hometown of Belgian office holders?", "What is the hometown of a Belgian office holder?", "What is the hometown of Belgian office holders?", "What was the hometown of a Belgian office holder?", "What was the hometown of Belgian office holders?", "Which settlement is the hometown of a Belgian office holder?", "Which settlement is the hometown of Belgian office holders?", "Which settlement was the hometown of a Belgian office holder?", "Which settlement was the hometown of Belgian office holders?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/hometown> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/OfficeHolder>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : true
+  }, {
+    "id" : "91",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "CITY",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the hometown of a Belgian agent?", "Give me the hometown of Belgian agents?", "Tell me the hometown of a Belgian agent?", "Tell me the hometown of Belgian agents?", "What is the hometown of a Belgian agent?", "What is the hometown of Belgian agents?", "What was the hometown of a Belgian agent?", "What was the hometown of Belgian agents?", "Which settlement is the hometown of a Belgian agent?", "Which settlement is the hometown of Belgian agents?", "Which settlement was the hometown of a Belgian agent?", "Which settlement was the hometown of Belgian agents?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/hometown> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Agent>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : true
+  }, {
+    "id" : "92",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "CITY",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the hometown of a Belgian economist?", "Give me the hometown of Belgian economists?", "Tell me the hometown of a Belgian economist?", "Tell me the hometown of Belgian economists?", "What is the hometown of a Belgian economist?", "What is the hometown of Belgian economists?", "What was the hometown of a Belgian economist?", "What was the hometown of Belgian economists?", "Which settlement is the hometown of a Belgian economist?", "Which settlement is the hometown of Belgian economists?", "Which settlement was the hometown of a Belgian economist?", "Which settlement was the hometown of Belgian economists?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/hometown> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Economist>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : true
+  }, {
+    "id" : "93",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "CITY",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the hometown of a Belgian motorcycle rider?", "Give me the hometown of Belgian motorcycle riders?", "Tell me the hometown of a Belgian motorcycle rider?", "Tell me the hometown of Belgian motorcycle riders?", "What is the hometown of a Belgian motorcycle rider?", "What is the hometown of Belgian motorcycle riders?", "What was the hometown of a Belgian motorcycle rider?", "What was the hometown of Belgian motorcycle riders?", "Which settlement is the hometown of a Belgian motorcycle rider?", "Which settlement is the hometown of Belgian motorcycle riders?", "Which settlement was the hometown of a Belgian motorcycle rider?", "Which settlement was the hometown of Belgian motorcycle riders?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/hometown> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/MotorcycleRider>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : true
+  }, {
+    "id" : "94",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "CITY",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the hometown of a Belgian artist?", "Give me the hometown of Belgian artists?", "Tell me the hometown of a Belgian artist?", "Tell me the hometown of Belgian artists?", "What is the hometown of a Belgian artist?", "What is the hometown of Belgian artists?", "What was the hometown of a Belgian artist?", "What was the hometown of Belgian artists?", "Which settlement is the hometown of a Belgian artist?", "Which settlement is the hometown of Belgian artists?", "Which settlement was the hometown of a Belgian artist?", "Which settlement was the hometown of Belgian artists?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/hometown> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Artist>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : true
+  }, {
+    "id" : "95",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "CITY",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the hometown of a Belgian athlete?", "Give me the hometown of Belgian athletes?", "Tell me the hometown of a Belgian athlete?", "Tell me the hometown of Belgian athletes?", "What is the hometown of a Belgian athlete?", "What is the hometown of Belgian athletes?", "What was the hometown of a Belgian athlete?", "What was the hometown of Belgian athletes?", "Which settlement is the hometown of a Belgian athlete?", "Which settlement is the hometown of Belgian athletes?", "Which settlement was the hometown of a Belgian athlete?", "Which settlement was the hometown of Belgian athletes?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/hometown> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Athlete>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : true
+  }, {
+    "id" : "96",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "CITY",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the hometown of a Belgian scientist?", "Give me the hometown of Belgian scientists?", "Tell me the hometown of a Belgian scientist?", "Tell me the hometown of Belgian scientists?", "What is the hometown of a Belgian scientist?", "What is the hometown of Belgian scientists?", "What was the hometown of a Belgian scientist?", "What was the hometown of Belgian scientists?", "Which settlement is the hometown of a Belgian scientist?", "Which settlement is the hometown of Belgian scientists?", "Which settlement was the hometown of a Belgian scientist?", "Which settlement was the hometown of Belgian scientists?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/hometown> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Scientist>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : true
+  }, {
+    "id" : "97",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "CITY",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the hometown of a Belgian architect?", "Give me the hometown of Belgian architects?", "Tell me the hometown of a Belgian architect?", "Tell me the hometown of Belgian architects?", "What is the hometown of a Belgian architect?", "What is the hometown of Belgian architects?", "What was the hometown of a Belgian architect?", "What was the hometown of Belgian architects?", "Which settlement is the hometown of a Belgian architect?", "Which settlement is the hometown of Belgian architects?", "Which settlement was the hometown of a Belgian architect?", "Which settlement was the hometown of Belgian architects?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/hometown> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Architect>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : true
+  }, {
+    "id" : "98",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "CITY",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the hometown of a Belgian golf player?", "Give me the hometown of Belgian golf players?", "Tell me the hometown of a Belgian golf player?", "Tell me the hometown of Belgian golf players?", "What is the hometown of a Belgian golf player?", "What is the hometown of Belgian golf players?", "What was the hometown of a Belgian golf player?", "What was the hometown of Belgian golf players?", "Which settlement is the hometown of a Belgian golf player?", "Which settlement is the hometown of Belgian golf players?", "Which settlement was the hometown of a Belgian golf player?", "Which settlement was the hometown of Belgian golf players?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/hometown> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/GolfPlayer>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : true
+  }, {
+    "id" : "99",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "CITY",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the hometown of a Belgian racing driver?", "Give me the hometown of Belgian racing drivers?", "Tell me the hometown of a Belgian racing driver?", "Tell me the hometown of Belgian racing drivers?", "What is the hometown of a Belgian racing driver?", "What is the hometown of Belgian racing drivers?", "What was the hometown of a Belgian racing driver?", "What was the hometown of Belgian racing drivers?", "Which settlement is the hometown of a Belgian racing driver?", "Which settlement is the hometown of Belgian racing drivers?", "Which settlement was the hometown of a Belgian racing driver?", "Which settlement was the hometown of Belgian racing drivers?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/hometown> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/RacingDriver>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : true
+  }, {
+    "id" : "100",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "CITY",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the hometown of a Belgian politician?", "Give me the hometown of Belgian politicians?", "Tell me the hometown of a Belgian politician?", "Tell me the hometown of Belgian politicians?", "What is the hometown of a Belgian politician?", "What is the hometown of Belgian politicians?", "What was the hometown of a Belgian politician?", "What was the hometown of Belgian politicians?", "Which settlement is the hometown of a Belgian politician?", "Which settlement is the hometown of Belgian politicians?", "Which settlement was the hometown of a Belgian politician?", "Which settlement was the hometown of Belgian politicians?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/hometown> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Politician>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : true
+  }, {
+    "id" : "101",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "CITY",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the hometown of a Belgian swimmer?", "Give me the hometown of Belgian swimmers?", "Tell me the hometown of a Belgian swimmer?", "Tell me the hometown of Belgian swimmers?", "What is the hometown of a Belgian swimmer?", "What is the hometown of Belgian swimmers?", "What was the hometown of a Belgian swimmer?", "What was the hometown of Belgian swimmers?", "Which settlement is the hometown of a Belgian swimmer?", "Which settlement is the hometown of Belgian swimmers?", "Which settlement was the hometown of a Belgian swimmer?", "Which settlement was the hometown of Belgian swimmers?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/hometown> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Swimmer>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : true
+  }, {
+    "id" : "102",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "CITY",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the hometown of a Belgian volleyball player?", "Give me the hometown of Belgian volleyball players?", "Tell me the hometown of a Belgian volleyball player?", "Tell me the hometown of Belgian volleyball players?", "What is the hometown of a Belgian volleyball player?", "What is the hometown of Belgian volleyball players?", "What was the hometown of a Belgian volleyball player?", "What was the hometown of Belgian volleyball players?", "Which settlement is the hometown of a Belgian volleyball player?", "Which settlement is the hometown of Belgian volleyball players?", "Which settlement was the hometown of a Belgian volleyball player?", "Which settlement was the hometown of Belgian volleyball players?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/hometown> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/VolleyballPlayer>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : true
+  }, {
+    "id" : "103",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "CITY",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the hometown of a Belgian person?", "Give me the hometown of Belgian persons?", "Tell me the hometown of a Belgian person?", "Tell me the hometown of Belgian persons?", "What is the hometown of a Belgian person?", "What is the hometown of Belgian persons?", "What was the hometown of a Belgian person?", "What was the hometown of Belgian persons?", "Which settlement is the hometown of a Belgian person?", "Which settlement is the hometown of Belgian persons?", "Which settlement was the hometown of a Belgian person?", "Which settlement was the hometown of Belgian persons?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/hometown> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : true
+  }, {
+    "id" : "104",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "CITY",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the hometown of a Belgian Christian Bishop?", "Give me the hometown of Belgian Christian Bishops?", "Tell me the hometown of a Belgian Christian Bishop?", "Tell me the hometown of Belgian Christian Bishops?", "What is the hometown of a Belgian Christian Bishop?", "What is the hometown of Belgian Christian Bishops?", "What was the hometown of a Belgian Christian Bishop?", "What was the hometown of Belgian Christian Bishops?", "Which settlement is the hometown of a Belgian Christian Bishop?", "Which settlement is the hometown of Belgian Christian Bishops?", "Which settlement was the hometown of a Belgian Christian Bishop?", "Which settlement was the hometown of Belgian Christian Bishops?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/hometown> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/ChristianBishop>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : true
+  }, {
+    "id" : "105",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "CITY",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the hometown of a Belgian comics creator?", "Give me the hometown of Belgian comics creators?", "Tell me the hometown of a Belgian comics creator?", "Tell me the hometown of Belgian comics creators?", "What is the hometown of a Belgian comics creator?", "What is the hometown of Belgian comics creators?", "What was the hometown of a Belgian comics creator?", "What was the hometown of Belgian comics creators?", "Which settlement is the hometown of a Belgian comics creator?", "Which settlement is the hometown of Belgian comics creators?", "Which settlement was the hometown of a Belgian comics creator?", "Which settlement was the hometown of Belgian comics creators?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/hometown> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/ComicsCreator>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : true
+  }, {
+    "id" : "106",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "CITY",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the hometown of a Belgian writer?", "Give me the hometown of Belgian writers?", "Tell me the hometown of a Belgian writer?", "Tell me the hometown of Belgian writers?", "What is the hometown of a Belgian writer?", "What is the hometown of Belgian writers?", "What was the hometown of a Belgian writer?", "What was the hometown of Belgian writers?", "Which settlement is the hometown of a Belgian writer?", "Which settlement is the hometown of Belgian writers?", "Which settlement was the hometown of a Belgian writer?", "Which settlement was the hometown of Belgian writers?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/hometown> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Writer>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : true
+  }, {
+    "id" : "107",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "CITY",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the hometown of a Belgian motorsport racer?", "Give me the hometown of Belgian motorsport racers?", "Tell me the hometown of a Belgian motorsport racer?", "Tell me the hometown of Belgian motorsport racers?", "What is the hometown of a Belgian motorsport racer?", "What is the hometown of Belgian motorsport racers?", "What was the hometown of a Belgian motorsport racer?", "What was the hometown of Belgian motorsport racers?", "Which settlement is the hometown of a Belgian motorsport racer?", "Which settlement is the hometown of Belgian motorsport racers?", "Which settlement was the hometown of a Belgian motorsport racer?", "Which settlement was the hometown of Belgian motorsport racers?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/hometown> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/MotorsportRacer>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : true
+  }, {
+    "id" : "108",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "CITY",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the hometown of a Belgian musical artist?", "Give me the hometown of Belgian musical artists?", "Tell me the hometown of a Belgian musical artist?", "Tell me the hometown of Belgian musical artists?", "What is the hometown of a Belgian musical artist?", "What is the hometown of Belgian musical artists?", "What was the hometown of a Belgian musical artist?", "What was the hometown of Belgian musical artists?", "Which settlement is the hometown of a Belgian musical artist?", "Which settlement is the hometown of Belgian musical artists?", "Which settlement was the hometown of a Belgian musical artist?", "Which settlement was the hometown of Belgian musical artists?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/hometown> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/MusicalArtist>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : true
+  }, {
+    "id" : "109",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "PERSON",
@@ -659,7 +1647,7 @@
     },
     "combination" : true
   }, {
-    "id" : "72",
+    "id" : "110",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -676,7 +1664,7 @@
     },
     "combination" : true
   }, {
-    "id" : "73",
+    "id" : "111",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -693,7 +1681,7 @@
     },
     "combination" : true
   }, {
-    "id" : "74",
+    "id" : "112",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -710,7 +1698,7 @@
     },
     "combination" : true
   }, {
-    "id" : "75",
+    "id" : "113",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -727,7 +1715,7 @@
     },
     "combination" : true
   }, {
-    "id" : "76",
+    "id" : "114",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -744,7 +1732,7 @@
     },
     "combination" : true
   }, {
-    "id" : "77",
+    "id" : "115",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -761,7 +1749,7 @@
     },
     "combination" : true
   }, {
-    "id" : "78",
+    "id" : "116",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -778,7 +1766,7 @@
     },
     "combination" : true
   }, {
-    "id" : "79",
+    "id" : "117",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -795,7 +1783,7 @@
     },
     "combination" : true
   }, {
-    "id" : "80",
+    "id" : "118",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -812,7 +1800,7 @@
     },
     "combination" : true
   }, {
-    "id" : "81",
+    "id" : "119",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -829,7 +1817,7 @@
     },
     "combination" : true
   }, {
-    "id" : "82",
+    "id" : "120",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -846,7 +1834,7 @@
     },
     "combination" : true
   }, {
-    "id" : "83",
+    "id" : "121",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -863,7 +1851,7 @@
     },
     "combination" : true
   }, {
-    "id" : "84",
+    "id" : "122",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -880,7 +1868,7 @@
     },
     "combination" : true
   }, {
-    "id" : "85",
+    "id" : "123",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -897,7 +1885,7 @@
     },
     "combination" : true
   }, {
-    "id" : "86",
+    "id" : "124",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -914,7 +1902,7 @@
     },
     "combination" : true
   }, {
-    "id" : "87",
+    "id" : "125",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -931,7 +1919,7 @@
     },
     "combination" : true
   }, {
-    "id" : "88",
+    "id" : "126",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -948,7 +1936,7 @@
     },
     "combination" : true
   }, {
-    "id" : "89",
+    "id" : "127",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -965,7 +1953,7 @@
     },
     "combination" : true
   }, {
-    "id" : "90",
+    "id" : "128",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -982,7 +1970,7 @@
     },
     "combination" : true
   }, {
-    "id" : "91",
+    "id" : "129",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
