@@ -1,0 +1,34 @@
+@prefix :        <http://localhost:8080/lexicon#> .
+
+@prefix lexinfo: <http://www.lexinfo.net/ontology/2.0/lexinfo#> .
+@prefix lemon:   <http://lemon-model.net/lemon#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+
+@base            <http://localhost:8080#> .
+
+:lexicon_en a    lemon:Lexicon ;
+            lemon:language "en" ;
+            lemon:entry    :heavy ;
+            lemon:entry    :heavy_res .
+
+:heavy a                 lemon:LexicalEntry ;
+     lexinfo:partOfSpeech lexinfo:adjective ;
+     lemon:canonicalForm  :heavy_lemma ;
+     lemon:sense          :heavy_sense ;
+     lemon:synBehavior    :heavy_syn, :heavy_syn1 .
+
+:heavy_lemma lemon:writtenRep "heavy"@en .
+
+:heavy_res a       owl:Restriction ;
+         owl:onProperty <http://dbpedia.org/ontology/weight> ;
+         owl:hasValue   <http://dbpedia.org/property/big> .
+
+:heavy_sense a      lemon:LexicalSense ;
+           lemon:reference :heavy_res ;
+           lemon:isA       :heavy_arg .
+
+:heavy_syn a                  lexinfo:AdjectivePheavyicateFrame ;
+         lexinfo:copulativeSubject :heavy_arg .
+
+:heavy_syn1 a              lexinfo:AdjectiveAttributiveFrame ;
+          lexinfo:attributiveArg :heavy_arg .

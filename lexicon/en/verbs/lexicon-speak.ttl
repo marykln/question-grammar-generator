@@ -1,0 +1,102 @@
+@prefix :        <http://localhost:8080/lexicon#> .
+
+@prefix lexinfo: <http://www.lexinfo.net/ontology/2.0/lexinfo#> .
+@prefix lemon:   <http://lemon-model.net/lemon#> .
+
+@base            <http://localhost:8080#> .
+
+:lexicon_en a    lemon:Lexicon ;
+  lemon:language "en" ;
+  lemon:entry    :to_speak_transitive .
+#  lemon:entry    :to_speak_intransitive ;
+#  lemon:entry    :spoken .
+#  lemon:entry    :in .
+
+:to_speak_transitive a           lemon:LexicalEntry ;
+  lexinfo:partOfSpeech lexinfo:verb ;
+  lemon:canonicalForm  :form_speak ;
+  lemon:synBehavior    :speak_frame_transitive ;
+  lemon:sense          :speak_sense1 .
+
+
+:form_speak a         lemon:Form ;
+  lemon:writtenRep     "speak"@en ;
+  lexinfo:verbFormMood lexinfo:infinitive .
+
+#:form_spoken_in a    lemon:Form ;
+#  lemon:writtenRep "spoken in"@en ;
+#  lexinfo:verbFormMood    lexinfo:infinitivePassive .
+
+:speak_frame_transitive a lexinfo:TransitiveFrame ;
+  lexinfo:subject          :speak_subj ;
+  lexinfo:directObject     :speak_obj .
+
+:speak_sense1 a    lemon:OntoMap, lemon:LexicalSense ;
+  lemon:ontoMapping :speak_sense1 ;
+  lemon:reference   <http://dbpedia.org/ontology/spokenIn> ;
+  lemon:subjOfProp  :speak_obj ;
+  lemon:objOfProp   :speak_subj ;
+  lemon:condition   :speak_condition_country .
+
+:speak_condition_country a lemon:condition ;
+  lemon:propertyDomain  <http://dbpedia.org/ontology/PopulatedPlace> ;
+  lemon:propertyRange   <http://dbpedia.org/ontology/Language> .
+
+
+#:to_speak_intransitive a           lemon:LexicalEntry ;
+#  lexinfo:partOfSpeech lexinfo:verb ;
+#  lemon:canonicalForm  :form_speak ;
+#  lemon:otherForm      :form_spoke ;
+#  lemon:synBehavior    :speak_frame_intransitive ;
+#  lemon:sense          :speak_sense1_intransitive ;
+#  lemon:sense          :speak_sense2_intransitive .
+
+#:speak_frame_intransitive a lexinfo:IntransitiveFrame ;
+#  lexinfo:subject          :speak_subj_intransitive ;
+#  lexinfo:directObject     :speak_obj_intransitive .
+
+#:speak_sense1_intransitive a    lemon:OntoMap, lemon:LexicalSense ;
+#  lemon:ontoMapping :speak_sense1_intransitive ;
+#  lemon:reference   <http://dbpedia.org/ontology/spokenIn> ;
+#  lemon:subjOfProp  :speak_obj_intransitive ;
+#  lemon:objOfProp   :speak_subj_intransitive ;
+#  lemon:condition   :speak_condition_country .
+
+#:speak_sense2_intransitive a    lemon:OntoMap, lemon:LexicalSense ;
+#    lemon:ontoMapping :speak_sense2_intransitive ;
+#    lemon:reference   <http://dbpedia.org/ontology/spokenIn> ;
+#    lemon:subjOfProp  :speak_obj_intransitive ;
+#    lemon:objOfProp   :speak_subj_intransitive ;
+#    lemon:condition   :speak_condition_person .
+
+#:spoken_in a             lemon:LexicalEntry ;
+#  lexinfo:partOfSpeech lexinfo:adjective ;
+#  lemon:canonicalForm  :form_spoken_in_canonical ;
+#  lemon:synBehavior    :spoken_in_frame_adjectivepp ;
+#  lemon:sense          :spoken_in_sense1 .
+
+#:form_spoken_canonical a lemon:Form ;
+#  lemon:writtenRep        "spoken"@en .
+
+#:form_spoken_in a     lemon:Form ;
+#  lemon:writtenRep     "spoken"@en ;
+#  lexinfo:verbFormMood lexinfo:participle .
+
+
+#:spoken_in_frame_adjectivepp a   lexinfo:AdjectivePPFrame ;
+#  lexinfo:copulativeSubject    :spoken_in_subj .
+
+#:spoken_in_sense1 a   lemon:OntoMap, lemon:LexicalSense ;
+#  lemon:ontoMapping :spoken_in_sense1 ;
+#  lemon:reference   <http://dbpedia.org/ontology/spokenIn> ;
+#  lemon:subjOfProp  :spoken_in_subj ;
+#  lemon:objOfProp   :spoken_in_obj ;
+#  lemon:condition   :speak_condition_country .
+
+#:spoken_in_obj lemon:marker :in .
+
+## Prepositions ##
+
+#:in a                  lemon:SynRoleMarker ;
+#  lemon:canonicalForm  [ lemon:writtenRep "in"@en ] ;
+#  lexinfo:partOfSpeech lexinfo:preposition .
