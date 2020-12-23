@@ -27,7 +27,7 @@
            lemon:reference :heavy_res ;
            lemon:isA       :heavy_arg .
 
-:heavy_syn a                  lexinfo:AdjectivePheavyicateFrame ;
+:heavy_syn a                  lexinfo:AdjectivePredicateFrame ;
          lexinfo:copulativeSubject :heavy_arg .
 
 :heavy_syn1 a              lexinfo:AdjectiveAttributiveFrame ;
